@@ -1,0 +1,50 @@
+@media all and (min-width: 851px) and (max-width: 1230px){
+
+/*body {background-color: yellow !important;} */
+
+.region-section{
+    float:none;
+}
+.header_title_region {
+  margin-right: 0px;
+}
+.mainmenu{
+    float:none;
+    text-align: center;
+}
+ body.not-front #main-menu {
+  border: 0px solid;
+  display: inline-block;
+  float: none;
+  padding: 0;
+  text-align: center;
+}
+ul.menu {
+  margin: 0 0 0 0.75em !important;
+}
+ #site-logo {
+  float: none;
+  margin-left: 0;
+  margin-top: 2px;
+  padding: 0;
+}
+#my-menu {
+  float:none;
+  clear: both;
+}
+#block-menu-menu-topmenu ul.menu {
+  border: medium none;
+  list-style: outside none none;
+  margin-top: 15px;
+  text-align: center;
+  width: auto;
+}
+.block.externalmenublock {
+  float: left;
+  padding-top: 6px;
+}
+#search-block-form {
+  float: right;
+  margin-right: 20px;
+}
+}

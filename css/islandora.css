@@ -1,0 +1,509 @@
+
+/** pager  **/
+
+/** pager  **/
+.pager li > a, .pager li > span {
+  background-color: #fff;
+  border: 0 solid #ddd !important;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 0 !important;
+}
+/*** search  ***/
+.page-search .title > a {
+  font-family: "crimson text";
+  font-size: 20px;
+}
+.page-search h1.page-title {
+  color: #000;
+  font-family: "Crimson Text",serif;
+  font-size: 36.5px;
+  font-weight: 600;
+  line-height: 105%;
+  margin: 20px 20% 0;
+  text-align: center;
+}
+.page-search h1.page-title::after {
+  content: "Results";
+  margin-left: 5px;
+}
+.page-search .block.block-system h2 {
+  display: none;
+}
+.page-search  .search-results .search-info {
+  display: none;
+  font-size: 0.85em;
+}
+.page-search #block-system-main .content {
+  margin: 1% 20%;
+}
+.page-search .criterion:nth-child(2) {
+  display: none;
+}
+#edit-basic input#edit-submit {
+   border-radius: 7px; 
+  border: 1px solid #d0d0d0;
+
+}
+#edit-basic input.form-text[type="text"],
+.criterion input.form-text[type="text"] {
+  background: #f0ecec url("../images/search-button.png") no-repeat scroll 1px 1px;
+  border: 1px solid #d0d0d0;
+  height: 25px;
+}
+#edit-basic input.form-text,
+.criterion input.form-text {
+  background: rgba(0, 0, 0, 0) url("../images/search-button.png") no-repeat scroll 1px 1px;
+  margin-top: 8px;
+  padding: 3px 15px 3px 30px;
+}
+#edit-basic input.form-text,
+.criterion input.form-text {
+  border-radius: 7px;
+  margin-left: 15px;
+}
+.criterion > label {
+  clear: both;
+  float: left;
+  width: 30%;
+}
+fieldset#edit-advanced.search-advanced {
+  display: none;
+}
+body.page-islandora-search aside#sidebar.col-sm-4 {
+  padding-right: 0;
+}
+body.page-islandora-search #sidebar #block-islandora-solr-simple h2,
+body.page-islandora-search #sidebar #block-islandora-solr-simple h3,
+body.page-islandora-search #content-wrap h1.page-title {
+  display: none;
+}
+body.page-islandora-search h1.page-title::before {
+    content: "Browse by";
+    font-size: 36.5px;
+    font-style: italic;
+    padding-right: 7px;
+}
+body.page-islandora-search h1.page-title {
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    font-family: "Crimson Text",serif;
+    font-size: 36.5px;
+    font-weight: 600;
+    line-height: 105%;
+    margin: 20px 20%;
+    padding-bottom: 17px;
+    text-align: center;
+}
+body.page-islandora-search  #block-islandora-solr-current-query{
+    float:left;
+    display:inline;
+    clear: both;
+}
+body.page-islandora-search #block-islandora-solr-current-query{
+    float:left;
+    display:inline;
+    clear: both;
+}
+body.page-islandora-search #block-islandora-solr-simple{
+    float:left;
+  width: 100%;    
+}
+body.page-search #search-form input[type="text"] {
+  background: #f0ecec url("/sites/livingstoneonline.org/themes/nexus/images/search-button.png") no-repeat scroll 1px 1px;
+  border: 1px solid #d0d0d0;
+  height: 25px;
+  border-radius: 7px;
+  width: 200px;
+}
+body.page-search #edit-submit {
+  display:none;
+}
+body.page-search #edit-basic {
+  margin-bottom: 30px;
+  display:none;
+}
+/**** carousel   ***/
+.view-image-banner-scroll.view-display-id-block_2 .jcarousel-skin-tango {
+  background: #f7c983 none repeat scroll 0 0;
+  text-align: center;
+}
+.view.view-image-banner-scroll.view-display-id-block_2 {
+  margin: 0 25px 0 28px;
+}
+
+.block.footershare::before {
+  border-bottom: 0px solid #999;
+  bottom: 0;
+  content: "";
+  height: 1px;
+  left: 25%;
+  position: absolute;
+  top: 0;
+  width: 50%;
+}
+.block.footershare {
+  padding-top: 20px;
+}
+/*** Browse by Addressee  ***/
+.prevnextnavt .flex-direction-nav a.flex-prev {
+  margin-left: 23px;
+}
+.prevnextnavt .flex-direction-nav a.flex-next {
+  margin-right: 20px;
+}
+
+body.page-browse-addressee .field-name-field-section-page-tag-line,
+body.page-browse-recipient .field-name-field-section-page-tag-line {
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 0 0 1px;
+  font-family: "Crimson Text",serif;
+  font-weight: bold;
+  margin: 1% 20% 3%;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+ul.islandora-solr-facet-pages-letterer {
+  margin-top: 20px;
+  text-align: center;
+}
+body.page-browse-addressee .islandora-solr-facet-pages-wrapper,
+body.page-browse-recipient .islandora-solr-facet-pages-wrapper {
+  margin: 1% 20%;
+  z-index: 60;
+}
+body.page-browse-addressee .results-count,
+body.page-browse-recipient .results-count {
+  display: none;
+}
+body.page-browse-addressee ul.islandora-solr-facet-pages-results,
+body.page-browse-recipient ul.islandora-solr-facet-pages-results {
+  list-style: outside none none;
+  margin-bottom: 0;
+}
+.node-type-section-page.his-own-words.repository .pane-node-content h2.pane-title::before {
+  font-size: 36.5px !important;
+}
+body.page-browse-addressee h1.page-title::before,
+body.page-browse-recipient h1.page-title::before {
+  content: "Browse by";
+  font-size: 36.5px;
+  font-style: italic;
+  padding-right: 7px;
+}
+body.page-search-node h1.page-title,
+body.page-browse-addressee h1.page-title,
+body.page-browse-recipient h1.page-title {
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 0 0 1px;
+  color: #000;
+  font-family: "Crimson Text",serif;
+  font-size: 36.5px;
+  font-weight: 600;
+  line-height: 105%;
+  margin: 20px 20%;
+  padding-bottom: 17px;
+  text-align: center;
+
+}
+body.page-browse-addressee .islandora-solr-facet-pages-results > li,
+body.page-browse-recipient .islandora-solr-facet-pages-results > li {
+  margin-left: 20px;
+}
+body.page-browse-addressee .islandora-solr-facet-pages-results > li a,
+body.page-browse-recipient .islandora-solr-facet-pages-results > li a {
+  margin-left: -20px;
+}
+
+/******* catalog  ******/
+body.page-islandora #sidebar .block > h2 {
+  text-transform: none;
+}
+.page-islandora-search hr {
+  margin: 20px 0  15px;
+}
+body.page-islandora  #islandora-solr-simple-search-form input[type="text"] {
+  background: #f0ecec url("/sites/livingstoneonline.org/themes/nexus/images/search-button.png") no-repeat scroll right 1px;
+  border: 1px solid #d0d0d0;
+  height: 25px;
+  border-radius: 7px;
+}
+body.page-islandora  #islandora-solr-simple-search-form input[type="text"] {
+    background: #f0ecec url("/sites/livingstoneonline.org/themes/nexus/images/search-button.png") no-repeat scroll right 1px;
+    border: 1px solid #d0d0d0;
+    height: 25px;
+    width: 100%;
+    padding-left: 10px;
+}
+body.page-islandora  #islandora-solr-simple-search-form input[type="text"] {
+}
+body.page-islandora  #islandora-solr-simple-search-form .rounded {
+    border-radius: 7px;
+}
+body.page-islandora  #islandora-solr-simple-search-form .search {
+    background: rgba(0, 0, 0, 0) url("../images/search-button.png") no-repeat scroll right 1px;
+    margin-top: 8px;
+    padding: 3px 15px 3px 30px;
+}
+#edit-submit--2.form-submit {
+  border: 0 none;
+  border-radius: 8px;
+  display: none;
+}
+.access_s,
+.access_hlt {
+  display: none;
+}
+/*-----------------*/
+body.page-islandora #sidebar.col-sm-4 {
+  padding-top: 15px;
+   padding-left: 30px;
+  width: 21% !important;
+}
+#block-islandora-solr-simple h2 {
+  font-size: 16px;
+}
+#fullRecordForm {
+  margin: 20px 0 10px;
+}
+#block-islandora-solr-basic-facets {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+.islandora-solr-facet-wrapper {
+  border: 0px solid;
+  display: inline-block;
+  width: 100%;
+}
+a.soft-limit.processed {
+  background: url("/sites/digital.library.ucla.edu.livingstone/files/styles/large/public/arrow-right.png") no-repeat scroll 0 3px transparent;
+ /* background: url("/misc/arrow-asc.png") no-repeat scroll 0 1px transparent; */
+  display: inline-block;
+  height: 16px;
+  width: 13px;
+  margin-right: 10px;
+  position: relative;
+  text-indent: -999px;
+}
+a.soft-limit.processed.facet_clicked {
+  background: transparent url("/misc/arrow-asc.png") no-repeat scroll 0 2px;
+  display: inline-block;
+  height: 13px;
+  margin-right: 10px;
+  position: relative;
+  text-indent: -999px;
+  width: 13px;
+}
+body.page-islandora.page-islandora-search .block ul.islandora-solr-facet {
+  margin: 0px  0 0 10px;
+}
+body.page-islandora .islandora-solr-facet-wrapper ul.islandora-solr-facet mods_originInfo_type_normalized_dateOther_t_ul,
+body.page-islandora .islandora-solr-facet-wrapper ul.islandora-solr-facet mods_name_personal_creator_namePart_s_ul,
+body.page-islandora .islandora-solr-facet-wrapper ul.islandora-solr-facet mods_genre_s_ul {
+  margin-top: -10px !important;
+  min-height: 0;
+  padding: 0;
+}
+
+
+
+#fullRecord {
+  margin-right: 10px;
+}
+.primary1 {height: 20px; }
+.content-area.col-sm-8 {height: auto; }
+.primary1,
+body.page-islandora .content-area.col-sm-8 {
+  overflow-x: scroll;
+  overflow-y:hidden;
+  width: 77%;
+  padding-left: 0px;
+  margin-left: 12px;
+}
+.primary1 .div1 {
+  width:1000px;
+  height: 20px;
+}
+
+.content-area.col-sm-8 .content-wrap {
+  width:1000px;
+  height: 200px;
+  background-color: #88FF88;
+  overflow: auto;
+}
+#block-islandora-solr-simple.block {
+  margin-bottom: 0px;
+}
+.islandora-solr-facet-wrapper .item-list h3 {
+  display:none;
+}
+.islandora-solr-query-wrap h3,
+.islandora-solr-filter-wrap h3 {
+  display: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.islandora-solr-facet-wrapper h3 {
+  display: inline;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+body.page-islandora .plusminus {
+  display: none;
+  float: left;
+  padding-right: 10px;
+}
+
+#block-islandora-solr-simple h3 {
+ font-family: "Crimson Text",serif;
+ font-style: italic;
+ margin-bottom: 0;
+}
+ul.islandora-solr-filter-list.filter-list,
+ul.islandora-solr-query-list.query-list {
+ list-style: none;
+}
+
+/* -------------------------------  */
+#primary .islandora-solr-sort table {
+margin-right: 0px;
+margin-bottom: 0px;
+}
+body.page-islandora #primary th {
+  border: 1px solid #999;
+  padding: 5px 10px;
+}
+body.page-islandora #primary th:first-child, 
+body.page-islandora #primary td:first-child {
+  /* background: red; */
+  max-width: 60px !important;
+  min-width: 60px !important;
+  width: 60px !important;
+}
+body.page-islandora #primary th.mods_titleInfo_title_s, 
+body.page-islandora #primary td.mods_titleInfo_title_hlt {
+  /* background: yellow; */
+  max-width: 240px !important;
+  min-width: 240px !important;
+  width: 240px !important;
+}
+body.page-islandora #primary th.mods_originInfo_dateCreated_s,
+body.page-islandora #primary td.mods_originInfo_dateCreated_hlt {
+  /* background: orange; */
+  max-width: 135px !important;
+  min-width: 135px !important;
+  width: 135px !important;
+}
+body.page-islandora #primary th.creator_s, 
+body.page-islandora #primary td.creator_hlt {
+  /* background: green; */
+  max-width: 200px !important;
+  min-width: 200px !important;
+  width: 200px !important;
+}
+body.page-islandora #primary th.addressee_s, 
+body.page-islandora #primary td.addressee_hlt {
+  /* background: blue; */
+  max-width: 200px !important;
+  min-width: 200px !important;
+  width: 200px !important;
+}
+body.page-islandora #primary th.mods_originInfo_place_placeTerm_text_s, 
+body.page-islandora #primary td.mods_originInfo_place_placeTerm_text_hlt {
+  /* background: red; */
+  max-width: 150px !important;
+  min-width: 150px !important;
+  width: 150px !important;
+}
+body.page-islandora #primary th.mods_physicalDescription_extent_pages_s, 
+body.page-islandora #primary td.mods_physicalDescription_extent_mm_hlt {
+  /* background: green; */
+  max-width: 108px !important;
+  min-width: 108px !important;
+  width: 108px !important;
+}
+body.page-islandora #primary th.mods_physicalDescription_extent_mm_s, 
+body.page-islandora #primary td.mods_physicalDescription_extent_pages_hlt {
+  /* background: yellow; */
+  max-width: 108px !important;
+  min-width: 108px !important;
+  width: 108px !important;
+}
+body.page-islandora #primary th.genre_s, 
+body.page-islandora #primary td.genre_hlt {
+  /* background: blue; */
+  max-width: 150px !important;
+  min-width: 150px !important;
+  width: 150px !important;
+}
+body.page-islandora #primary th.repository_s,
+body.page-islandora #primary td.repository_hlt {
+  /* background: pink; */
+  max-width: 250px !important;
+  min-width: 250px !important;
+  width: 250px !important;
+}
+body.page-islandora #primary th.mods_identifier_local_NLS_copy_identifier_s, 
+body.page-islandora #primary td.mods_identifier_local_NLS_copy_identifier_hlt {
+  /* background: green; */
+  max-width: 110px !important;
+  min-width: 110px !important;
+  width: 110px !important;
+}
+body.page-islandora #primary th.otherVersions_s, 
+body.page-islandora #primary td.otherVersions_hlt {
+  /* background: red; */
+  max-width: 240px !important;
+  min-width: 240px !important;
+  width: 240px !important;
+}
+body.page-islandora #primary th.mods_identifier_local_Canonical_Catalog_Number_s, 
+body.page-islandora #primary td.mods_identifier_local_Canonical_Catalog_Number_hlt {
+  /* background: green; */
+  max-width: 160px !important;
+  min-width: 160px !important;
+  width: 160px !important;
+}
+
+/*** block css ***/
+body.page-islandora {
+  font-size: 14px;
+}
+body.page-islandora #sidebar.col-sm-4 {
+  width: 22%;
+}
+body.page-islandora .block ul.islandora-solr-facet {
+  margin: 0 0 1em;
+  padding: 0;
+}
+body.page-islandora span.count {
+  font-size: 12px;
+}
+body.page-islandora .plusminus {
+  float: left;
+  padding-right: 10px;
+}
+ ul.islandora-solr-facet, ul.islandora-solr-facet li {
+  list-style: none;
+}
+
+#islandora-solr-top {
+  display: none;
+  min-height: 25px;
+}
+body.page-islandora #primary td {
+  border: 1px solid #ddd;
+}
+body.page-islandora #primary th {
+  background: #ddd none repeat scroll 0 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px;
+}

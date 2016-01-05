@@ -1,0 +1,39 @@
+@media all and (min-width: 451px) and (max-width: 700px) {
+
+/* body {background-color: blue !important;} */
+
+.region-section{
+    float:none;
+}
+.header_title_region {
+  margin-right: 0px;
+}
+.mainmenu {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+  width: 420px;
+}
+#my-menu {
+  clear: both;
+}
+ul.menu {
+  margin: 0 0 0 0.75em !important;
+}
+#main-menu ul.menu {
+  margin: 0 0 0 0.75em !important;
+  text-align: center;
+}
+.region.region-header {
+  float: none !important;
+}
+#block-menu-menu-topmenu ul.menu {
+  border: medium none;
+  clear: both;
+  list-style: outside none none;
+  margin: 0 auto;
+  text-align: center;
+  width: 400px;
+}
+
+}

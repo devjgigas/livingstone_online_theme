@@ -1,0 +1,48 @@
+@media all and (max-width: 450px) {
+
+
+/*body {background-color: green !important;} */
+
+.flex-caption{
+  text-align: center;
+}
+.header_title_region {
+  margin-right: 0px;
+}
+.region-section{
+    float:none;
+}
+.mainmenu{
+    float:none;
+    text-align: center;
+}
+#my-menu {
+  clear: both;
+}
+ul.menu {
+  margin: 0 0 0 0.75em !important;
+}
+#main-menu ul.menu {
+  margin: 0 0 0 0.75em !important;
+  text-align: center;
+}
+.region.region-header {
+  float: none !important;
+}
+.block.externalmenublock,
+#search-block-form {
+  float: none !important;
+}
+#search-block-form {
+  float: none;
+  margin-left: 0px;
+}
+#block-menu-menu-topmenu ul.menu {
+  border: medium none;
+  list-style: outside none none;
+  margin-top: 15px;
+  text-align: center;
+  width: auto;
+}
+
+}
