@@ -53,7 +53,7 @@ jQuery(window).load(function() {
 		prependTo:'.mobilenavi'
 	});
         jQuery(".header_title_region").click(function(){
-            window.location.href = "http://"+window.location.hostname+"/livingstone";
+            window.location.href = "http://"+window.location.hostname;
              
         });
         
