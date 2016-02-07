@@ -79,13 +79,13 @@
     <div id="slider">
         <div class="flexslider">
             <ul class="slides">
-                <li><img class="slide-image" src="http://digital.library.ucla.edu/livingstone/sites/digital.library.ucla.edu.livingstone/files/Level-1-1.jpg"/></li>
-                <li><img class="slide-image" src="http://digital.library.ucla.edu/livingstone/sites/digital.library.ucla.edu.livingstone/files/Level-1-2.jpg"/></li>
-                <li><img class="slide-image" src="http://digital.library.ucla.edu/livingstone/sites/digital.library.ucla.edu.livingstone/files/Level-1-3.jpg"/></li>
-                <li><img class="slide-image" src="http://digital.library.ucla.edu/livingstone/sites/digital.library.ucla.edu.livingstone/files/Level-1-4.jpg"/></li>
-                <li><img class="slide-image" src="http://digital.library.ucla.edu/livingstone/sites/digital.library.ucla.edu.livingstone/files/Level-1-5.jpg"/></li>
-                <li><img class="slide-image" src="http://digital.library.ucla.edu/livingstone/sites/digital.library.ucla.edu.livingstone/files/Level-1-6.jpg"/></li>
-                <li><img class="slide-image" src="http://digital.library.ucla.edu/livingstone/sites/digital.library.ucla.edu.livingstone/files/Level-1-7.jpg"/></li>                                                
+                <li><img class="slide-image" src="/sites/default/files/Level-1-1.jpg"/></li>
+                <li><img class="slide-image" src="/sites/default/files/Level-1-2.jpg"/></li>
+                <li><img class="slide-image" src="/sites/default/files/Level-1-3.jpg"/></li>
+                <li><img class="slide-image" src="/sites/default/files/Level-1-4.jpg"/></li>
+                <li><img class="slide-image" src="/sites/default/files/Level-1-5.jpg"/></li>
+                <li><img class="slide-image" src="/sites/default/files/Level-1-6.jpg"/></li>
+                <li><img class="slide-image" src="/sites/default/files/Level-1-7.jpg"/></li>                                                
             </ul>
             <div class="flex-caption">  
 
