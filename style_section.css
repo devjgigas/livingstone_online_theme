@@ -768,12 +768,12 @@ body.node-type-page .nodequeuepager li.last .title {
   font-style: italic;
   padding-right: 7px;
 }
-.node-type-section-page .pane-node-content h2.pane-title:before {
+/*.node-type-section-page .pane-node-content h2.pane-title:before {
   content: "Search by";
   font-size: 36.5px;
   font-style: italic;
   padding-right: 7px;
-}
+}*/
 .node-type-section-page .pane-node-content h2.pane-title {
   color: #000;
   font-family: 'Crimson Text', serif;
@@ -1014,7 +1014,7 @@ span.footpdf {
 }
 
  .view-image-banner-scroll .jcarousel-skin-tango .jcarousel-container-horizontal {
-  height: 102px;
+  height: 92px;
   padding: 20px 40px;
   width: auto;
 }

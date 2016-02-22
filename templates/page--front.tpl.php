@@ -100,7 +100,7 @@
 </div>
 <div class="footer"> 
  <div class="footerimages">
-<div class="footimg"><a href="http://www.library.ucla.edu/" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/ucla.png'; ?>"> </a></div>
+<div class="footimg"><a href="http://lib.umd.edu/" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/umd_libraries.png'; ?>"> </a></div>
 <div class="footimg"><a href="http://www.nts.org.uk/property/davidlivingstonecentre/" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/nts.png'; ?>"> </a></div>
 <div class="footimg"><a href="http://www.neh.gov/" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/humanities.png'; ?>"> </a></div>
 <div class="footimg"><a href="http://www.nls.uk" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/nls.png'; ?>"> </a></div>
