@@ -45,6 +45,9 @@ table {
 
 /* Body & Main
 ================================================== */
+.testgray {
+  color: #999;
+}
 body {
   nowhitespace: afterproperty;
   -webkit-font-smoothing: antialiased;
