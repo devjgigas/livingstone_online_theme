@@ -129,7 +129,7 @@ body.page-search #edit-basic {
   text-align: center;
 }
 .view.view-image-banner-scroll.view-display-id-block_2 {
-  margin: 0 25px 0 28px;
+  margin: 0 0px 0 0px;
 }
 
 .block.footershare::before {
@@ -146,6 +146,7 @@ body.page-search #edit-basic {
   padding-top: 20px;
 }
 /*** Browse by Addressee  ***/
+
 .prevnextnavt .flex-direction-nav a.flex-prev {
   margin-left: 23px;
 }
