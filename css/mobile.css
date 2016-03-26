@@ -45,4 +45,23 @@ ul.menu {
   width: auto;
 }
 
+/* level 2 pages */
+div#block-nodequeue-pager-2 {
+    display: none;
+}
+.view.view-image-banner-scroll.view-id-image_banner_scroll.view-display-id-panel_pane_1 {
+    display: none;
+}
+
+.node-type-section-page .pane-node-content h2.pane-title {
+      margin: 20px 0%;
+ } 
+.node-type-section-page .panel-pane.pane-node-content .content {
+    margin: 1% 0% 0 !important;
+    position: relative;
+    z-index: 60;
+}
+
+
+
 }

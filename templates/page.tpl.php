@@ -97,7 +97,7 @@ if($node->type =='section_page'): ?>
           <div id="site-logo" class="flex-caption"><?php print render($page['title']); ?>
       </div>
       <div class="mainmenu">
-        <div class="mobilenavi"></div>
+       <!-- <div class="mobilenavi"></div>  -->
         
         <nav id="navigation" role="navigation">
            <?php print render($page['header']); ?>
