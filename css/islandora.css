@@ -281,7 +281,7 @@ body.page-islandora #sidebar.col-sm-4 {
   width: 100%;
 }
 a.soft-limit.processed {
-  background: url("/sites/default/files/styles/large/public/arrow-right.png") no-repeat scroll 0 3px transparent;
+  background: url("/sites/all/themes/lo/images/arrow-right.png") no-repeat scroll 0 4px transparent;
  /* background: url("/misc/arrow-asc.png") no-repeat scroll 0 1px transparent; */
   display: inline-block;
   height: 16px;

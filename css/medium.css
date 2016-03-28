@@ -15,7 +15,7 @@
   margin-right: 0px;
 }
 .mainmenu{
-    float:none;
+   /* float:none;  */
     text-align: center;
 }
 #my-menu {
@@ -69,6 +69,9 @@
   margin-right: 10px;
 }
 
+div#site-logo {
+    text-align: center;
+}
 
   h1#site-title{
     text-align: center;

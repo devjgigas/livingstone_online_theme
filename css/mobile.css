@@ -49,19 +49,85 @@ ul.menu {
 div#block-nodequeue-pager-2 {
     display: none;
 }
+
 .view.view-image-banner-scroll.view-id-image_banner_scroll.view-display-id-panel_pane_1 {
     display: none;
 }
-
+.node-type-section-page .panel-pane.pane-node-content .content,
 .node-type-section-page .pane-node-content h2.pane-title {
-      margin: 20px 0%;
+      margin: 20px 0 !important;
  } 
+.nodequeuepager, .prevnextnode_mid {
+      display: none;
+}      
 .node-type-section-page .panel-pane.pane-node-content .content {
     margin: 1% 0% 0 !important;
     position: relative;
     z-index: 60;
 }
 
+/*  Level 3 menus  */
+
+#mobile-menu-inner .menu li.leaf {
+  display: block;
+  line-height: 20px;
+  margin: 5px 0 5px 5px;
+  max-width: 100%;
+  min-width: 120px;
+  padding: 0 0 1px;
+  text-align: left;
+  vertical-align: middle;
+  width: 100%;
+}
+#mobile-menu li, .mobile-menu li {
+    border-bottom: 0px solid #cccccc;
+    border-left: 0px solid #cccccc;
+    border-right: 0px solid #cccccc;
+    clear: both;
+    list-style: none outside none;
+    margin: 0;
+    overflow: hidden;
+}
+#mobile-menu li > a, .mobile-menu li > a {
+    float: left;
+    padding: 4px 0 4px 15px;
+    width: 100%;
+}
+#mobile-menu-inner .menu li a {
+    color: #000;
+    font-family: 'Oxygen',sans-serif;
+    font-size: 12.4px;
+    font-weight: 600;
+    text-align: left;
+}
+
+#mobile-menu-inner .menu li.leaf:hover {
+  /*opacity: .3;*/
+  background: #ccc;
+}
+#mobile-menu-inner .menu li:nth-child(1){
+   background-color: transparent; 
+}
+
+#mobile-menu-inner .menu li:nth-child(2){
+   background-color: transparent; 
+}
+
+#mobile-menu-inner .menu li:nth-child(3){
+   background-color: transparent; 
+}
+
+#mobile-menu-inner .menu li:nth-child(4){
+   background-color: transparent; 
+}
+
+#mobile-menu-inner .menu li:nth-child(5){
+   background-color: transparent; 
+}
+
+#mobile-menu-inner .menu li:nth-child(6){
+   background-color: transparent; 
+}
 
 
 }

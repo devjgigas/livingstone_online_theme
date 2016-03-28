@@ -9,7 +9,7 @@
   margin-right: 0px;
 }
 .mainmenu{
-    float:none;
+    /* float:none; */
     text-align: center;
 }
  body.not-front #main-menu {
@@ -20,7 +20,7 @@
   text-align: center;
 }
 ul.menu {
-  margin: 0 0 0 0.75em !important;
+  margin: 0 0 0 0 !important;
 }
  #site-logo {
   float: none;

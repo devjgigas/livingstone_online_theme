@@ -89,10 +89,10 @@ img {
   margin-left: 0;
   margin-right: 0;
 }
-.row {
+/*.row {
     margin-right: 12px;
     margin-left: 12px;
-}
+}*/
 /*clear floats*/
 .remove-margin {
   margin-right: 0 !important;
@@ -320,7 +320,7 @@ a:focus {
   position: relative;
 }
 .site-branding{
-  margin-bottom: 20px;  
+  margin-top: 20px;  
 }
 
 h1#site-title{
@@ -1193,7 +1193,7 @@ span.footpdf {
 .header_title_region h2{
   text-transform: uppercase;
   font-family: 'Patua One', serif;
-  font-size: 42px;
+  font-size: 40px;
   color: #000;
   letter-spacing:0.5px;
   line-height:120%;
@@ -1206,7 +1206,7 @@ span.footpdf {
 
 .header_title_region p{
   font-family:  'Crimson Text', serif;
-  font-size: 32px;  
+  font-size: 29px;  
    font-weight: 400;
    letter-spacing:0.5px;
    line-height:80%;

@@ -21,8 +21,9 @@ scripts[] = js/jquery.mmenu.oncanvas.min.js
 scripts[] = js/jquery.qtip.min.js
 
 regions[header]         = Header
-regions[section]  = Section
-regions[title]  = Title
+regions[section]  		= Section
+regions[external]  		= External
+regions[title]  		= Title
 regions[sidebar_first]  = First Sidebar
 regions[fixedbar]		= Fixed Bar
 regions[preface_first]  = Preface First
