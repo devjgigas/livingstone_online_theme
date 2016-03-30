@@ -67,9 +67,14 @@
 
 <div id="page" class="page-row page-row-expanded wrapper">
     <?php if ($page['header']) : ?> 
-        <header id="masthead">
-            <?php print render($page['header']); ?>
-        </header>
+  <header id="masthead" class="site-header container" role="banner">
+    <div class="row">
+      <div class="col-md-8 col-sm-8 col-xs-12 mainmenu">
+      <?php print render($page['external']); ?>
+        <!-- <div class="mobilenavi"></div> -->
+      </div>
+    </div>
+  </header>
     <?php endif; ?>
  <!--   <ul class="flex-direction-nav">
     <li><a title="resources" class="flex-prev" rel="prev" href="<?php print base_path() . 'resources' ?>">Previous</a></li>
@@ -90,6 +95,18 @@
             <div class="flex-caption">  
 
                 <?php print render($page['title']); ?>
+
+    <div class="row">
+      <div id="logo" class="site-branding col-md-4 col-sm-4 col-xs-12">
+        <?php if ($logo): ?><div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+        </a></div><?php endif; ?>
+        <h1 id="site-title">
+          <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+        </h1>
+      </div>
+    </div>  
+
                 <?php print render($page['section']); ?>
             </div>
         </div>  
