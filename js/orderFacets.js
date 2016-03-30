@@ -170,7 +170,7 @@ $('.islandora-solr-content tr td:first-child a').text(
   finalVersion  = "";
   for (i = 0; i < otherVeriosnArray.length; i++) {
     if(otherVeriosnArray[i].indexOf("http://") == 0){
-        finalVersion += '<a href="' + otherVeriosnArray[i] + '">Link to Other Version</a> ';
+        finalVersion += '<a href="' + otherVeriosnArray[i] + '">link</a> ';
     }else{
     finalVersion += otherVeriosnArray[i] + " ";
     }
