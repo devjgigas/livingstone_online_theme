@@ -1,60 +1,79 @@
 @media all and (min-width: 451px) and (max-width: 700px) {
 
-/* body {background-color: blue !important;} */
-
-.region-section{
-    float:none;
-}
-.header_title_region {
-  margin-right: 0px;
-}
-.mainmenu {
-  float: none;
-  margin: 0 auto;
-  text-align: center;
-  width: 420px;
-}
-#my-menu {
-  clear: both;
-}
-ul.menu {
-  margin: 0 0 0 0.75em !important;
-}
-#main-menu ul.menu {
-  margin: 0 0 0 0.75em !important;
-  text-align: center;
-}
-.region.region-header {
-  float: none !important;
-}
-#block-menu-menu-topmenu ul.menu {
-  border: medium none;
-  clear: both;
-  list-style: outside none none;
-  margin: 0 auto;
-  text-align: center;
-  width: 400px;
-}
-
-div#block-nodequeue-pager-2 {
+  /* body {background-color: blue !important;} */
+  #fixedbar {
     display: none;
-}
+  }
+  .region-section{
+      float:none;
+  }
+  .header_title_region {
+    margin-right: 0px;
+  }
+  .mainmenu {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 420px;
+  }
+  #my-menu {
+    clear: both;
+  }
+  ul.menu {
+    margin: 0 0 0 0.75em !important;
+  }
+  #main-menu ul.menu {
+    margin: 0 0 0 0.75em !important;
+    text-align: center;
+  }
+  .region.region-header {
+    float: none !important;
+  }
+  #block-menu-menu-topmenu ul.menu {
+    border: medium none;
+    clear: both;
+    list-style: outside none none;
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+  }
 
-.view.view-image-banner-scroll.view-id-image_banner_scroll.view-display-id-panel_pane_1 {
-    display: none;
-}
-.node-type-section-page .panel-pane.pane-node-content .content,
-.node-type-section-page .pane-node-content h2.pane-title {
-      margin: 20px 0 !important;
- } 
-.nodequeuepager, .prevnextnode_mid {
+  div#block-nodequeue-pager-2 {
       display: none;
-}      
-.node-type-section-page .panel-pane.pane-node-content .content {
-    margin: 1% 0% 0 !important;
-    position: relative;
-    z-index: 60;
-}
+  }
 
+  .view.view-image-banner-scroll.view-id-image_banner_scroll {
+      display: none;
+  }
+  .node-type-section-page .panel-pane.pane-node-content .content,
+  .node-type-section-page .pane-node-content h2.pane-title {
+        margin: 20px 0 !important;
+   }
+  .prevnextnav, 
+  .nodequeuepager, .prevnextnode_mid {
+        display: none;
+  }  
+     
+  .node-type-section-page .panel-pane.pane-node-content .content {
+      margin: 1% 0% 0 !important;
+      position: relative;
+      z-index: 60;
+  }
+  body.page-browse-addressee .field-name-field-section-page-tag-line, 
+  body.page-browse-recipient .field-name-field-section-page-tag-line {
+    border-color: rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-width: 0 0 1px;
+    font-family: "Crimson Text",serif;
+    font-weight: bold;
+    margin: 1% 0 3%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  body.page-browse-addressee .islandora-solr-facet-pages-wrapper, 
+  body.page-browse-recipient .islandora-solr-facet-pages-wrapper {
+    margin: 1% 0;
+    z-index: 60;
+  }
 
 }

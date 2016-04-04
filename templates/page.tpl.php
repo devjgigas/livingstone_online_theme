@@ -88,9 +88,7 @@ if($node->type =='section_page'): ?>
 
  <?php endif; ?> 
 
-
-
-<div id="page">
+<div id="page" class="page--nodetype">
   <header id="masthead" class="site-header container" role="banner">
     <div class="row">
       <div id="logo" class="site-branding col-md-4 col-sm-4 col-xs-12">

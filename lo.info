@@ -13,6 +13,8 @@ stylesheets[all][] = css/large.css
 stylesheets[all][] = css/medium.css
 stylesheets[all][] = css/small.css
 stylesheets[all][] = css/mobile.css
+stylesheets[all][] = css/sizes.css
+
 scripts[] = js/bootstrap.min.js
 scripts[] = js/mobilemenu.js
 scripts[] = js/custom.js

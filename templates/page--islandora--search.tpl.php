@@ -64,7 +64,8 @@
  * @see template_process()
  */
 ?>
-<?php if($node->type =='section_page'): ?>
+<?php 
+if($node->type =='section_page'): ?>
 
   <div id="fixedbar">
     <div class="fixedbar_left">
@@ -87,20 +88,31 @@
 
  <?php endif; ?> 
 
-
-
-<div id="page">
+<div id="page" class="islandora--search">
   <header id="masthead" class="site-header container" role="banner">
     <div class="row">
-      <div id="logo" class="site-branding">
-          <div id="site-logo" class="flex-caption"><?php print render($page['title']); ?>
+      <div id="logo" class="site-branding col-md-4 col-sm-4 col-xs-12">
+        <?php if ($logo): ?><div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+        </a></div><?php endif; ?>
+        <h1 id="site-title">
+          <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+        </h1>
       </div>
-      <div class="mainmenu">
-        <div class="mobilenavi"></div>
-        
+      <div class="col-md-8 col-sm-8 col-xs-12 mainmenu">
+      <?php print render($page['external']); ?>
+        <!-- <div class="mobilenavi"></div> -->
         <nav id="navigation" role="navigation">
-           <?php print render($page['header']); ?>
-            <div id="my-menu"><?php print render($page['section']); ?> </div>
+          <div id="main-menu">
+            <?php 
+              if (module_exists('i18n_menu')) {
+                $main_menu_tree = i18n_menu_translated_tree(variable_get('menu_main_links_source', 'main-menu'));
+              } else {
+                $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
+              }
+              print drupal_render($main_menu_tree);
+            ?>
+          </div>
         </nav>
       </div>
     </div>

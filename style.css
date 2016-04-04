@@ -337,7 +337,7 @@ a:focus {
   margin-bottom: 20px;
 }
 #site-logo {
-  float: left;
+  float: none;
   padding: 0px;
   margin-left: 0px;
   margin-top: 2px;

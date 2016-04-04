@@ -97,7 +97,7 @@
                 <?php print render($page['title']); ?>
 
     <div class="row">
-      <div id="logo" class="site-branding col-md-4 col-sm-4 col-xs-12">
+      <div id="logo" class="site-branding">
         <?php if ($logo): ?><div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a></div><?php endif; ?>
