@@ -1,42 +1,52 @@
-@media all and (min-width: 451px) and (max-width: 700px) {
+@media all and (max-width: 700px) {
 
   /* body {background-color: blue !important;} */
   #fixedbar {
-    display: none;
+    display: none !important;
   }
-  .region-section{
-      float:none;
-  }
-  .header_title_region {
-    margin-right: 0px;
-  }
-  .mainmenu {
-    float: none;
-    margin: 0 auto;
-    text-align: center;
-    width: 420px;
-  }
+  select.mnav {
+  margin-bottom: 20px;
+  width: 100%;
+}
   #my-menu {
     clear: both;
   }
-  ul.menu {
-    margin: 0 0 0 0.75em !important;
-  }
-  #main-menu ul.menu {
-    margin: 0 0 0 0.75em !important;
-    text-align: center;
-  }
-  .region.region-header {
-    float: none !important;
-  }
-  #block-menu-menu-topmenu ul.menu {
-    border: medium none;
-    clear: both;
-    list-style: outside none none;
-    margin: 0 auto;
-    text-align: center;
-    width: 400px;
-  }
+
+    #site-logo {
+      text-align: center;
+    }
+    .region.region-external {
+      display: inline-block;
+      text-align: center !important;
+      width: 100%;
+    }
+    .block.externalmenublock {
+      display: inline-block;
+      padding-top: 6px;
+    }
+    ul#externalmenu {
+      margin: 0;
+    }
+    #search-block-form {
+      display: inline-block;
+      margin-left: 10px;
+      margin-bottom: 1em;
+    }
+    nav {
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+    }
+    #main-menu ul.menu {
+      border: medium none;
+      list-style: outside none none;
+      text-align: center;
+    }
+
+    #uppermost {
+      display: none;
+    }
+
 
   div#block-nodequeue-pager-2 {
       display: none;
@@ -49,6 +59,7 @@
   .node-type-section-page .pane-node-content h2.pane-title {
         margin: 20px 0 !important;
    }
+  #block-nodequeue-pager-3,
   .prevnextnav, 
   .nodequeuepager, .prevnextnode_mid {
         display: none;

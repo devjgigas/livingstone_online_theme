@@ -91,17 +91,14 @@ if($node->type =='section_page'): ?>
 <div id="page" class="page--nodetype">
   <header id="masthead" class="site-header container" role="banner">
     <div class="row">
-      <div id="logo" class="site-branding col-md-4 col-sm-4 col-xs-12">
+      <div id="logo" class="site-branding">
         <?php if ($logo): ?><div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a></div><?php endif; ?>
-        <h1 id="site-title">
-          <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
-        </h1>
       </div>
-      <div class="col-md-8 col-sm-8 col-xs-12 mainmenu">
+      <div class="mainmenu">
       <?php print render($page['external']); ?>
-        <!-- <div class="mobilenavi"></div> -->
+        <div class="mobilenavi"></div>
         <nav id="navigation" role="navigation">
           <div id="main-menu">
             <?php 

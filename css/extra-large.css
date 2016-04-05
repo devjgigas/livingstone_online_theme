@@ -4,43 +4,50 @@
 body.not-front .region-section{
     float:right;
 }
-.mainmenu{
-    float:right;
-}
-#site-logo {
-  /* float: left; */
-  padding: 0px;
-  margin-left: 0px;
-  margin-top: 2px;
-}
-#main-menu {
-  padding: 0px 0px;
-  border-bottom: none;
-  float: right;
-}
-ul.menu {
-  margin: 0 0 1em 0 !important;
-}
 #my-menu {
   float:none;
   clear: both;
 }
-.header_title_region {
-  margin-right: 10px;
+.site-branding.col-md-4 {
+  text-align: center;
+  width: 100%;
+}
+.col-md-8.mainmenu {
+  width: 100%;
+}
+.site-branding {
+  float: left;
+  margin-top: 20px;
+  width: 32%;
+}
+.mainmenu {
+  float: left;
+  width: 66%;
+}
+#main-menu ul.menu {
+  border: medium none;
+  list-style: outside none none;
+  text-align: right;
+}
+.region.region-external {
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+}
+.block.block-block.externalmenublock {
+  display: inline-block;
+  width: auto;
+}
+.region.region-external > form {
+  display: inline-block;
+  width: auto;
 }
 #block-menu-menu-topmenu ul.menu {
   border: medium none;
   list-style: outside none none;
   margin: 15px 0 1em 0.75em !important;
-  text-align: center;
+  text-align: right;
   width: auto;
 }
-.block.externalmenublock {
-  float: right;
-  padding-top: 6px;
-}
-#search-block-form {
-  float: right;
-  margin-left: 10px;
-}
+
 }
