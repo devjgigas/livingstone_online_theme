@@ -75,7 +75,7 @@
       <div class="his-own-words" id="breadcrumb">
         <span class="breadcrumb-0"><a href="/">Livingstone Online</a></span>  
         <span class="breadcrumb-1"><a href="/in-his-own-words">In His Own Words</a></span>  
-        <span class="breadcrumb-2">Standard Catalogue Record </span>
+        <span class="breadcrumb-2"><?php echo $title ?></span>
       </div>
 </div>
     <div class="fixedbar_right"><?php print $search_box; ?></div>    
@@ -91,7 +91,7 @@
 <!--/.slideout-menu-->
   </div>
 
-<div id="page" class="islandora--search">
+<div id="page" class="browse--addressee">
   <header id="masthead" class="site-header container" role="banner">
     <div class="row">
       <div id="logo" class="site-branding">

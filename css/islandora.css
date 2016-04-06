@@ -153,13 +153,14 @@ body.page-search #edit-basic {
 .prevnextnavt .flex-direction-nav a.flex-next {
   margin-right: 20px;
 }
-
+body.page-islandora-search .field-name-field-section-page-tag-line,
 body.page-browse-addressee .field-name-field-section-page-tag-line,
 body.page-browse-recipient .field-name-field-section-page-tag-line {
   border-color: rgba(0, 0, 0, 0.2);
   border-style: solid;
   border-width: 0 0 1px;
   font-family: "Crimson Text",serif;
+  font-size: 16px;
   font-weight: bold;
   margin: 1% 20% 3%;
   padding-bottom: 20px;
