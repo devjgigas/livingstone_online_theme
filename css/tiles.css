@@ -2,6 +2,9 @@
 #block-menu-menu-topmenu ol {
   margin: 0;
 }
+.front #block-menu-menu-topmenu ul.menu {
+    text-align: center;
+}
 #block-menu-menu-topmenu ul.menu { /* all pages except for front  */
   border: none;
   list-style: outside none none;

@@ -66,7 +66,7 @@
 ?>
 
 <div id="page" class="page-row page-row-expanded wrapper">
-    <?php if ($page['header']) : ?> 
+
   <header id="masthead" class="site-header container" role="banner">
     <div class="row">
       <div class="col-md-8 col-sm-8 col-xs-12 mainmenu">
@@ -75,7 +75,7 @@
       </div>
     </div>
   </header>
-    <?php endif; ?>
+
  <!--   <ul class="flex-direction-nav">
     <li><a title="resources" class="flex-prev" rel="prev" href="<?php print base_path() . 'resources' ?>">Previous</a></li>
     <li><a title="livingstone online" class="flex-next" rel="next"href="<?php print base_path() . 'about-this-site' ?>">Level 2</a></li>
