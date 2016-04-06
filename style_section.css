@@ -81,6 +81,13 @@ img {
   padding-right: 0 !important;
   width: 100%;
 }
+
+.qtip-link {
+  border-bottom: 1px dotted;
+  color: #428bca;
+  cursor: default;
+  font-size: 16px;
+}
 /* Commons
 ================================================== */
 .page-browse-addressee .row,
