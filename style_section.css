@@ -842,10 +842,11 @@ position: relative;
   text-align: center;
 }
 span.footlogo {
-  background: url("images/lo-sm-30.jpg") no-repeat scroll 0 0 transparent;
+  background: url("images/social/trans-social-home-28.png") no-repeat scroll 0 0 transparent;
   display: inline-block;
   height: 30px;
   width: 30px;
+  margin-right: 8px;
 }
 span.footpdf {
   background: url("images/32x32-pdf.png") no-repeat scroll 0 0 transparent;

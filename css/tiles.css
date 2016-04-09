@@ -191,8 +191,8 @@ background: url('../images/search-button.png') no-repeat 1px 1px;
 .footershare .stButton .stLarge:hover {
   background-position: 0px center !important;
 }
-.block.footershare .st_twitter_large .stLarge {background-image: url("../images/social/social-twitter-28.png") !important;}
-.block.footershare .st_twitter_large .stLarge:hover {background-image: url("../images/social/social-twitter-28.png") !important;}
+.block.footershare .st_twitter_large .stLarge {background-image: url("../images/social/trans-social-twitter-28.png") !important;}
+.block.footershare .st_twitter_large .stLarge:hover {background-image: url("../images/social/trans-over-social-twitter-28.png") !important;}
 
 .block.footershare .st_linkedin_large .stLarge {background-image: url("../images/social/social-linkedin-28.png") !important;}
 .block.footershare .st_linkedin_large .stLarge:hover {background-image: url("../images/social/social-linkedin-28.png") !important;}
@@ -200,17 +200,17 @@ background: url('../images/search-button.png') no-repeat 1px 1px;
 .block.footershare .st_googleplus_large .stLarge {background-image: url("../images/social/social-googleplus-28.png") !important;}
 .block.footershare .st_googleplus_large .stLarge:hover {background-image: url("../images/social/social-googleplus-28.png") !important;}
 
-.block.footershare .st_pinterest_large .stLarge {background-image: url("../images/social/social-pinterest-28.png") !important;}
-.block.footershare .st_pinterest_large .stLarge:hover {background-image: url("../images/social/social-pinterest-28.png") !important;}
+.block.footershare .st_pinterest_large .stLarge {background-image: url("../images/social/trans-social-pinterest-28.png") !important;}
+.block.footershare .st_pinterest_large .stLarge:hover {background-image: url("../images/social/trans-over-social-pinterest-28.png") !important;}
 
-.block.footershare .st_email_large .stLarge {background-image: url("../images/social/social-email-28.png") !important;}
-.block.footershare .st_email_large .stLarge:hover {background-image: url("../images/social/social-email-28.png") !important;}
+.block.footershare .st_email_large .stLarge {background-image: url("../images/social/trans-social-email-28.png") !important;}
+.block.footershare .st_email_large .stLarge:hover {background-image: url("../images/social/trans-over-social-email-28.png") !important;}
 
-.block.footershare .st_facebook_large .stLarge {background-image: url("../images/social/social-facebook-28.png") !important;}
-.block.footershare .st_facebook_large .stLarge:hover {background-image: url("../images/social/social-facebook-28.png") !important;}
+.block.footershare .st_facebook_large .stLarge {background-image: url("../images/social/trans-social-fb-28.png") !important;}
+.block.footershare .st_facebook_large .stLarge:hover {background-image: url("../images/social/trans-over-social-fb-28.png") !important;}
 
-.block.footershare .st_print_large .stLarge {background-image: url("../images/social/social-print-28.png") !important;}
-.block.footershare .st_print_large .stLarge:hover {background-image: url("../images/social/social-print-28.png") !important;}
+.block.footershare .st_print_large .stLarge {background-image: url("../images/social/trans-social-print-28.png") !important;}
+.block.footershare .st_print_large .stLarge:hover {background-image: url("../images/social/trans-over-social-print-28.png") !important;}
 
 .block.footershare .st_pdf_large .stLarge.pdf {background-image: url("../images/social/28x28-pdf.png") !important;}
 .block.footershare .st_pdf_large .stLarge.pdf:hover {background-image: url("../images/social/28x28-pdf.png") !important;}
