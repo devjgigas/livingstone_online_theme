@@ -55,6 +55,12 @@
   color: #00abf2;
   font-size: 24px;
 }
+.fa.fa-twitter:hover,
+.fa.fa-wordpress:hover,
+.fa.fa-home:hover,
+.fa.fa-envelope:hover  {
+  color: #666;
+} 
 
 #search-block-form--2 input[type=text],
 #search-block-form input[type=text] {

@@ -848,6 +848,9 @@ span.footlogo {
   width: 30px;
   margin-right: 8px;
 }
+span.footlogo:hover {
+  background: url("images/social/trans-over-social-home-28.png") no-repeat scroll 0 0 transparent;
+}
 span.footpdf {
   background: url("images/32x32-pdf.png") no-repeat scroll 0 0 transparent;
   display: inline-block;
