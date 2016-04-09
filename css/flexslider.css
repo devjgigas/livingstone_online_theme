@@ -79,6 +79,7 @@ html[xmlns] .slides {display: block;}
     text-indent: -9999px; 
     border-radius: 6px 0 0 6px;
     border: 1px solid #eee;
+    right: 2px;
 }
 .flex-direction-nav .flex-next {background-position: 100% 0; right: 0px; }
 .flex-direction-nav .flex-prev {left: 0px;}
