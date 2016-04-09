@@ -56,7 +56,7 @@ html[xmlns] .slides {display: block;}
     height: 100px; 
     margin: -50px 0 0; 
     display: block; 
-    background: url("../images/bg_direction_nav-new2.png") no-repeat scroll 0 0 #f2f2f2; 
+    background: url("../images/bg_direction_nav-new.png") no-repeat scroll 0 0 #f2f2f2; 
     position: absolute; 
     top: 47.5%; 
     z-index: 160; 
@@ -71,7 +71,7 @@ html[xmlns] .slides {display: block;}
     height: 100px; 
     margin: -50px 0 0; 
     display: block; 
-    background: url("../images/bg_direction_nav-new2.png") no-repeat scroll -50px 0 #f2f2f2; 
+    background: url("../images/bg_direction_nav-new.png") no-repeat scroll -50px 0 #f2f2f2; 
     position: absolute; 
     top: 47.5%; 
     z-index: 160; 
