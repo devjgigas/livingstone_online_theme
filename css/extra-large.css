@@ -17,11 +17,20 @@ body.not-front .region-section{
 }
 .site-branding {
   float: left;
+  margin-left: -5px;
   margin-top: 20px;
   width: 32%;
 }
+.node-type-page .mainmenu {
+  float: right;
+  width: 64%;
+  margin-right: 15px;
+}
+.node-type-page .site-branding {
+  margin-left: 12px;
+}
 .mainmenu {
-  float: left;
+  float: right;
   width: 66%;
 }
 #main-menu ul.menu {
