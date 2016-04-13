@@ -402,13 +402,14 @@ a .info > em {
 #primary .view-repository-list th {
   background-color: #eee;
   border: 1px solid #ccc;
-  color: #000;
+  color: #428bca;
   font-weight: bold;
   padding: 10px;
 }
 
 #primary .view-repository-list th a {
     color: #428bca;
+    text-decoration: underline;
 }
 #primary .views-field.views-field-field-repo-link,
 #primary .views-field.views-field-field-repo-repository {
