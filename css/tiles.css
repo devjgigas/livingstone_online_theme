@@ -402,7 +402,7 @@ a .info > em {
 #primary .view-repository-list th {
   background-color: #eee;
   border: 1px solid #ccc;
-  color: #428bca;
+  color: #000;
   font-weight: bold;
   padding: 10px;
 }
