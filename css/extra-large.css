@@ -17,7 +17,7 @@ body.not-front .region-section{
 }
 .site-branding {
   float: left;
-  margin-left: -2px;
+  margin-left: 0px;
   margin-top: 20px;
   width: 32%;
 }
