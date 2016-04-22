@@ -65,7 +65,7 @@
  */
 ?>
 <?php 
-if($node->type =='section_page'): ?>
+if(isset($node) && $node->type =='section_page'): ?>
 
   <div id="fixedbar">
     <div class="fixedbar_left">

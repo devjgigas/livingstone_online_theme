@@ -46,7 +46,8 @@ function lo_preprocess_html(&$vars) {
  * Override or insert variables into the page template.
  */
 function lo_preprocess_page(&$vars) {
-  $search_box = drupal_render(drupal_get_form('search_block_form'));
+  $form = drupal_get_form('search_block_form');
+  $search_box = drupal_render($form);
   $vars['search_box'] = $search_box;
 
   if ($node = menu_get_object()) {
