@@ -485,9 +485,11 @@ body.page-islandora .plusminus {
  ul.islandora-solr-facet, ul.islandora-solr-facet li {
   list-style: none;
 }
-
+.islandora-solr-sort {
+  height: 25px;
+}
 #islandora-solr-top {
-  display: block;
+  display: none;
   min-height: 25px;
 }
 body.page-islandora #primary td {
