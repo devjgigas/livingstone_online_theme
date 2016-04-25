@@ -487,7 +487,7 @@ body.page-islandora .plusminus {
 }
 
 #islandora-solr-top {
-  display: none;
+  display: block;
   min-height: 25px;
 }
 body.page-islandora #primary td {
