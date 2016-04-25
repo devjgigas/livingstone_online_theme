@@ -141,6 +141,9 @@ background: url('../images/search-button.png') no-repeat 1px 1px;
 
 
 /* colored menu links */
+#page.islandora--search .menu li.leaf{
+  margin: 14px 0 10px 5px;  
+}
 .menu li.leaf {
   display: inline-block;
   line-height: 20px;
