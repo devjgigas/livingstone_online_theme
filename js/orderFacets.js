@@ -50,10 +50,10 @@
     });
     // Insert links in table.
     $("td:contains('http://')").each(function (index) {
-      this.innerHTML = this.innerHTML.replace(/(http\:\/\/[^ ]*)/gi, '<a href="$1">link</a>');
+      this.innerHTML = this.innerHTML.replace(/(http\:\/\/[^ ]*)/gi, '<a href="$1" target="_blank">link</a>');
     });
     $("td:contains('https://')").each(function (index) {
-      this.innerHTML = this.innerHTML.replace(/(https\:\/\/[^ ]*)/gi, '<a href="$1">link</a>');
+      this.innerHTML = this.innerHTML.replace(/(https\:\/\/[^ ]*)/gi, '<a href="$1" target="_blank">link</a>');
     });
     // Access Links.
     $('.islandora-solr-content tr td:first-child a').text(function (i,text){
