@@ -105,6 +105,6 @@
           </section>
         </div>
     </div>
-    pdf
+    pprint
      <?php print render($page['footer']); ?>
 </div>

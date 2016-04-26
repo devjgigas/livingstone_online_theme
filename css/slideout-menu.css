@@ -78,6 +78,9 @@ li.frmore{
   float: none;
   padding: 0;
 }
+.slideout-menu .menu li.leaf {
+  margin-left: -5px;
+}
 .slideout-menu #main-menu ul {
   list-style: outside none none;
   margin-bottom: 0;
@@ -90,10 +93,22 @@ li.frmore{
   margin-left: 30px;
   margin-bottom: 10px;
 }
+.sideslideexternal .content > ul {
+  margin-left: 36px;
+  margin-top: 10px;
+}
 .sideslideexternal {
-  margin-left: -20px;
+  margin-left: -30px;
   text-align: center;
 }
+.sideslideexternal .externalmenu .content ul {
+  margin-left: 10px;
+}
+.sideslideexternal li.leaf {
+  display: inline-block;
+  margin-top: 10px;
+  width: auto;
+ } 
 .fixedleft_1, .fixedleft_2 {
 	float: left;
 }
