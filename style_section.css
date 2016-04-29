@@ -547,6 +547,14 @@ body.not-front .flex-direction-nav {
 }
 /* level 2 pages */
 
+.page-in-his-own-words #primary,
+.page-about-this-site #primary,
+.page-spectral-imaging #primary,
+.page-life-and-times #primary,
+.page-behind-the-scenes- #primary,
+.page-resources #primary  {
+  margin-top: -14px;
+}
 .node-type-page .region-content-top {
   float: right;
   margin-bottom: 20px;
