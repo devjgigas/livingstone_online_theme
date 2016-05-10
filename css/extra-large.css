@@ -38,6 +38,9 @@ body.not-front .region-section{
   list-style: outside none none;
   text-align: right;
 }
+nav#navigation {
+  margin-top: 14px;
+}
 .region.region-external {
   display: inline-block;
   text-align: right;
@@ -45,6 +48,8 @@ body.not-front .region-section{
 }
 .block.block-block.externalmenublock {
   display: inline-block;
+  height: 28px;
+  top: 4px;
   width: auto;
 }
 .region.region-external > form {
