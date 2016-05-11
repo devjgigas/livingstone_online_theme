@@ -49,7 +49,7 @@ nav#navigation {
 .block.block-block.externalmenublock {
   display: inline-block;
   height: 28px;
-  top: 4px;
+  top: 6px;
   width: auto;
 }
 .region.region-external > form {
