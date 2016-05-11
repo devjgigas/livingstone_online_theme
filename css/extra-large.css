@@ -49,6 +49,7 @@ nav#navigation {
 .block.block-block.externalmenublock {
   display: inline-block;
   height: 28px;
+  position: relative;
   top: 6px;
   width: auto;
 }
