@@ -65,6 +65,10 @@ select.mnav {
       position: relative;
       z-index: 60;
   }
+ .node-type-section-page .pane-node-content h2.pane-title {
+    font-size: 32px !important;
+  }
+
   body.page-browse-addressee .field-name-field-section-page-tag-line, 
   body.page-browse-recipient .field-name-field-section-page-tag-line {
     border-color: rgba(0, 0, 0, 0.2);

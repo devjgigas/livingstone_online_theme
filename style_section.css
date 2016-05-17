@@ -72,6 +72,10 @@ a:active {
 }
 
 /*set max img width*/
+#site-logo img {
+  max-width: 400px;
+  width: 100%;
+}
 img {
   max-width: 100%;
 }
