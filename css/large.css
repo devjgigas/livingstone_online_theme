@@ -27,7 +27,7 @@
    .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open,
    .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_collapsed,  
    .slicknav_nav ul.menu li.leaf, 
-   .slicknav_nav ul.menu li.collaspsed,    
+   .slicknav_nav ul.menu li.collapsed,    
    .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open ul.menu li.leaf,
    .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_collapsed ul.menu li.leaf {
       background: transparent none repeat scroll 0 0;
