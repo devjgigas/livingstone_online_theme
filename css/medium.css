@@ -1,4 +1,3 @@
-
 @media all and (min-width: 701px) and (max-width: 850px) {
   html{
     font-size: 60%;
@@ -11,10 +10,10 @@
   #fixedbar {
     display: none !important;
   }
-select.mnav {
-  margin-bottom: 20px;
-  width: 100%;
-}
+  select.mnav {
+    margin-bottom: 20px;
+    width: 100%;
+  }
   .region-section{
       float:none;
   }  
@@ -54,7 +53,9 @@ select.mnav {
       list-style: outside none none;
       text-align: center;
     }
-
+  .field.field-name-field-section-page-image {
+    display: none;
+  }
   #block-nodequeue-pager-3,
   .prevnextnav, 
   .nodequeuepager, .prevnextnode_mid {
@@ -65,8 +66,8 @@ select.mnav {
       position: relative;
       z-index: 60;
   }
- .node-type-section-page .pane-node-content h2.pane-title {
-    font-size: 32px !important;
+  .field.field-name-field-section-page-image {
+    display: none;
   }
 
   body.page-browse-addressee .field-name-field-section-page-tag-line, 
@@ -85,7 +86,9 @@ select.mnav {
     margin: 1% 0;
     z-index: 60;
   }
-
+  ul.menu ul.menu {
+    display: none;
+  }
 }
 
 

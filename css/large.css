@@ -1,43 +1,96 @@
+@media all and (min-width: 767px)  {
+  .slicknav_menu {
+    display: none;
+  }
+  ul.menu ul.menu {
+    display: none;
+  }
+}
+@media all and (max-width: 766px)  {
+  #uppermost,
+  #navigation {
+    display: none;
+  }
+  .field.field-name-field-section-page-image {
+    display: block;
+    text-align: center;
+  } 
+
+  .slicknav_nav {
+    width: 100%;
+  }  
+  .slicknav_nav ul.menu, li.expanded {
+    list-style-image: none;
+    list-style-type: none;
+  }
+   .slicknav_nav ul.menu,
+   .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open,
+   .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_collapsed,   
+   .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open ul.menu li.leaf,
+   .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_collapsed ul.menu li.leaf {
+    background: transparent none repeat scroll 0 0;
+    display: block;
+    text-align: left;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open a {
+      width: 100%;
+  } 
+
+}
+
 @media all and (min-width: 851px) and (max-width: 1230px){
 
 /*body {background-color: yellow !important;} */
 
-.region-section{
+  .region-section{
+      float:none;
+  }
+  .header_title_region {
+    margin-right: 0px;
+  }
+
+  #my-menu {
     float:none;
-}
-.header_title_region {
-  margin-right: 0px;
-}
+    clear: both;
+  }
+  #site-logo {
+    text-align: center;
+  }
+  .region.region-external {
+    display: inline-block;
+    text-align: center !important;
+    width: 100%;
+  }
+  .block.externalmenublock {
+    display: inline-block;
+    padding-top: 6px;
+  }
+  #search-block-form {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  nav {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+  .menu li.expanded ul.menu {
+    display: none;
+  }
+  .slicknav_menu {
+    display: none;
+  }
+  #main-menu ul.menu {
+    border: medium none;
+    list-style: outside none none;
+    text-align: center;
+  }
+  .field.field-name-field-section-page-image {
+    display: none;
+  }
 
-#my-menu {
-  float:none;
-  clear: both;
-}
-#site-logo {
-  text-align: center;
-}
-.region.region-external {
-  display: inline-block;
-  text-align: center !important;
-  width: 100%;
-}
-.block.externalmenublock {
-  display: inline-block;
-  padding-top: 6px;
-}
-#search-block-form {
-  display: inline-block;
-  margin-left: 10px;
-}
-nav {
-  margin: 0 auto;
-  text-align: center;
-  width: 100%;
-}
-#main-menu ul.menu {
-  border: medium none;
-  list-style: outside none none;
-  text-align: center;
-}
-
+   
 }

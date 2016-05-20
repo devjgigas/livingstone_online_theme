@@ -22,6 +22,7 @@ scripts[] = js/custom.js
 scripts[] = js/jquery.mmenu.min.js
 scripts[] = js/jquery.mmenu.oncanvas.min.js
 scripts[] = js/jquery.qtip.min.js
+scripts[] = js/jquery.slicknav.js
 
 regions[header]         = Header
 regions[section]  		= Section

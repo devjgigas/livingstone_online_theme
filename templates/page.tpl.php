@@ -98,7 +98,7 @@ if(isset($node) && $node->type =='section_page'): ?>
       </div>
       <div class="mainmenu">
       <?php print render($page['external']); ?>
-        <div class="mobilenavi"></div>
+
         <nav id="navigation" role="navigation">
           <div id="main-menu">
             <?php 

@@ -42,12 +42,10 @@
       list-style: outside none none;
       text-align: center;
     }
-
-    #uppermost {
-      display: none;
+    #uppermost,
+    #navigation {
+        display: none;
     }
-
-
   div#block-nodequeue-pager-2 {
       display: none;
   }
@@ -70,6 +68,9 @@
       position: relative;
       z-index: 60;
   }
+  .node-type-section-page .pane-node-content h2.pane-title {
+    font-size: 32px !important;
+  }  
   body.page-browse-addressee .field-name-field-section-page-tag-line, 
   body.page-browse-recipient .field-name-field-section-page-tag-line {
     border-color: rgba(0, 0, 0, 0.2);
@@ -86,5 +87,4 @@
     margin: 1% 0;
     z-index: 60;
   }
-
 }

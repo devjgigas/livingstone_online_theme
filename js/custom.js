@@ -1,6 +1,12 @@
 jQuery(document).ready( function($) {
+	$('#navigation').slicknav ({
+		label: 'Site sections & pages',
+		prependTo:'#block-system-main'
+	});
+});
 
 
+jQuery(document).ready( function($) {
   $(window).on('scroll',function() {
     var scrolltop = $(this).scrollTop();
 
