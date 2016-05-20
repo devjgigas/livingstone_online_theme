@@ -19,21 +19,22 @@
   .slicknav_nav {
     width: 100%;
   }  
-  .slicknav_nav ul.menu, li.expanded {
+  .slicknav_nav ul.menu, .slicknav_nav li.expanded, .slicknav_nav li.collapsed {
     list-style-image: none;
     list-style-type: none;
   }
    .slicknav_nav ul.menu,
    .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open,
-   .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_collapsed,   
+   .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_collapsed,  
+   .slicknav_nav ul.menu li.leaf, 
    .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open ul.menu li.leaf,
    .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_collapsed ul.menu li.leaf {
-    background: transparent none repeat scroll 0 0;
-    display: block;
-    text-align: left;
-    width: 100%;
-    max-width: 100%;
-    min-width: 100%;
+      background: transparent none repeat scroll 0 0;
+      display: block;
+      text-align: left;
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
   }
   .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open a {
       width: 100%;
