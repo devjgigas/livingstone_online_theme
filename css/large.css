@@ -21,6 +21,25 @@
     border-radius: 4px;
     padding: 5px;
   }
+a.slicknav_btn {
+  color: #000;
+}
+a.slicknav_btn.slicknav_open::after {
+  content: "\f0d7";
+  font-family: fontawesome;
+  font-size: 18px;
+  margin-left: 5px;
+  position: relative;
+  top: 2px;
+}  
+a.slicknav_btn.slicknav_collapsed::after {
+  content: "";
+  font-family: fontawesome;
+  font-size: 18px;
+  margin-left: 5px;
+  position: relative;
+  top: 2px;
+} 
   .slicknav_nav {
     width: 100%;
   }  
