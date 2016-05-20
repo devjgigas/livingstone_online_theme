@@ -21,7 +21,7 @@
     border-radius: 4px;
     padding: 5px;
   }
-a.slicknav_btn {
+a.slicknav_btn, a.slicknav_btn:hover, a.slicknav_btn:focus {
   color: #000;
 }
 a.slicknav_btn.slicknav_open::after {
