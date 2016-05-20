@@ -193,7 +193,9 @@ width: 200px;
 .menu li:nth-child(6){
    background-color:#cccc99; 
 }
-
+.front #block-menu-menu-topmenu ul.menu li ul.menu {
+  display: none;
+}
 
 /* social links */
 .block.footershare .stLarge {
