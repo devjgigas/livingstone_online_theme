@@ -16,6 +16,11 @@
     text-align: center;
   } 
 
+  .slicknav_menu {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+  }
   .slicknav_nav {
     width: 100%;
   }  
@@ -36,6 +41,9 @@
       width: 100%;
       max-width: 100%;
       min-width: 100%;
+  }
+  .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open {
+    border-bottom: 1px solid #ccc;
   }
   .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open a {
       width: 100%;
