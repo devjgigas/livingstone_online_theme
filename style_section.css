@@ -1427,7 +1427,7 @@ img.fixedheaderlogo {
   background: none repeat scroll 0 0 white;
   border-bottom: 2px solid #eee;
   display: none;
-  height: 70px;
+  height: auto;
   position: fixed;
   top: 0;
   width: 100%;

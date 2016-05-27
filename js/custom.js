@@ -1,8 +1,9 @@
 jQuery(document).ready( function($) {
+		
 	$('#navigation').slicknav ({
 		label: 'Site sections & pages',
-		prependTo:'#block-system-main'
-	});
+		prependTo:'#header_mobilenav'
+	});	
 });
 
 
