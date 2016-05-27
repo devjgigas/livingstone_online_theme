@@ -3,7 +3,7 @@
 <head>
 <!-- @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic|Crimson+Text:400,600,700,400italic,600italic|Patua+One);  -->
 <?php print $head; ?>
-<title>Standard Catalogue Record | Livingstone Online </title>
+<title>Digital Catalogue Record | Livingstone Online </title>
 <?php print $styles; ?>
 <?php print $scripts; ?>
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic|Crimson+Text:400,600,700,400italic,600italic|Patua+One' rel='stylesheet' type='text/css'>
