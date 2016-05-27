@@ -5,7 +5,11 @@
   #block-menu-menu-topmenu ul.menu li ul.menu {
     display: none;
   }
+  .field.field-name-field-section-page-image {
+    display: none;
+  }  
 }
+
 @media all and (max-width: 766px)  {
   #uppermost,
   #navigation {
@@ -21,25 +25,50 @@
     border-radius: 4px;
     padding: 5px;
   }
-a.slicknav_btn, a.slicknav_btn:hover, a.slicknav_btn:focus {
-  color: #000;
-}
-a.slicknav_btn.slicknav_open::after {
-  content: "\f0d7";
-  font-family: fontawesome;
-  font-size: 18px;
-  margin-left: 5px;
-  position: relative;
-  top: 2px;
-}  
-a.slicknav_btn.slicknav_collapsed::after {
-  content: "";
-  font-family: fontawesome;
-  font-size: 18px;
-  margin-left: 5px;
-  position: relative;
-  top: 2px;
-} 
+  .about-site .field.field-name-field-section-page-image img {
+    border: 6px solid #99cc99;
+    margin-bottom: 20px;
+  }
+  .his-own-words .field.field-name-field-section-page-image img {
+    border: 6px solid #f7c983;
+    margin-bottom: 20px;
+  } 
+  .spectral-imaging .field.field-name-field-section-page-image img {
+    border: 6px solid #a48bc2;
+    margin-bottom: 20px;
+  } 
+  .life-and-times .field.field-name-field-section-page-image img {
+    border: 6px solid #99ccff;
+    margin-bottom: 20px;
+  } 
+  .behind-the-scenes .field.field-name-field-section-page-image img {
+    border: 6px solid #cc9999;
+    margin-bottom: 20px;
+  }  
+  .resources .field.field-name-field-section-page-image img {
+    border: 6px solid #cccc99;
+    margin-bottom: 20px;
+  }            
+
+  a.slicknav_btn, a.slicknav_btn:hover, a.slicknav_btn:focus {
+    color: #000;
+  }
+  a.slicknav_btn.slicknav_open::after {
+    content: "\f0d7";
+    font-family: fontawesome;
+    font-size: 18px;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+  }  
+  a.slicknav_btn.slicknav_collapsed::after {
+    content: "";
+    font-family: fontawesome;
+    font-size: 18px;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+  } 
   .slicknav_nav {
     width: 100%;
   }  
