@@ -52,22 +52,27 @@
 
 /* Menu */
 
-.fa.fa-envelope {
+.fa.fa-envelope,
+.fa.fa-envelope-square {
   color: #506777;
-  font-size: 24px;
+  font-size: 22px;
   position: relative;
   top: -1px;
 }
 .fa.fa-home,
-.fa.fa-wordpress {
+.fa.fa-wordpress,
+.fa.fa-wordpress-square {
   color: #3e5b97;
   font-size: 24px;
 }
-.fa.fa-wordpress {
+.fa.fa-wordpress,
+.fa.fa-wordpress-square {
   margin-right: 10px;
-  font-size: 24px;
+  font-size: 21px;
+  vertical-align: top;
 }
-.fa.fa-twitter {
+.fa.fa-twitter,
+.fa.fa-twitter-square {
   color: #00abf2;
   font-size: 24px;
 }
