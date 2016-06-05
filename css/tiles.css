@@ -220,10 +220,16 @@ width: 200px;
 .front #block-menu-menu-topmenu ul.menu li ul.menu {
   display: none;
 }
-  .dropit-trigger > a
-  .dropit-trigger.dropit-open > a {
+  .dropit-trigger > a,
+  .dropit-trigger.dropit-open > a,
+  #browsemenu a  {
     color: #333;
   }
+  .dropit-trigger > a:hover,
+  .dropit-trigger.dropit-open > a:hover,
+  #browsemenu a:hover {
+    color: #428bca;
+  }  
   .browsecatalog li a, .browsecatalog li a:active, .browsecatalog li a:visted {
       color: #333 !important;
   } 
@@ -262,7 +268,8 @@ width: 200px;
     } 
   .browsecatalog ul#browsemenu li {
       text-align: left;
-  }      
+  } 
+   
 /* social links */
 .block.footershare .stLarge {
   background-repeat: no-repeat;
