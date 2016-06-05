@@ -21,7 +21,6 @@
   #my-menu {
     clear: both;
   }
-
     #site-logo {
       text-align: center;
     }
@@ -31,15 +30,16 @@
       width: 100%;
     }
     .block.externalmenublock {
-      display: inline-block;
+      display: block;
       padding-top: 6px;
     }
     ul#externalmenu {
-      margin: 0;
+      margin: 0 0 0 10px;
     }
     #search-block-form {
       display: inline-block;
       margin-left: 10px;
+      margin-top: 10px;
       margin-bottom: 1em;
     }
     nav {
@@ -56,6 +56,10 @@
     #navigation {
         display: none;
     }
+  .browsecatalog {
+      margin-top: 12px;
+  }
+
   div#block-nodequeue-pager-2 {
       display: none;
   }

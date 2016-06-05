@@ -414,9 +414,7 @@ function lo_islandora_solr_facet_wrapper($variables) {
   $output .= '</div>';
   return $output;
 }
-
-
-
+ 
 /*function lo_link($variables) {
     if(strpos($variables['path'], 'islandora/object/livingstone:')!== false){
         $variables ['text'] = 'view';

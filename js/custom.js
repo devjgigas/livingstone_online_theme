@@ -1,10 +1,18 @@
+jQuery(document).ready(function($) {
+    $('.browsemenu').dropit();
+});
+
 jQuery(document).ready( function($) {
-		
 	$('#navigation').slicknav ({
 		label: 'Site sections & pages',
-		prependTo:'#header_mobilenav'
+		prependTo:'#primary'
 	});	
+	$('#block-menu-block-3').slicknav ({
+		label: 'Site sections & pages',
+		prependTo:'.region-fixedbar'
+	});		
 });
+
 
 
 jQuery(document).ready( function($) {
@@ -50,20 +58,19 @@ jQuery(window).load(function() {
     
   /* Navigation */
 
-	//jQuery('#main-menu > ul').superfish({ 
-	//	delay:       500,								// 0.1 second delay on mouseout 
-	//	animation:   { opacity:'show',height:'show'},	// fade-in and slide-down animation 
-	//	dropShadows: true								// disable drop shadows 
-	//});	  
+	// jQuery('#block-menu-menu-browse > ul').superfish({ 
+	// 	delay:       500,								// 0.1 second delay on mouseout 
+	// 	animation:   { opacity:'show',height:'show'},	// fade-in and slide-down animation 
+	// 	dropShadows: true								// disable drop shadows 
+	// });	  
 
 	jQuery('#main-menu > ul').mobileMenu({
 		prependTo:'.mobilenavi'
 	});
-        jQuery(".header_title_region").click(function(){
-            window.location.href = "http://"+window.location.hostname;
-             
-        });
-        
+    jQuery(".header_title_region").click(function(){
+        window.location.href = "http://"+window.location.hostname;
+         
+    });     
 });
 
 // $(function(){
@@ -94,4 +101,6 @@ jQuery(window).load(function() {
 		}, false );
 	}
 })();
+
+
 

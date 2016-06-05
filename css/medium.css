@@ -6,7 +6,7 @@
 
   .flex-direction-nav .flex-prev {opacity: 1; left: 0;}
   .flex-direction-nav .flex-next {opacity: 1; right: 0;}
-  
+
   select.mnav {
     margin-bottom: 20px;
     width: 100%;
@@ -39,6 +39,8 @@
     display: inline-block;
     margin-left: 10px;
     margin-bottom: 1em;
+    margin-top: 0px;
+    vertical-align: top;
   }
   nav {
   margin: 0 auto !important;
@@ -60,7 +62,9 @@
       position: relative;
       z-index: 60;
   }
-
+   .browsecatalog {
+    top: 8px;
+   }
   body.page-browse-addressee .field-name-field-section-page-tag-line, 
   body.page-browse-recipient .field-name-field-section-page-tag-line {
     border-color: rgba(0, 0, 0, 0.2);

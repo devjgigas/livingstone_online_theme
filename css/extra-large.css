@@ -52,13 +52,17 @@
     text-align: right;
     width: 100%;
   }
-  .block.block-block.externalmenublock {
+  .block.block-block.externalmenublock  {
     display: inline-block;
     height: 28px;
     position: relative;
     top: 6px;
     width: auto;
   }
+ .browsecatalog {
+  top: 8px;
+ }
+ 
   .region.region-external > form {
     display: inline-block;
     width: auto;

@@ -426,6 +426,7 @@ img.grayscale {
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
 }
+.page-search #page,
 .page-islandora #page,
 .page-browse-addressee #page,
 .page-browse-addressee #page,

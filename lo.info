@@ -14,6 +14,7 @@ stylesheets[all][] = css/medium.css
 stylesheets[all][] = css/small.css
 stylesheets[all][] = css/mobile.css
 stylesheets[all][] = css/sizes.css
+stylesheets[all][] = css/dropit.css
 stylesheets[print][] = css/print.css
 
 scripts[] = js/bootstrap.min.js
@@ -23,6 +24,7 @@ scripts[] = js/jquery.mmenu.min.js
 scripts[] = js/jquery.mmenu.oncanvas.min.js
 scripts[] = js/jquery.qtip.min.js
 scripts[] = js/jquery.slicknav.js
+scripts[] = js/dropit.js
 
 regions[header]         = Header
 regions[section]  		= Section
