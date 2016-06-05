@@ -18,13 +18,13 @@
 }
 
 /* footer on home */
-#block-block-32 {
+.sideguideright {
   float: right;
   margin-right: 10px;
   text-align: right;
   width: 50%;
 }
-#block-block-17 {
+.linktocreditsleft {
   float: left;
   width: 40%;
 }
