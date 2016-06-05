@@ -80,9 +80,10 @@
 
 #search-block-form--2 input[type=text],
 #search-block-form input[type=text] {
-background: url('../images/search-button.png') no-repeat 1px 1px #Fff;  
-border: 1px solid #d0d0d0;
-height:25px;
+  background: url('../images/search-button.png') no-repeat 1px 1px #Fff;  
+  border: 1px solid #d0d0d0;
+  height:25px;
+  font-size: 14px;
 }
 #search-block-form--2 input[type=text],
 #search-block-form input[type=text] {
@@ -90,16 +91,16 @@ height:25px;
 }
 #search-block-form--2 .rounded,
 #search-block-form .rounded {
-border-radius: 7px;
--moz-border-radius: 7px;
--webkit-border-radius: 7px;
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
 }
 #search-block-form--2 .search,
 #search-block-form .search {
-margin-top: 8px;
-padding: 3px 15px 3px 30px;
-background: url('../images/search-button.png') no-repeat 1px 1px;
-width: 200px;
+  margin-top: 8px;
+  padding: 3px 15px 3px 30px;
+  background: url('../images/search-button.png') no-repeat 1px 1px;
+  width: 200px;
 }
 
 #block-search-form { padding-bottom: 7px; }
@@ -252,7 +253,7 @@ width: 200px;
     background: #f2f2f2;
     border: 1px solid #ddd;
     border-radius: 7px;
-    font-size: 15px;
+    font-size: 14px;
     height: 25px;
     margin-left: 10px;
     text-align: center;
