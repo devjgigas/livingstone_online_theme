@@ -231,6 +231,7 @@ width: 200px;
     display: block;
     text-align: left;
   }
+  #block-menu-block-2,
   #block-menu-block-3 {
     display: none;
   }  
