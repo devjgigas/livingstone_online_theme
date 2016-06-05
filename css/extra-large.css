@@ -21,6 +21,14 @@
     margin-top: 20px;
     width: 32%;
   }
+  .fixedbar_center .site-branding {
+    float: none;
+    margin: 30px auto 0;
+    width: auto;
+  }
+  #breadcrumb {
+    clear: both;
+  }
   .node-type-page .mainmenu {
     float: right;
     width: 64%;

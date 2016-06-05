@@ -10,148 +10,8 @@
   }  
 }
 
-@media all and (max-width: 766px)  {
-
-  .fixedbar_center {
-    width: 100%;
-  }
-  .fixedbar_left .fixedleft_1, 
-  .fixedbar_left .fixedleft_2, 
-  .fixedbar_right #search-block-form--2, 
-  .slideout-menu, 
-  #breadcrumb {
-    display: none;
-  }
-  .site-branding {
-    margin-top: 40px;
-  }
-  #uppermost,
-  #navigation {
-    display: none;
-  }
-  .field.field-name-field-section-page-image {
-    display: block;
-    text-align: center;
-  } 
-
-
-  .region-fixedbar .slicknav_menu {
-    border: 1px solid #ccc;
-    border-radius: 7px;
-    margin: 0px auto 20px;
-    padding: 0px 20px;
-    width: 85%;
-    font-family: 14px/1.6 'Source Sans Pro', sans-serif; 
-  }
-  .slicknav_menu {
-    border: 1px solid #ccc;
-    border-radius: 7px;
-    margin: 18px auto 0;
-    padding: 0px 20px;
-    width: 55%;
-    font-family: 14px/1.6 'Source Sans Pro', sans-serif; 
-  }
-  .field.field-name-field-section-page-image img {
-    height: auto;
-    margin-bottom: 20px;    
-  }  
-  .about-site .field.field-name-field-section-page-image img {
-    border: 6px solid #99cc99;
-  }
-  .his-own-words .field.field-name-field-section-page-image img {
-    border: 6px solid #f7c983;
-  } 
-  .spectral-imaging .field.field-name-field-section-page-image img {
-    border: 6px solid #a48bc2;
-  } 
-  .life-and-times .field.field-name-field-section-page-image img {
-    border: 6px solid #99ccff;
-  } 
-  .behind-the-scenes .field.field-name-field-section-page-image img {
-    border: 6px solid #cc9999;
-  }  
-  .resources .field.field-name-field-section-page-image img {
-    border: 6px solid #cccc99;
-  }            
-
-  .slicknav_nav ul.menu, 
-  .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open, 
-  .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_collapsed, 
-  .slicknav_nav ul.menu li.leaf, .slicknav_nav ul.menu li.collapsed, 
-  .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open ul.menu li.leaf, 
-  .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_collapsed ul.menu li.leaf {
-    background: transparent none repeat scroll 0 0;
-    display: block;
-    max-width: 95%;
-    min-width: 95%;
-    text-align: left;
-    width: 95%;
-  }
-  a.slicknav_btn, a.slicknav_btn:hover, a.slicknav_btn:focus {
-    color: #000;
-  }
-  a.slicknav_btn.slicknav_open::after {
-    content: "\f0d7";
-    float: right;    
-    font-family: fontawesome;
-    font-size: 18px;
-    position: relative;
-  }  
-  a.slicknav_btn.slicknav_collapsed::after {
-    content: "";
-    float: right;
-    font-family: fontawesome;
-    font-size: 18px;
-    position: relative;
-  }
-  .slicknav_nav .menu li.expanded, .slicknav_nav .menu li.collapsed {
-    width: 95%;
-  }
-  .expanded.slicknav_parent.slicknav_open a.slicknav_item::after {
-    content: "\f0d7";
-    float: right;    
-    font-family: fontawesome;
-    font-size: 18px;
-    position: relative;
-  }  
-  .expanded.slicknav_parent.slicknav_collapsed a.slicknav_item::after {
-    content: "";
-    float: right;
-    font-family: fontawesome;
-    font-size: 18px;
-    position: relative;
-  } 
-  .slicknav_arrow {
-    display: none;
-  }   
-  .slicknav_nav {
-    width: 100%;
-  }  
-  .slicknav_nav ul.menu, .slicknav_nav li.expanded, .slicknav_nav li.collapsed {
-    list-style-image: none;
-    list-style-type: none;
-  }
-  .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open {
-  
-  }
-  .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open a {
-      width: 100%;
-  } 
-  .node-type-section-page .pane-node-content h2.pane-title {
-    margin: 20px 3% 0 !important;
-  }
-  #search-block-form {
-    display: inline-block;
-    margin-left: 10px;
-    margin-bottom: 1em;
-    margin-top: 0px;
-    vertical-align: top;
-  }  
-}
 
 @media all and (min-width: 851px) and (max-width: 1230px){
-
-/*body {background-color: yellow !important;} */
 
   .region-section{
       float:none;
@@ -205,5 +65,10 @@
    .browsecatalog {
     top: 8px;
    }
+   .node-type-section-page .panel-pane.pane-node-content .content {
+    margin: 1% 10% 0 !important;
+    position: relative;
+    z-index: 60;
+  }   
    
 }
