@@ -51,6 +51,7 @@
     border: medium none;
     list-style: outside none none;
     text-align: right;
+    margin: 0;
   }
   nav#navigation {
     margin-top: 14px;

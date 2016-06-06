@@ -1,5 +1,29 @@
 @media all and (max-width: 766px)  {
 
+  body {
+  background: url(http://livingstonemd.local/sites/default/files/styles/flexslider_full/public/Level-1-2_0.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  #block-views-home-slideshow-block {
+    display: none;
+  }
+  #slider {
+    max-width: 100%;
+    width: 100%;
+  }
+  .front #navigation > #main-menu {
+    margin: 0 auto;
+    width: 400px;
+  }
+  .footer {
+    background: #000 none repeat scroll 0 0;
+    bottom: -29px;
+    padding: 20px 0;
+    position: absolute;
+  }  
   .fixedbar_center {
     width: 100%;
   }
@@ -10,6 +34,9 @@
   #breadcrumb {
     display: none;
   }
+  .front .site-branding {
+    margin-top: 0px;
+  }  
   .site-branding {
     margin-top: 40px;
   }
@@ -17,6 +44,16 @@
   #navigation {
     display: none;
   }
+  .front #uppermost,
+  .front #navigation {
+    display: block;
+  }  
+  .front #site-logo img {
+    max-width: 480px;
+  } 
+  #main-menu .menu li.expanded ul.menu {
+    display: none;
+  }  
   .field.field-name-field-section-page-image {
     display: block;
     text-align: center;
@@ -158,6 +195,32 @@
   }
 /* body { background-color: red !important;}*/
 
+  body {
+    background: url(http://livingstonemd.local/sites/default/files/styles/flexslider_full/public/Level-1-2_0.jpg) no-repeat top center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .front .col-md-12.mainmenu {
+      margin-top: 20px;
+  }
+  .front #site-logo img {
+    max-width: 480px;
+  }
+  .front #navigation > #main-menu {
+    margin: 0 auto;
+    width: 400px;
+  }  
+  #block-views-home-slideshow-block {
+    display: none;
+  }
+  .footer {
+    background: #000 none repeat scroll 0 0;
+    bottom: -29px;
+    padding: 20px 0;
+    position: absolute;
+  }
   .flex-direction-nav .flex-prev {opacity: 1; left: 0;}
   .flex-direction-nav .flex-next {opacity: 1; right: 0;}
 

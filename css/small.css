@@ -16,7 +16,7 @@
     display: none;
   }  
   .site-branding {
-    margin-top: 40px;
+    margin-top: 0px;
   }  
   #my-menu {
     clear: both;
@@ -56,6 +56,27 @@
     #navigation {
         display: none;
     }
+  .front #uppermost,
+  .front #navigation {
+     display: block;
+  } 
+  .front #masthead{  
+    position:absolute;
+    z-index: 120;
+    width:100%;
+    max-width: 100%;
+    top:5px;
+    height:auto;
+  }
+  .front .browsecatalog {
+      margin-top: 2px;
+  }
+  .front #search-block-form {
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 1em;
+}    
   .browsecatalog {
       margin-top: 12px;
   }
@@ -100,5 +121,11 @@
   body.page-browse-recipient .islandora-solr-facet-pages-wrapper {
     margin: 1% 0;
     z-index: 60;
+  }
+  .footer {
+    background: #000 none repeat scroll 0 0;
+    bottom: -29px;
+    padding: 20px 0;
+    position: absolute;
   }
 }

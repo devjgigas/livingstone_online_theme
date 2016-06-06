@@ -65,62 +65,54 @@
  */
 ?>
 
-<div id="page" class="page-row page-row-expanded wrapper">
+<div id="page-wide" class="page-row page-row-expanded wrapper">
 
   <header id="masthead" class="site-header container" role="banner">
     <div class="row">
-      <div class="col-md-8 col-sm-8 col-xs-12 mainmenu">
+      <div class="col-md-12 mainmenu">
       <?php print render($page['external']); ?>
-        <!-- <div class="mobilenavi"></div> -->
       </div>
     </div>
   </header>
 
- <!--   <ul class="flex-direction-nav">
-    <li><a title="resources" class="flex-prev" rel="prev" href="<?php print base_path() . 'resources' ?>">Previous</a></li>
-    <li><a title="livingstone online" class="flex-next" rel="next"href="<?php print base_path() . 'about-this-site' ?>">Level 2</a></li>
-    </ul>  -->
-        <?php if (theme_get_setting('slideshow_display', 'lo')): ?>
-    <div id="slider">
-        <div class="flexslider">
-            <ul class="slides">
-                <li><img class="slide-image" src="/sites/default/files/Level-1-1.jpg"/></li>
-                <li><img class="slide-image" src="/sites/default/files/Level-1-2.jpg"/></li>
-                <li><img class="slide-image" src="/sites/default/files/Level-1-3.jpg"/></li>
-                <li><img class="slide-image" src="/sites/default/files/Level-1-4.jpg"/></li>
-                <li><img class="slide-image" src="/sites/default/files/Level-1-5.jpg"/></li>
-                <li><img class="slide-image" src="/sites/default/files/Level-1-6.jpg"/></li>
-                <li><img class="slide-image" src="/sites/default/files/Level-1-7.jpg"/></li>                                                
-            </ul>
+  <div class="content_main">
+     <div id="slider">
+          <div class="flexslider">
             <div class="flex-caption">  
-
                 <?php print render($page['title']); ?>
-
-    <div class="row">
-      <div id="logo" class="site-branding">
-        <?php if ($logo): ?><div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-        </a></div><?php endif; ?>
-        <h1 id="site-title">
-          <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
-        </h1>
-      </div>
-    </div>  
-
-                <?php print render($page['section']); ?>
+              <div class="row">
+                <div id="logo" class="site-branding">
+                  <?php if ($logo): ?><div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+                    <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+                  </a></div><?php endif; ?>
+                </div>
+              </div>
             </div>
-        </div>  
-                 <?php print render($page['footer_first']); ?>
-    </div>
-        <?php endif; ?>
-    <!-- <div class="push"></div>      -->
-</div>
-<div class="footer"> 
- <div class="footerimages">
-<div class="footimg"><a href="http://lib.umd.edu/" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/umd_libraries.png'; ?>"> </a></div>
-<div class="footimg"><a href="http://www.nts.org.uk/property/davidlivingstonecentre/" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/nts.png'; ?>"> </a></div>
-<div class="footimg"><a href="http://www.neh.gov/" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/humanities.png'; ?>"> </a></div>
-<div class="footimg"><a href="http://www.nls.uk" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/nls.png'; ?>"> </a></div>
-<div class="footimg"><a href="http://www.unl.edu" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/nebraska.png'; ?>"> </a></div>
+          </div>  
+      </div>
+
+      <nav id="navigation" role="navigation">
+        <div id="main-menu">
+          <?php 
+            if (module_exists('i18n_menu')) {
+              $main_menu_tree = i18n_menu_translated_tree(variable_get('menu_main_links_source', 'main-menu'));
+            } else {
+              $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
+            }
+            print drupal_render($main_menu_tree);
+          ?>
+        </div>
+      </nav>    
   </div>
-</div>    
+              <?php print render($page['content']); ?>
+  <div class="footer"> 
+    <div class="footerimages">
+        <div class="footimg"><a href="http://lib.umd.edu/" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/umd_libraries.png'; ?>"> </a></div>
+        <div class="footimg"><a href="http://www.nts.org.uk/property/davidlivingstonecentre/" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/nts.png'; ?>"> </a></div>
+        <div class="footimg"><a href="http://www.neh.gov/" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/humanities.png'; ?>"> </a></div>
+        <div class="footimg"><a href="http://www.nls.uk" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/nls.png'; ?>"> </a></div>
+        <div class="footimg"><a href="http://www.unl.edu" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/nebraska.png'; ?>"> </a></div>
+    </div>
+  </div>
+</div> 
+ 

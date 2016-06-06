@@ -9,22 +9,23 @@ www.devsaran.com
 ================================================== */
 /* sticky footer on home page */
 html, body {
-height: 100%;
+  height: 100%;
 }
 #page {
-min-height: 100%;
-height: auto !important;
-height: 100%;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
 }
-.footer {
+/*.footer {
 height: 200px;
 }
 .push {
 height: -200px;
-}
+}*/
 .footimg {
   display: inline-block;
   margin: 0 1%;
+  padding: 20px 0;
   width: 17%;
 }
 .footerimages {
@@ -89,9 +90,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   font: 16px/1.6 'Source Sans Pro', sans-serif;
-  background-color: #000000;
- 
-      
+  background-color: #000000;     
 }
 
 /* Links */
@@ -320,18 +319,18 @@ a:focus {
   max-width: 100%;
   top:15px;
   height:60px;
- 
 }
-#colophon{
-   position: relative;
-    /*top:500px;*/
-   
+.front .flex-direction-nav {
+  display: none;
 }
-#slider{
-    position: relative;
-    width:100%;
-    max-width: 100%;
-    
+#slider {
+  max-width: 100%;
+  width: 100%;
+}
+#slider #main-menu ul.menu {
+  border: medium none;
+  list-style: none;
+  text-align: center;
 }
 .site-branding{
   float: none;
@@ -361,12 +360,38 @@ h1#site-title a:link, h1#site-title a:visited{
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
+.front #primary{
+  padding-bottom: 20px;
+    padding-top: 0px;
+}
 #main-content {
   padding-top: 15px;
 }
+.front nav#navigation {
+  margin-top: 14px;
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  z-index: 100;
+}
+.front nav#navigation #main-menu ul.menu {
+  border: medium none;
+  list-style: outside none none;
+  margin: 0;
+  text-align: center;
+}
+
+
 
 /* Slider */
+
+#slider {
+  max-width: 100%;
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  z-index: 100;
+}
 
 #slidebox{
   max-height: 550px;
@@ -611,13 +636,6 @@ img.unl{
   max-width: 97.4%;
   margin: 0.5em 1em 0.5em 0;
   float: left;
-}
-.page-node #content-wrap img {
-  border: 1px solid #CCCCCC;
-  padding: 6px;
-  height: auto;
-  max-width: 97.4%;
-  margin: 0.5em 1em 0.5em 0;
 }
 
 .region-content-top {
