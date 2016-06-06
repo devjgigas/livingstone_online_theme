@@ -1,6 +1,6 @@
 @media all and (max-width: 766px)  {
 
-  body {
+  body.front {
   background: url(http://livingstonemd.local/sites/default/files/styles/flexslider_full/public/Level-1-2_0.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -17,6 +17,7 @@
   .front #navigation > #main-menu {
     margin: 0 auto;
     width: 400px;
+    z-index: 120;
   }
   .footer {
     background: #000 none repeat scroll 0 0;
@@ -74,6 +75,10 @@
     padding: 0px 20px;
     width: 55%;
     font-family: 14px/1.6 'Source Sans Pro', sans-serif; 
+  }
+  .node-type-page section#content {
+      clear: both;
+      margin-top: 10px;
   }
   .field.field-name-field-section-page-image img {
     height: auto;
@@ -195,7 +200,7 @@
   }
 /* body { background-color: red !important;}*/
 
-  body {
+  body.front {
     background: url(http://livingstonemd.local/sites/default/files/styles/flexslider_full/public/Level-1-2_0.jpg) no-repeat top center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -211,6 +216,7 @@
   .front #navigation > #main-menu {
     margin: 0 auto;
     width: 400px;
+    z-index: 120;
   }  
   #block-views-home-slideshow-block {
     display: none;

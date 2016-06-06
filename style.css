@@ -379,9 +379,8 @@ h1#site-title a:link, h1#site-title a:visited{
   list-style: outside none none;
   margin: 0;
   text-align: center;
+  z-index: 120;
 }
-
-
 
 /* Slider */
 
@@ -462,7 +461,7 @@ line-height: 120%;
   margin: 0 auto;
   position: absolute;
   width: 100%;
-  z-index: 100;
+  z-index: 80;
 }
 .region.region-footer-first a {
   color: #000 !important;
