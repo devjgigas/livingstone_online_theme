@@ -456,11 +456,11 @@ line-height: 120%;
   line-height: 80%;
 }
 .region.region-footer-first {
-  bottom: 70px;
+  bottom: 100px;
   display: inline-block;
   height: 100px;
   margin: 0 auto;
-  position: relative;
+  position: absolute;
   width: 100%;
   z-index: 100;
 }
