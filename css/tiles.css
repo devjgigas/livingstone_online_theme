@@ -23,6 +23,7 @@
 }
 .linktocreditsleft {
   float: left;
+  margin-left: 10px;
   width: 40%;
 }
 /** External menu & Search bar **/
@@ -377,8 +378,6 @@ height:25px;
     border: 6px solid #cccc99;
     overflow: hidden;
 }
-
-
 .project.Yes, .project.No { 
     position: relative; 
     margin-bottom: 0;
@@ -405,7 +404,6 @@ height:25px;
 }
 .project.Yes img { 
     display: block; 
-
 }
 .project.No img { 
     display: block; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; 

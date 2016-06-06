@@ -105,6 +105,7 @@
       </nav>    
   </div>
               <?php print render($page['content']); ?>
+               <?php print render($page['footer_first']); ?>
   <div class="footer"> 
     <div class="footerimages">
         <div class="footimg"><a href="http://lib.umd.edu/" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/umd_libraries.png'; ?>"> </a></div>
