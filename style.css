@@ -460,7 +460,7 @@ line-height: 120%;
   display: inline-block;
   height: 100px;
   margin: 0 auto;
-  position: absolute;
+  position: relative;
   width: 100%;
   z-index: 100;
 }
