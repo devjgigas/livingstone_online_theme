@@ -7,6 +7,9 @@
     -o-background-size: cover;
     background-size: cover;
   }
+  .fixedbar_center .site-branding {
+    display: block !important;
+}
   #block-views-home-slideshow-block {
     display: none;
   }
