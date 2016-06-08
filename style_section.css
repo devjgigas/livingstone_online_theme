@@ -470,7 +470,9 @@ img.grayscale {
 
 .region.region-external {
   display: inline-block;
+  position: relative;
   text-align: right;
+  top: 10px;
   width: 100%;
 }
 /* level 3 pages */

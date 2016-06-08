@@ -29,7 +29,7 @@
  * @see template_preprocess_search_block_form()
  */
 ?>
-<input placeholder="  Search the entire site" title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form"  size="15" maxlength="128" class="rounded search" >
+<input placeholder=" Search the entire site" title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form"  size="15" maxlength="128" class="rounded search" >
 <!--<input type="submit" id="edit-submit" name="op" value="  "  class="tfbutton4">-->
 <?php print render($search['hidden']); ?>
 

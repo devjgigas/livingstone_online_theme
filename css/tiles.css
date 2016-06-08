@@ -87,7 +87,7 @@
   border: 1px solid #d0d0d0;
   height:25px;
   font-size: 14px;
-  padding-left: 46px;
+  padding-left: 35px;
 }
 #search-block-form--2 input[type=text],
 #search-block-form input[type=text] {
@@ -233,7 +233,7 @@
   .dropit-trigger > a:hover,
   .dropit-trigger.dropit-open > a:hover,
   #browsemenu a:hover {
-    color: #428bca;
+    color: #333;
   }  
   .browsecatalog li a, .browsecatalog li a:active, .browsecatalog li a:visted {
       color: #333 !important;
