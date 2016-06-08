@@ -20,9 +20,9 @@
     left: 0; /* dropdown left or right */
     z-index: 1000;
     display: none;
-    min-width: 140px;
+    min-width: 139px;
     list-style: none;
-	padding: 0;
+	padding: 3px 0 5px;
 	margin: 0;
 }
 .dropit .dropit-open .dropit-submenu { display: block; }
