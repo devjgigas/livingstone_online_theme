@@ -87,6 +87,7 @@
   border: 1px solid #d0d0d0;
   height:25px;
   font-size: 14px;
+  padding-left: 46px;
 }
 #search-block-form--2 input[type=text],
 #search-block-form input[type=text] {
