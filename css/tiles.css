@@ -274,6 +274,7 @@
     } 
   .browsecatalog ul#browsemenu li {
       text-align: left;
+      padding-left: 18px;
   } 
    
 /* social links */
