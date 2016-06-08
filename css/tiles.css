@@ -229,11 +229,12 @@
   .dropit-trigger.dropit-open > a,
   #browsemenu a  {
     color: #333;
+    font-size: 14px;
   }
   .dropit-trigger > a:hover,
   .dropit-trigger.dropit-open > a:hover,
   #browsemenu a:hover {
-    color: #333;
+    color: #333 !important;
   }  
   .browsecatalog li a, .browsecatalog li a:active, .browsecatalog li a:visted {
       color: #333 !important;
@@ -267,8 +268,8 @@
   .browsecatalog ul#browsemenu {
       background: #fff;
       border: 1px solid #eee;
-      font-size: 15px;
-      padding: 0 10px;
+      font-size: 14px;
+      padding: 4px 22px 10px;
       list-style: none;
     } 
   .browsecatalog ul#browsemenu li {
