@@ -46,7 +46,9 @@
   .field.field-name-field-section-page-image {
     display: none;
   }
-
+  .node-type-section-page .pane-node-content h2.pane-title {
+     margin: 20px 10% 0;
+  }
    .node-type-section-page .panel-pane.pane-node-content .content {
     margin: 1% 10% 0 !important;
     position: relative;
