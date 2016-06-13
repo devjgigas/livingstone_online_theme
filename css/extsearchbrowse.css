@@ -136,27 +136,16 @@
   display: block;
   text-align: left;
 }
-  .dropit-trigger > a,
-  .dropit-trigger.dropit-open > a,
-  #browsemenu a  {
-    color: #333;
-    font-size: 14px;
-  }
-  .dropit-trigger > a:hover,
-  .dropit-trigger.dropit-open > a:hover,
-  #browsemenu a:hover {
-    color: #333 !important;
-  } 
-
-
 
 
 @media (max-width: 1229px) {
   .region.region-external {
     display: inline-block;
     margin-top: 0;    
+    margin-bottom: 10px;
     text-align: center !important;
     width: 100%;
+
   }
 
 
