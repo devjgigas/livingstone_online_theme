@@ -140,6 +140,7 @@
   .expanded.slicknav_parent.slicknav_collapsed a,
   .expanded.slicknav_parent.slicknav_open a {
     color: #333;
+    font-size: 14px;
   }  
   a.slicknav_btn, a.slicknav_btn:hover, a.slicknav_btn:focus {
     color: #000;
