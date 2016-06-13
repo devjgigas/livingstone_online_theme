@@ -147,11 +147,11 @@
     margin-bottom: 10px;
     text-align: center !important;
     width: 100%;
-
   }
-
-
-} 
+  .node-type-section-page .pane-node-content h2.pane-title {
+    margin: 20px 10%;
+  } 
+}  
 
 @media all and (max-width: 766px)  {
   #search-block-form {
