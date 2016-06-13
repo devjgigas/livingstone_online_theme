@@ -151,7 +151,7 @@
   }
   .slicknav_nav .menu li.expanded, .slicknav_nav .menu li.collapsed {
     width: 98%;
-    font-weight: bold;
+
   }
   .slicknav_arrow {
     display: none;
@@ -172,6 +172,7 @@
   .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_collasped ul li a,  
   .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open ul li a {
     font-weight: normal;
+    color: #666;
   }   
   .slicknav_menutxt {
     color: #333;
