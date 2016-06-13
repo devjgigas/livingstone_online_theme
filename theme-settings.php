@@ -7,8 +7,15 @@
  * @param $form_state
  *   The form state.
  */
-function lo_form_system_theme_settings_alter(&$form, &$form_state) {
 
+
+function lo_form_system_theme_settings_alter(&$form, &$form_state) {
+  $form['lo_mobilelogo'] = array(
+    '#type'          => 'textfield',
+    '#title'         => t('Mobile image'),
+    '#default_value' => theme_get_setting('lo_mobilelogo'),
+    '#description'   => t("Alternative mobile logo"),
+  );
   $form['lo_settings'] = array(
     '#type' => 'fieldset',
     '#title' => t('lo Settings'),

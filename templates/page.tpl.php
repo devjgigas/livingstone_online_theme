@@ -74,9 +74,11 @@ if(isset($node) && $node->type =='section_page'): ?>
     </div>
     <div class="fixedbar_center">
       <div id="logo" class="site-branding">
-        <?php if ($logo): ?><div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-        </a></div><?php endif; ?>
+        <?php if ($logo): ?>
+            <div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+            <img class="desktoplogo" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+            <img class="mobilelogo" src="<?php print $lo_mobilelogo = theme_get_setting('lo_mobilelogo'); ?>" alt="<?php print t('Home'); ?>" /></a></div>
+        <?php endif; ?>
       </div>
     <div id="header_mobilenav"></div>  
     <?php print $breadcrumb; ?></div>

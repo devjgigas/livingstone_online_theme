@@ -3,16 +3,7 @@
     margin-bottom: 20px;
     width: 100%;
   }
-  .fixedbar_center {
-    width: 100%;
-  }
-  .fixedbar_left .fixedleft_1, 
-  .fixedbar_left .fixedleft_2, 
-  .fixedbar_right #search-block-form--2, 
-  .slideout-menu,
-  #breadcrumb {
-    display: none;
-  }  
+
   .site-branding {
     margin-top: 0px;
   }  
