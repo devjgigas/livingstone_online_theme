@@ -45,7 +45,7 @@
 }
 .region.region-external {
   display: inline-block;
-  margin-top: 3px;
+  margin-top: 7px;
   text-align: right;
   width: 100%;
 }
@@ -114,10 +114,12 @@
 }
 .browsecatalog ul#browsemenu {
     background: #fff;
+    border-radius: 0px;
     border: 1px solid #eee;
     font-size: 14px;
     padding: 4px 0px 10px 16px
     list-style: none;
+    height: 100px;
   } 
 .browsecatalog ul#browsemenu li {
     text-align: left;
