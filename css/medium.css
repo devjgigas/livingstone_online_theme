@@ -112,11 +112,11 @@
     width: 95%;
   }*/
   .expanded.slicknav_parent.slicknav_collapsed {
-    background: url('/sites/all/themes/lo/images/select-right-arrow2.png') no-repeat top right;
+    background: url('/sites/all/themes/lo/images/select-right-arrow2.png') no-repeat 4px right;
     width: 100%;
   }
   .expanded.slicknav_parent.slicknav_open {
-    background: url('/sites/all/themes/lo/images/select-arrow2.png') no-repeat top right;
+    background: url('/sites/all/themes/lo/images/select-arrow2.png') no-repeat 4px right;
     width: 100%;
   }
   .slicknav_btn.slicknav_collapsed .slicknav_menutxt::after {
@@ -125,7 +125,7 @@
     content: "x";
     float: right;
     font-size: 14px;
-    margin-right: 0px;
+    margin-right: 9px;
     width: 20px;
   }
   .slicknav_btn.slicknav_open .slicknav_menutxt::after {
@@ -135,6 +135,7 @@
     float: right;
     font-size: 14px;
     margin-right: 9px;
+    margin-top: 2px;
     width: 20px;
   }  
   .expanded.slicknav_parent.slicknav_collapsed a,
