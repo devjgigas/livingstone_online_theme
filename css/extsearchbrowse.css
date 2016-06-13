@@ -82,7 +82,7 @@
 }
 .upperexternal .leaf {
   display: inline-block;
-  margin: 0 6px;
+  margin: 0 4px;
 }
 .upperexternal .leaf a {
   display: block;
@@ -149,7 +149,7 @@
     width: 100%;
   }
   .node-type-section-page .pane-node-content h2.pane-title {
-    margin: 20px 10%;
+    margin: 20px 10% !important;
   } 
 }  
 
@@ -199,7 +199,8 @@
     margin-left: 0px;
     margin-top: 0px;
     margin-bottom: 1em;
-  }    
+  } 
+}     
 
 @media all and (max-width: 450px) {
     #search-block-form {
