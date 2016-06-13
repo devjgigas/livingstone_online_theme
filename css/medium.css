@@ -193,6 +193,7 @@
   } 
   .slicknav_menutxt {
     color: #333;
+    font-size: 14px;
   }
   .node-type-section-page .pane-node-content h2.pane-title {
     margin: 20px 3% 0 !important;

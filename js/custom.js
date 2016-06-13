@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
 
 jQuery(document).ready( function($) {
 	$('#navigation').slicknav ({
-		label: 'Site sections & pages',
+		label: 'Site sections and pages',
 		prependTo:'#primary'
 	});	
 	$('#block-menu-block-3').slicknav ({
