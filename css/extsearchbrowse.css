@@ -82,6 +82,7 @@
 }
 .upperexternal .leaf {
   display: inline-block;
+  margin: 0 6px;
 }
 .upperexternal .leaf a {
   display: block;
@@ -171,7 +172,7 @@
   }
   .upperexternal2 .leaf {
     display: inline-block;
-    margin: 0 6px;
+
   }
   .upperexternal2 .leaf a {
     display: block;
