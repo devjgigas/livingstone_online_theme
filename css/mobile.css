@@ -1,39 +1,5 @@
 @media all and (max-width: 409px) {
-  form#search-block-form {
-    position: relative;
-    top: -130px;
-  }
-  .block.externalmenublock {
-    display: inline-block;
-    margin-top: 90px;
-    padding-top: 8px;
-  }
-  .browsecatalog {
-    display: inline-block;
-    height: 28px;
-    margin-left: 0px;
-    position: relative;
-    top: -130px;
-    width: 155px;
-  }
-  .slicknav_menu{
-    font-family: 14px/1.6 'Source Sans Pro', sans-serif; 
-    margin: 0px auto 0;
-    width: 90%;
-  } 
-  .slicknav_nav ul.menu, 
-  .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open, 
-  .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_collapsed, 
-  .slicknav_nav ul.menu li.leaf, .slicknav_nav ul.menu li.collapsed, 
-  .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open ul.menu li.leaf, 
-  .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_collapsed ul.menu li.leaf {
-    background: transparent none repeat scroll 0 0;
-    display: block;
-    max-width: 95%;
-    min-width: 95%;
-    text-align: left;
-    width: 95%;
-  }
+
   .node-type-section-page .pane-node-content h2.pane-title {
     margin: 20px 3% 0;
   }
@@ -49,7 +15,8 @@
   }
   .site-branding {
     margin-top: 40px;
-  }    
+  }
+    
 }  
 
 @media all and (max-width: 450px) {
@@ -65,23 +32,6 @@
     margin: 0 auto;
     width: 300px;
   } 
-  form#search-block-form {
-    position: relative;
-    top: -130px;
-  }
-  .block.externalmenublock {
-    display: inline-block;
-    margin-top: 120px;
-    padding-top: 6px;
-  }
-  .browsecatalog {
-    display: inline-block;
-    height: 28px;
-    margin-left: 0px;
-    position: relative;
-    top: -135px;
-    width: 155px;
-  }
   .node-type-page .content_main {
       clear: both;
       margin: -78px auto 20px;
@@ -90,8 +40,6 @@
   #primary {
     margin-top: -20px;
   }
-/*body {background-color: green !important;} */
-
   .flex-caption{
     text-align: center;
   }
@@ -101,10 +49,27 @@
   .region-section{
       float:none;
   }
+  .fixedbar_left, .fixedbar_right {
+    width: 0%;
+  }
+  .fixedbar_center {
+    width: 100% !important;
+  }
+  #site-logo {
+    margin: 0 auto;
+    width: 85%;
+  }
+  .region-fixedbar .slicknav_menu {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin: 0px auto 20px;
+    padding: 0px 20px;
+    width: 85%;
+    font-family: 14px/1.6 'Source Sans Pro', sans-serif; 
+  }  
   .mainmenu {
       float: none;
       text-align: center;
-      width: 321px;
       margin: 0 auto;
   }
   #my-menu {
@@ -120,15 +85,7 @@
   .region.region-header {
     float: none !important;
   }
-  .block.externalmenublock,
-  #search-block-form {
-    float: none !important;
-  }
-  #search-block-form {
-    float: none;
-    margin-left: 0px;
-    display: block;
-  }
+  
   #block-menu-menu-topmenu ul.menu {
     border: medium none;
     list-style: outside none none;
@@ -136,19 +93,11 @@
     text-align: center;
     width: auto;
   }
-  .block.externalmenublock {
-    display: block;
-    margin-top: 90px;
-    padding-top: 8px;
-  }
-  .browsecatalog {
-    display: inline-block;
-    height: 28px;
-    margin-left: 0;
-    position: relative;
-    top: -140px;
-    width: 155px;
-  }
+
+ #masthead {
+    max-height: 255px;
+  } 
+
 /* level 2 pages */
   div#block-nodequeue-pager-2 {
       display: none;
@@ -234,11 +183,11 @@
   #mobile-menu-inner .menu li:nth-child(6){
      background-color: transparent; 
   }
-.footer {
-  background: #000 none repeat scroll 0 0;
-  bottom: -29px;
-  padding: 20px 0;
-  position: absolute;
-}
+  .footer {
+    background: #000 none repeat scroll 0 0;
+    bottom: -29px;
+    padding: 20px 0;
+    position: absolute;
+  }
 
 }

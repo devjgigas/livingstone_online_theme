@@ -62,21 +62,13 @@
     display: block;
     text-align: center;
   } 
-
-  .region-fixedbar .slicknav_menu {
-    border: 1px solid #ccc;
-    border-radius: 7px;
-    margin: 0px auto 20px;
-    padding: 0px 20px;
-    width: 85%;
-    font-family: 14px/1.6 'Source Sans Pro', sans-serif; 
-  }
   .slicknav_menu {
     border: 1px solid #ccc;
     border-radius: 7px;
-    margin: 18px auto 0;
+    margin: 30px auto 0;
+    max-width: 400px;
     padding: 0px 20px;
-    width: 55%;
+    width: 100%;
     font-family: 14px/1.6 'Source Sans Pro', sans-serif; 
   }
   .node-type-page section#content {
@@ -106,7 +98,7 @@
     border: 6px solid #cccc99;
   }            
 
-  .slicknav_nav ul.menu, 
+/*  .slicknav_nav ul.menu, 
   .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open, 
   .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_collapsed, 
   .slicknav_nav ul.menu li.leaf, .slicknav_nav ul.menu li.collapsed, 
@@ -118,41 +110,71 @@
     min-width: 95%;
     text-align: left;
     width: 95%;
+  }*/
+  .expanded.slicknav_parent.slicknav_collapsed {
+    background: url('/sites/all/themes/lo/images/select-right-arrow2.png') no-repeat top right;
+    width: 100%;
   }
+  .expanded.slicknav_parent.slicknav_open {
+    background: url('/sites/all/themes/lo/images/select-arrow2.png') no-repeat top right;
+    width: 100%;
+  }
+  .slicknav_btn.slicknav_collapsed .slicknav_menutxt::after {
+    background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/select-right-arrow2.png") no-repeat scroll right center;
+    color: #fff;
+    content: "x";
+    float: right;
+    font-size: 14px;
+    margin-right: 10px;
+    width: 20px;
+  }
+  .slicknav_btn.slicknav_open .slicknav_menutxt::after {
+    background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/select-arrow2.png") no-repeat scroll right center;
+    color: #fff;
+    content: "x";
+    float: right;
+    font-size: 14px;
+    margin-right: 10px;
+    width: 20px;
+  }  
+  .expanded.slicknav_parent.slicknav_collapsed a,
+  .expanded.slicknav_parent.slicknav_open a {
+    color: #333;
+  }  
   a.slicknav_btn, a.slicknav_btn:hover, a.slicknav_btn:focus {
     color: #000;
   }
-  a.slicknav_btn.slicknav_open::after {
+/*  a.slicknav_btn.slicknav_open::after {
     content: "\f0d7";
     float: right;    
     font-family: fontawesome;
     font-size: 18px;
     position: relative;
-  }  
-  a.slicknav_btn.slicknav_collapsed::after {
+  } */ 
+/*  a.slicknav_btn.slicknav_collapsed::after {
     content: "";
     float: right;
     font-family: fontawesome;
     font-size: 18px;
     position: relative;
-  }
+  }*/
   .slicknav_nav .menu li.expanded, .slicknav_nav .menu li.collapsed {
     width: 95%;
   }
-  .expanded.slicknav_parent.slicknav_open a.slicknav_item::after {
+/*  .expanded.slicknav_parent.slicknav_open a.slicknav_item::after {
     content: "\f0d7";
     float: right;    
     font-family: fontawesome;
     font-size: 18px;
     position: relative;
-  }  
-  .expanded.slicknav_parent.slicknav_collapsed a.slicknav_item::after {
+  } */ 
+/*  .expanded.slicknav_parent.slicknav_collapsed a.slicknav_item::after {
     content: "";
     float: right;
     font-family: fontawesome;
     font-size: 18px;
     position: relative;
-  } 
+  }*/ 
   .slicknav_arrow {
     display: none;
   }   
@@ -167,18 +189,19 @@
   
   }
   .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open a {
-      width: 100%;
+      color: #333;
   } 
+  .slicknav_menutxt {
+    color: #333;
+  }
   .node-type-section-page .pane-node-content h2.pane-title {
     margin: 20px 3% 0 !important;
   }
-  #search-block-form {
-    display: inline-block;
-    margin-left: 10px;
-    margin-bottom: 1em;
-    margin-top: 0px;
-    vertical-align: top;
-  } 
+
+  .node-type-section-page .pane-node-content h2.pane-title {
+    border-top: 1px solid #ccc;
+    padding-top: 30px;
+  }
   .doubleleft img {
     float: none !important;
   }
@@ -201,8 +224,6 @@
   html{
     font-size: 60%;
   }
-/* body { background-color: red !important;}*/
-
   body.front {
     background: url(http://livingstonemd.local/sites/default/files/styles/flexslider_full/public/Level-1-2_0.jpg) no-repeat top center fixed; 
     -webkit-background-size: cover;
@@ -252,29 +273,11 @@
   .fixedbar_right #search-block-form--2 {
     display: none;
   }
-  .region.region-external {
-    display: inline-block;
-    text-align: center !important;
-    width: 100%;
-  }
-  .block.externalmenublock {
-    display: inline-block;
-    padding-top: 6px;
-  }
-  ul#externalmenu {
-    margin: 0;
-  }
-  #search-block-form {
-    display: inline-block;
-    margin-left: 10px;
-    margin-bottom: 1em;
-    margin-top: 0px;
-    vertical-align: top;
-  }
+
   nav {
   margin: 0 auto !important;
-  text-align: center;
-  width: 66%;
+    text-align: center;
+    width: 66%;
   }
   #main-menu ul.menu {
     border: medium none;
@@ -291,9 +294,7 @@
       position: relative;
       z-index: 60;
   }
-   .browsecatalog {
-    top: 8px;
-   }
+
   body.page-browse-addressee .field-name-field-section-page-tag-line, 
   body.page-browse-recipient .field-name-field-section-page-tag-line {
     border-color: rgba(0, 0, 0, 0.2);

@@ -1,6 +1,5 @@
 @media (min-width: 1230px) {
 
-  /*body {background-color: pink !important;} */
   body.not-front .region-section{
       float:right;
   }
@@ -55,26 +54,6 @@
   }
   nav#navigation {
     margin-top: 14px;
-  }
-  .region.region-external {
-    display: inline-block;
-    text-align: right;
-    width: 100%;
-  }
-  .block.block-block.externalmenublock  {
-    display: inline-block;
-    height: 28px;
-    position: relative;
-    top: 5px;
-    width: auto;
-  }
- .browsecatalog {
-  top: 8px;
- }
- 
-  .region.region-external > form {
-    display: inline-block;
-    width: auto;
   }
   #block-menu-menu-topmenu ul.menu {
     border: medium none;

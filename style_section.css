@@ -357,7 +357,9 @@ h1#site-title{
 h1#site-title a:link, h1#site-title a:visited{
   color: #000;
 }
-
+.region.region-header {
+  float: right;
+}
 /* Menu */
 
 .menutoggle{
@@ -468,13 +470,7 @@ img.grayscale {
   clear:both;
 }
 
-.region.region-external {
-  display: inline-block;
-  position: relative;
-  text-align: right;
-  top: 10px;
-  width: 100%;
-}
+
 /* level 3 pages */
 .field.field-name-field-social-media-links {
   display: block;

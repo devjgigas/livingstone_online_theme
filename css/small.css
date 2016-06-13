@@ -1,6 +1,4 @@
 @media all and (max-width: 700px) {
-
-  /* body {background-color: blue !important;} */
   select.mnav {
     margin-bottom: 20px;
     width: 100%;
@@ -24,25 +22,7 @@
     #site-logo {
       text-align: center;
     }
-    .region.region-external {
-      display: inline-block;
-      text-align: center !important;
-      width: 100%;
-    }
-    .block.externalmenublock {
-      display: block;
-      padding-top: 6px;
-    }
-    ul#externalmenu {
-      margin: 0 0 0 10px;
-    }
-    #search-block-form {
-      display: inline-block;
-      margin-left: 10px;
-      margin-top: 10px;
-      margin-bottom: 1em;
-    }
-    nav {
+ nav {
       margin: 0 auto;
       text-align: center;
       width: 100%;
@@ -68,19 +48,6 @@
     top:5px;
     height:auto;
   }
-  .front .browsecatalog {
-      margin-top: 2px;
-  }
-  .front #search-block-form {
-    display: inline-block;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 1em;
-}    
-  .browsecatalog {
-      margin-top: 12px;
-  }
-
   div#block-nodequeue-pager-2 {
       display: none;
   }

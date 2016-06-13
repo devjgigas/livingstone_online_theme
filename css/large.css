@@ -27,22 +27,6 @@
   #site-logo {
     text-align: center;
   }
-  .region.region-external {
-    display: inline-block;
-    text-align: center !important;
-    width: 100%;
-  }
-  .block.externalmenublock {
-    display: inline-block;
-    padding-top: 6px;
-  }
-  #search-block-form {
-    display: inline-block;
-    margin-left: 10px;
-    margin-bottom: 1em;
-    margin-top: 0px;
-    vertical-align: top;
-  }
   nav {
     margin: 0 auto;
     text-align: center;
@@ -62,9 +46,7 @@
   .field.field-name-field-section-page-image {
     display: none;
   }
-   .browsecatalog {
-    top: 8px;
-   }
+
    .node-type-section-page .panel-pane.pane-node-content .content {
     margin: 1% 10% 0 !important;
     position: relative;

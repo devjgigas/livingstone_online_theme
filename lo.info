@@ -15,6 +15,7 @@ stylesheets[all][] = css/medium.css
 stylesheets[all][] = css/small.css
 stylesheets[all][] = css/mobile.css
 stylesheets[all][] = css/sizes.css
+stylesheets[all][] = css/extsearchbrowse.css
 stylesheets[all][] = css/dropit.css
 stylesheets[print][] = css/print.css
 

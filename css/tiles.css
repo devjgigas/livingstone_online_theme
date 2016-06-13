@@ -26,21 +26,6 @@
   margin-left: 10px;
   width: 40%;
 }
-/** External menu & Search bar **/
-
-.region.region-header {
-  float: right;
-}
-.front #search-block-form {
-    margin-right: 10px;
-}
-
-.block ul#externalmenu li.leaf {
-  display: inline-block;
-  list-style-image: none;
-  list-style-type: none;
-  padding: 0.2em 0.5em 0 !important;
-}
 .slideout-menu.open .block ul#externalmenu li.leaf {
   display: block;
   list-style-image: none;
@@ -50,37 +35,6 @@
 
 /* Menu */
 
-.fa.fa-envelope,
-.fa.fa-envelope-square {
-  color: #506777;
-  font-size: 22px;
-  position: relative;
-  top: -1px;
-}
-.fa.fa-home,
-.fa.fa-wordpress,
-.fa.fa-wordpress-square {
-  color: #3e5b97;
-  font-size: 24px;
-}
-.fa.fa-wordpress,
-.fa.fa-wordpress-square {
-  margin-right: 10px;
-  font-size: 21px;
-  vertical-align: top;
-}
-.fa.fa-twitter,
-.fa.fa-twitter-square {
-  color: #00abf2;
-  font-size: 24px;
-}
-.fa.fa-twitter:hover,
-.fa.fa-wordpress:hover,
-.fa.fa-home:hover,
-.fa.fa-envelope:hover  {
-  color: #666;
-} 
-
 #search-block-form--2 input[type=text],
 #search-block-form input[type=text] {
   background: url('../images/search-button.png') no-repeat 1px 1px #Fff;  
@@ -88,6 +42,7 @@
   height:25px;
   font-size: 14px;
   padding-left: 35px;
+  padding-top: 1px;
 }
 #search-block-form--2 input[type=text],
 #search-block-form input[type=text] {
@@ -106,10 +61,6 @@
   background: url('../images/search-button.png') no-repeat 1px 1px;
   width: 200px;
 }
-
-#block-search-form { padding-bottom: 7px; }
-
-#block-search-form .content { margin-top: 0; }
 
 #search-form .form-item-keys label { display: block; }
 
@@ -236,47 +187,7 @@
   #browsemenu a:hover {
     color: #333 !important;
   }  
-  .browsecatalog li a, .browsecatalog li a:active, .browsecatalog li a:visted {
-      color: #333 !important;
-  } 
-  #block-menu-menu-browse ul li {
-    display: block;
-    text-align: left;
-  }
-  #block-menu-block-2,
-  #block-menu-block-3 {
-    display: none;
-  }  
-  .browsecatalog {
-    display: inline-block;
-    height: 28px;
-    position: relative;
-    top: 6px;
-    width: 155px;
-  }
- .browsecatalog {
-    background: #f2f2f2;
-    border: 1px solid #ddd;
-    border-radius: 7px;
-    font-size: 14px;
-    height: 25px;
-    margin-left: 10px;
-    text-align: center;
-    vertical-align: top;
-    width: 140px;
-  }
-  .browsecatalog ul#browsemenu {
-      background: #fff;
-      border: 1px solid #eee;
-      font-size: 14px;
-      padding: 4px 0px 10px 16px
-      list-style: none;
-    } 
-  .browsecatalog ul#browsemenu li {
-      text-align: left;
-      padding-left: 18px;
-  } 
-   
+  
 /* social links */
 .block.footershare .stLarge {
   background-repeat: no-repeat;
