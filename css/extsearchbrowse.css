@@ -1,10 +1,7 @@
 .front #search-block-form {
     margin-right: 10px;
 }
-#block-menu-block-2,
-#block-menu-block-3 {
-  display: none;
-} 
+
 /*** search form styling  ***/
 #block-search-form { padding-bottom: 7px; }
 #block-search-form .content { margin-top: 0; }
