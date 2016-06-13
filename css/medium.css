@@ -134,7 +134,7 @@
     content: "x";
     float: right;
     font-size: 14px;
-    margin-right: 0px;
+    margin-right: 9px;
     width: 20px;
   }  
   .expanded.slicknav_parent.slicknav_collapsed a,
@@ -195,6 +195,7 @@
   .slicknav_menutxt {
     color: #333;
     font-size: 14px;
+    margin-left: -1px;
   }
   .node-type-section-page .pane-node-content h2.pane-title {
     margin: 20px 3% 0 !important;
