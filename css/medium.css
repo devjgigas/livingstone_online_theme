@@ -112,11 +112,11 @@
     width: 95%;
   }*/
   .expanded.slicknav_parent.slicknav_collapsed {
-    background: url('/sites/all/themes/lo/images/select-right-arrow2.png') no-repeat 4px right;
+    background: url('/sites/all/themes/lo/images/select-right-arrow2.png') no-repeat top right;
     width: 100%;
   }
   .expanded.slicknav_parent.slicknav_open {
-    background: url('/sites/all/themes/lo/images/select-arrow2.png') no-repeat 4px right;
+    background: url('/sites/all/themes/lo/images/select-arrow2.png') no-repeat top right;
     width: 100%;
   }
   .slicknav_btn.slicknav_collapsed .slicknav_menutxt::after {
