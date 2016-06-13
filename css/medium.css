@@ -125,7 +125,7 @@
     content: "x";
     float: right;
     font-size: 14px;
-    margin-right: 10px;
+    margin-right: 0px;
     width: 20px;
   }
   .slicknav_btn.slicknav_open .slicknav_menutxt::after {
@@ -134,7 +134,7 @@
     content: "x";
     float: right;
     font-size: 14px;
-    margin-right: 10px;
+    margin-right: 0px;
     width: 20px;
   }  
   .expanded.slicknav_parent.slicknav_collapsed a,
@@ -160,7 +160,7 @@
     position: relative;
   }*/
   .slicknav_nav .menu li.expanded, .slicknav_nav .menu li.collapsed {
-    width: 95%;
+    width: 98%;
   }
 /*  .expanded.slicknav_parent.slicknav_open a.slicknav_item::after {
     content: "\f0d7";
