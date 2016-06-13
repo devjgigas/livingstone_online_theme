@@ -98,7 +98,7 @@
   display: inline-block;
   width: auto;
 }
-.browsecatalog li a, .browsecatalog li a:active, .browsecatalog li a:visted {
+.browsecatalog li a, .browsecatalog li a:active, .browsecatalog li a:visted, .browsecatalog li a:focus {
     color: #333 !important;
 } 
 .browsecatalog ul {
@@ -136,7 +136,17 @@
   display: block;
   text-align: left;
 }
-
+  .dropit-trigger > a,
+  .dropit-trigger.dropit-open > a,
+  #browsemenu a  {
+    color: #333;
+    font-size: 14px;
+  }
+  .dropit-trigger > a:hover,
+  .dropit-trigger.dropit-open > a:hover,
+  #browsemenu a:hover {
+    color: #333 !important;
+  } 
 
 
 
