@@ -187,9 +187,6 @@
     list-style-image: none;
     list-style-type: none;
   }
-  .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open {
-  
-  }
   .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open a {
       color: #333;
   } 
