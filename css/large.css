@@ -10,9 +10,20 @@
   }  
   .node-type-section-page .pane-node-content h2.pane-title {
      margin: 20px 10% 0;
-  }  
-}
+  } 
 
+}
+@media all and (min-width: 767px) and (max-width: 1230px){
+  .fixedbar_center {
+    top: -5px !important;
+  }
+  span.breadcrumb-0 {
+    margin-bottom: 6px;
+  } 
+  span.breadcrumb-2 {
+    margin-bottom: 10px;
+  }
+} 
 
 @media all and (min-width: 851px) and (max-width: 1230px){
 
@@ -21,11 +32,6 @@
   }
   .header_title_region {
     margin-right: 0px;
-  }
-
-  #my-menu {
-    float:none;
-    clear: both;
   }
   #site-logo {
     text-align: center;

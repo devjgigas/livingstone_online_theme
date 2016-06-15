@@ -48,25 +48,25 @@
 }
 
 .leaf.homelink {
-  background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/menu-home28.png") no-repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/menu-home26.png") no-repeat scroll 0 0;
   height: 24px;
   line-height: 1;
   width: 31px;
 }
 .leaf.pith {
-  background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/menu-pith28.png") no-repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/menu-pith26.png") no-repeat scroll 0 0;
   height: 24px;
   line-height: 1;
   width: 31px;
 }
 .leaf.email {
-  background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/menu-envelope28.png") no-repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/menu-envelope26.png") no-repeat scroll 0 0;
   height: 24px;
   line-height: 1;
   width: 31px;
 }
 .leaf.wp {
-  background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/menu-wp28.png") no-repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/menu-wp26.png") no-repeat scroll 0 0;
   height: 24px;
   line-height: 1;
   width: 31px;
@@ -150,7 +150,7 @@
   }
   .node-type-section-page .pane-node-content h2.pane-title {
     margin: 20px 10% !important;
-  } 
+  }  
 }  
 
 @media all and (max-width: 766px)  {
@@ -168,10 +168,11 @@
 .fixedbar_center {
   display: inline-block;
   margin: 0;
+  padding-top: 5px !important;
   position: relative;
   text-align: center;
-  top: -20px;
-  width: 100%;
+  top: 0px !important;
+  width: 100% !important;
 }
 .fixedbar_right {
   display: inline-block;
@@ -185,7 +186,10 @@
   .slideout-menu,
   #breadcrumb {
     display: none;
-  }  
+  } 
+  .slicknav_menu {
+    width: 95%;
+  }   
   #search-block-form {
     display: inline-block;
     margin-right: 10px;
@@ -217,14 +221,15 @@
   } 
   .upperexternal2 {
     display: inline-block;
-    margin-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 8px;
+    margin-left: 0px;
+    margin-bottom: 2px;
     position: relative;
     width: 100%;
-  }
-     
+  }  
+
 }  
+
+
 
 @media all and (max-width: 700px) {
   .front .browsecatalog {
@@ -248,6 +253,9 @@
     margin-top: 10px;
     width: 100%;
   }
+.upperexternal2 {
+    margin-bottom: 8px;
+}    
 
 }   
 

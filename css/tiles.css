@@ -54,6 +54,10 @@
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
 }
+.fixedbar_right #search-block-form--2 .search,
+.fixedbar_right #search-block-form .search {
+  margin-top: 0px;
+}
 #search-block-form--2 .search,
 #search-block-form .search {
   margin-top: 8px;

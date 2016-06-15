@@ -3,17 +3,7 @@
     margin-bottom: 20px;
     width: 100%;
   }
-
-  .site-branding {
-    margin-top: 0px;
-  }  
-  #my-menu {
-    clear: both;
-  }
-    #site-logo {
-      text-align: center;
-    }
- nav {
+    nav {
       margin: 0 auto;
       text-align: center;
       width: 100%;

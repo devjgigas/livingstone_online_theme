@@ -9,7 +9,7 @@ jQuery(document).ready( function($) {
 	});	
 	$('#block-menu-block-3').slicknav ({
 		label: 'Site sections & pages',
-		prependTo:'.region-fixedbar'
+		prependTo:'#header_mobilenav'
 	});		
 });
 

@@ -9,7 +9,9 @@
   }
   .fixedbar_center .site-branding {
     display: block !important;
-}
+    margin-top: 0;
+  }
+
   #block-views-home-slideshow-block {
     display: none;
   }
@@ -41,9 +43,6 @@
   .front .site-branding {
     margin-top: 0px;
   }  
-  .site-branding {
-    margin-top: 40px;
-  }
   #uppermost,
   #navigation {
     display: none;
@@ -65,7 +64,7 @@
   .slicknav_menu {
     border: 1px solid #ccc;
     border-radius: 7px;
-    margin: 20px auto 0;
+    margin: 10px auto 0;
     max-width: 400px;
     padding: 0px 10px 0 20px;
     width: 100%;
@@ -99,21 +98,10 @@
   }  
   .resources .field.field-name-field-section-page-image img {
     border: 6px solid #cccc99;
-  }            
-
-/*  .slicknav_nav ul.menu, 
-  .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open, 
-  .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_collapsed, 
-  .slicknav_nav ul.menu li.leaf, .slicknav_nav ul.menu li.collapsed, 
-  .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_open ul.menu li.leaf, 
-  .slicknav_nav ul.menu li.expanded.slicknav_parent.slicknav_collapsed ul.menu li.leaf {
-    background: transparent none repeat scroll 0 0;
-    display: block;
-    max-width: 95%;
-    min-width: 95%;
-    text-align: left;
-    width: 95%;
-  }*/
+  }  
+  #site-logo {
+    text-align: center;
+  }          
   .expanded.slicknav_parent.slicknav_collapsed {
     background: url('/sites/all/themes/lo/images/select-right-arrow2.png') no-repeat right 4px;
     width: 100%;
@@ -130,6 +118,7 @@
     font-size: 14px;
     margin-right: 9px;
     margin-top: 3px;
+    text-indent: -9999px;
     width: 20px;
   }
   .slicknav_btn.slicknav_open .slicknav_menutxt::after {

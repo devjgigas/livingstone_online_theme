@@ -70,7 +70,8 @@ if(isset($node) && $node->type =='section_page'): ?>
   <div id="fixedbar">
     <div class="fixedbar_left">
     <div class="fixedleft_1"><a href="#" class="slideout-menu-toggle"><i class="fa fa-bars"></i> </a></div>
-    <div class="fixedleft_2"><a href="http://www.livingstoneonline.org"><img class="fixedheaderlogo" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/social/trans-social-home-28.png'; ?>"/></a>  </div>
+    <div class="fixedleft_2"><a href="/"><img class="fixedleft2" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/social/trans-social-home-28.png'; ?>"/></a>  </div>
+   <div class="fixedleft_3"><a href="/about-site/livingstone-online-site-guide"><img class="fixedleft3" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/menu-pith26.png'; ?>"/></a>  </div>
     </div>
     <div class="fixedbar_center">
       <div id="logo" class="site-branding">

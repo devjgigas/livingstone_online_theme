@@ -113,7 +113,7 @@ li.frmore{
   margin-top: 10px;
   width: auto;
  } 
-.fixedleft_1, .fixedleft_2 {
+.fixedleft_1, .fixedleft_2, .fixedleft_23 {
 	float: left;
 }
 .fixedleft_1 {
@@ -121,5 +121,6 @@ li.frmore{
   width: 80px;
 }
 .fixedleft_2 {
-	margin-left: -20px;
+	margin-left: -25px;
+  margin-right: 12px;
 }
