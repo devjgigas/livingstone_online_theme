@@ -1,7 +1,7 @@
 @media all and (max-width: 766px)  {
 
   body.front {
-  background: url(http://livingstonemd.local/sites/default/files/styles/flexslider_full/public/Level-1-2_0.jpg) no-repeat center center fixed; 
+  background: url(/sites/default/files/styles/flexslider_full/public/Level-1-2_0.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
