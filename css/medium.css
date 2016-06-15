@@ -44,7 +44,7 @@
   .front .site-branding {
     margin-top: 0px;
   }  
-  #uppermost,
+  .block-views-image-banner-scroll-block-2,
   #navigation {
     display: none;
   }
@@ -173,10 +173,10 @@
     font-size: 14px;
     margin-left: -1px;
   }
+  body.page-islandora-search h1.page-title,
   .node-type-section-page .pane-node-content h2.pane-title {
     margin: 20px 3% 0 !important;
   }
-
   .node-type-section-page .pane-node-content h2.pane-title {
     border-top: 1px solid #ccc;
     padding-top: 30px;

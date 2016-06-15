@@ -13,7 +13,7 @@
       list-style: outside none none;
       text-align: center;
     }
-    #uppermost,
+    .block-views-image-banner-scroll-block-2,
     #navigation {
         display: none;
     }

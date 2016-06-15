@@ -148,8 +148,9 @@
     text-align: center !important;
     width: 100%;
   }
+  body.page-islandora-search h1.page-title,
   .node-type-section-page .pane-node-content h2.pane-title {
-    margin: 20px 10% !important;
+    margin: 20px 0% !important;
   }  
 }  
 
