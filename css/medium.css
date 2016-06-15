@@ -35,6 +35,7 @@
   }
   .fixedbar_left .fixedleft_1, 
   .fixedbar_left .fixedleft_2, 
+  .fixedbar_left .fixedleft_3, 
   .fixedbar_right #search-block-form--2, 
   .slideout-menu, 
   #breadcrumb {
@@ -70,9 +71,12 @@
     width: 100%;
     font-family: 14px/1.6 'Source Sans Pro', sans-serif; 
   }
-  .region.region-fixedbar .slicknav_menu {
-    margin: 0px auto 20px;
-  }  
+  #header_mobilenav .slicknav_menu {
+    margin: 10px auto 0;
+  } 
+  #header_mobilenav .menu-name-menu-upper{
+    display: none;
+  } 
   .node-type-page section#content {
       clear: both;
       margin-top: 10px;

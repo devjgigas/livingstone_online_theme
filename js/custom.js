@@ -7,8 +7,8 @@ jQuery(document).ready( function($) {
 		label: 'Site sections and pages',
 		prependTo:'#primary'
 	});	
-	$('#block-menu-block-3').slicknav ({
-		label: 'Site sections & pages',
+	$('.menu-name-menu-topmenu').slicknav ({
+		label: 'Site sections and pages',
 		prependTo:'#header_mobilenav'
 	});		
 });
