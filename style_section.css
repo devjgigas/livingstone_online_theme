@@ -88,6 +88,10 @@ a:active {
   max-width: 400px;
   width: 100%;
 }
+#site-logo img.mobilelogo {
+  max-width: 390px;
+  width: 100%;
+}
 .fixedbar_center .site-branding {
     display: none;
 }

@@ -55,11 +55,14 @@
   .fixedbar_center {
     width: 100% !important;
   }
-  #site-logo {
+  .fixedbar_center #site-logo {
     margin: 0 auto;
     width: 95%;
   }
-
+  #site-logo {
+    margin: 0 auto;
+    width: 100%;
+  }
   .mainmenu {
       float: none;
       text-align: center;

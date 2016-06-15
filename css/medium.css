@@ -66,13 +66,13 @@
     border: 1px solid #ccc;
     border-radius: 7px;
     margin: 10px auto 0;
-    max-width: 400px;
+    max-width: 390px;
     padding: 0px 10px 0 20px;
     width: 100%;
     font-family: 14px/1.6 'Source Sans Pro', sans-serif; 
   }
   #header_mobilenav .slicknav_menu {
-    margin: 10px auto 0;
+    margin: 0px auto 0;
   } 
   #header_mobilenav .menu-name-menu-upper{
     display: none;
@@ -177,6 +177,7 @@
   .node-type-section-page .pane-node-content h2.pane-title {
     margin: 20px 3% 0 !important;
   }
+  body.page-islandora-search h1.page-title,
   .node-type-section-page .pane-node-content h2.pane-title {
     border-top: 1px solid #ccc;
     padding-top: 30px;
