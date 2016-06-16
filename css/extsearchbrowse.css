@@ -155,7 +155,10 @@
 }  
 @media (max-width: 1024px) {
   /*** level 2  ***/
-
+  .node-type-page #block-nodequeue-pager-7,
+  .node-type-page #block-nodequeue-pager-8 {
+    display: none;
+  }
   .project.No .hover {
     background-color: transparent;
     height: 100%;
@@ -176,7 +179,7 @@
     background-color: rgba(63, 73, 83, 0.7);
     bottom: 0;
     margin: 0;
-    padding: 0px 0 0;
+    padding: 10px 0 0;
     position: absolute;
     text-align: center;
     width: 100%;
@@ -185,13 +188,13 @@
   .project.No .hover .info p {
     display: none;
   }
-  .project h3 {
+  .project .title {
     color: #fff;
     font-family: "Crimson Text",serif;
     font-size: 22px;
     line-height: 1;
     margin-bottom: 0;
-    padding: 10px 6px 10px;
+    padding: 0px 6px 10px;
   }
 }
 @media all and (max-width: 766px)  {
