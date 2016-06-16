@@ -1400,8 +1400,7 @@ img.fixedleft2, img.fixedleft3 {
 }
 .fixedbar_center {
   float: left;
-  margin: 0;
-  padding-top: 25px;
+  margin: 20px 0 0;
   position: relative;
   text-align: center;
   width: 58%;
