@@ -267,7 +267,11 @@
     position: relative;
     width: 100%;
   } 
-
+  .fixedbar_center #search-block-form--2 .search, .fixedbar_center #search-block-form .search {
+    max-width: 385px;
+    margin-top: 0px;
+    width: 300px;
+  }
 }  
 
 
@@ -305,6 +309,11 @@
     line-height: 1;
     margin-bottom: 0;
     padding: 10px 5px;
+  }
+  .fixedbar_center #search-block-form--2 .search, .fixedbar_center #search-block-form .search {
+    max-width: 385px;
+    margin-top: 0px;
+    width: 95%;
   }
 }   
 
