@@ -362,10 +362,10 @@ height:25px;
     opacity: 1; 
 }
 .project .hover .info { 
-    position: absolute; 
+    position: relative; 
     padding: 0 5% 0 4%;
     text-align: center; 
-    top: 13%; 
+    margin-top: 13%; 
     width: 100%; 
 }
 .project.No .hover:hover { 
@@ -425,20 +425,33 @@ a .info > em {
 #primary .view-repository-list td.active {
   background-color: #fff;
 }
-@media screen and (max-width: 768px) {
-
-    .leveltwo .view-id-l .views-row {
-        display: inline-block;
-        margin: 1%;
-        width: 45%;   
-    }
-
-}
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 842px) {
 
     .leveltwo .view-id-l .views-row {
         display: inline-block;
         margin: 1%;
         width: 31%;   
     }
+}
+@media screen and (max-width: 841px) {
+    .leveltwo .view-id-l .views-row {
+        display: inline-block;
+        margin: 1%;
+        width: 45% !important;   
+    }
+}
+@media screen and (min-width: 769px) {
+    .leveltwo .view-id-l .views-row {
+        display: inline-block;
+        margin: 1%;
+        width: 31%;   
+    }
+}
+@media screen and (max-width: 568px) {
+    .leveltwo .view-id-l .views-row {
+        display: inline-block;
+        margin: 1%;
+        width: 95% !important;   
+    }
+
 }

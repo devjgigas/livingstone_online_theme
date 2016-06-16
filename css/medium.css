@@ -194,10 +194,13 @@
     width: 90% !important;
   }
   .doubleleft img, .doubleright img {
-    max-width: 100%;
-    width: 100% !important;
-    height: auto !important;
-  } 
+    margin: 2.5% 10px !important;
+  }  
+  .doubleleft, .doubleright {
+    display: inline-block;
+    margin: 2.5px;
+    width: auto;
+  }
 }
 
 @media all and (min-width: 701px) and (max-width: 850px) {

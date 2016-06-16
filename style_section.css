@@ -1387,7 +1387,7 @@ span.footpdf {
 }
 img.fixedleft2, img.fixedleft3 {
   height: 27px;
-  margin-top: 15px;
+  margin-top: 10px;
   width: auto;
 }
 .fixedbar_left {
@@ -1408,8 +1408,8 @@ img.fixedleft2, img.fixedleft3 {
 }
 .fixedbar_right {
   float: left;
-  margin: 0;
-  padding-top: 24px;
+  margin: 20px 0 0;
+  padding-top: 0;
   position: relative;
   text-align: right;
   width: 20%;

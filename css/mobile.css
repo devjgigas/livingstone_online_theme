@@ -98,7 +98,15 @@
   div#block-nodequeue-pager-2 {
       display: none;
   }
-
+  .doubleleft img, .doubleright img {
+    margin: 2.5% 0px !important;
+    height: auto !important;
+  }  
+  .doubleleft, .doubleright {
+    display: inline-block;
+    margin: 2.5px;
+    width: auto;
+  }
   .view.view-image-banner-scroll.view-id-image_banner_scroll.view-display-id-panel_pane_1 {
       display: none;
   }
