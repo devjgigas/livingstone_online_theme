@@ -209,7 +209,7 @@
 }
 .fixedbar_center {
   display: inline-block;
-  margin: 0;
+  margin: 0 !important;
   padding-top: 5px !important;
   position: relative;
   top: 0px !important;

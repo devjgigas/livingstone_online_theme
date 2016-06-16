@@ -7,10 +7,10 @@ jQuery(document).ready( function($) {
 		label: 'Site sections and pages',
 		prependTo:'#primary'
 	});	
-	$('.menu-name-menu-topmenu').slicknav ({
-		label: 'Site sections and pages',
-		prependTo:'#header_mobilenav'
-	});		
+	// $('.menu-name-menu-topmenu').slicknav ({
+	// 	label: 'Site sections and pages',
+	// 	prependTo:'#header_mobilenav'
+	// });		
 });
 
 
