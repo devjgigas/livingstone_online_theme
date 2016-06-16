@@ -14,9 +14,6 @@
 
 }
 @media all and (min-width: 767px) and (max-width: 1230px){
-  .fixedbar_center {
-    top: -5px !important;
-  }
   span.breadcrumb-0 {
     margin-bottom: 6px;
   } 
