@@ -79,7 +79,7 @@ if(isset($node) && $node->type =='section_page'): ?>
             <div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
             <img class="desktoplogo" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
             <img class="mobilelogo" src="<?php print $lo_mobilelogo = theme_get_setting('lo_mobilelogo'); ?>" alt="<?php print t('Home'); ?>" /></a></div>
-            <?php print $search_box; ?>
+
         <?php endif; ?>
       </div>
     <div id="header_mobilenav"></div>  
