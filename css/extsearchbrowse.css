@@ -196,12 +196,23 @@
     margin-bottom: 0;
     padding: 0px 6px 10px;
   }
+  #primary .view-repository-list table {
+    font-size: 14px;
+    width: 80%;
+    z-index: 80;
+    position: relative;
+  }
 }
 @media all and (max-width: 766px)  {
   .desktoplogo {
     display: none;
   }
-
+  #primary .view-repository-list table {
+    font-size: 14px;
+    width: 100%;
+    z-index: 80;
+    position: relative;
+  }
 .fixedbar_left {
   display: inline-block;
   margin: 0;
