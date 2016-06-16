@@ -272,6 +272,15 @@
     margin-top: 0px;
     width: 300px;
   }
+  .fixedbar_center #logo > form {
+    display: inline-block;
+    width: auto;
+  }
+  .uptotop {
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
+  }
 }  
 
 
@@ -313,7 +322,7 @@
   .fixedbar_center #search-block-form--2 .search, .fixedbar_center #search-block-form .search {
     max-width: 385px;
     margin-top: 0px;
-    width: 95%;
+    width: 225px;
   }
 }   
 
