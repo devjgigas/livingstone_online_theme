@@ -208,7 +208,8 @@
     font-size: 60%;
   }
   body.front {
-    background: url(http://livingstonemd.local/sites/default/files/styles/flexslider_full/public/Level-1-2_0.jpg) no-repeat top center fixed; 
+   /* background: url(http://livingstonemd.local/sites/default/files/styles/flexslider_full/public/Level-1-2_0.jpg) no-repeat top center fixed; */
+   background: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -225,9 +226,9 @@
     width: 400px;
     z-index: 120;
   }  
-  #block-views-home-slideshow-block {
+/*  #block-views-home-slideshow-block {
     display: none;
-  }
+  }*/
   .footer {
     background: #000 none repeat scroll 0 0;
     bottom: -29px;

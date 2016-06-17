@@ -313,7 +313,12 @@
 }     
 
 @media all and (max-width: 450px) {
-    #search-block-form {
+  #page{
+      max-width:1260px;
+      margin-left: 15px !important;
+      margin-right: 15px !important;
+  }
+  #search-block-form {
     display: inline-block;
     width: 100%;
   }
