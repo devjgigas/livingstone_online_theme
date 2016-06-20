@@ -1122,10 +1122,12 @@ span.footpdf {
     margin: 20px 20px;
     padding: 20px 20px 20px 20px;
 } 
-.content_main {
+.region.region-content {
   clear: both;
   margin: -8px auto 20px;
   max-width: 1260px;
+  overflow: auto;
+  overflow-y: hidden;
 }
 .flex-caption{
   color: #000;

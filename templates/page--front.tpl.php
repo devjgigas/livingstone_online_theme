@@ -76,7 +76,7 @@
   </header>
 
   <div class="content_main">
-     <div id="slider">
+<!--      <div id="slider">
           <div class="flexslider">
             <div class="flex-caption">  
                 <?php print render($page['title']); ?>
@@ -89,7 +89,7 @@
               </div>
             </div>
           </div>  
-      </div>
+      </div> -->
 
       <nav id="navigation" role="navigation">
         <div id="main-menu">
