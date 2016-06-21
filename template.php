@@ -88,11 +88,6 @@ function lo_preprocess_page(&$vars) {
   }
  
    $templates = $vars['theme_hook_suggestions'];
-  
-    if (in_array('page__islandora__search', $templates)) {
-        drupal_add_js(drupal_get_path('theme', 'lo') . '/js/orderFacets.js');
-        $vars['scripts'] = drupal_get_js();
-    }
 }
 
 /**
