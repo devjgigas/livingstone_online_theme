@@ -343,10 +343,13 @@ a:focus {
 #masthead{
   position: relative;
   max-width: 1260px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   padding-left: 15px;
   padding-right: 15px;
 }
+.node-type-section-page #masthead{
+  margin-bottom: 20px;
+}  
 #parent{
   position: relative;
 }
