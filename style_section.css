@@ -348,7 +348,7 @@ a:focus {
   padding-right: 15px;
 }
 .node-type-section-page #masthead{
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }  
 #parent{
   position: relative;
@@ -579,7 +579,7 @@ body.not-front .flex-direction-nav {
 .page-life-and-times #primary,
 .page-behind-the-scenes- #primary,
 .page-resources #primary  {
-  margin-top: -14px;
+  margin-top: -25px;
 }
 .node-type-page .region-content-top {
   float: right;
