@@ -157,8 +157,17 @@
     margin: 20px 0% !important;
   }
   .node-type-section-page #masthead {
-    margin-bottom: 0px !important;
-  }    
+    margin-bottom: -4px !important;
+  }
+  .page-in-his-own-words- #primary, 
+  .page-in-his-own-words #primary, 
+  .page-about-this-site #primary, 
+  .page-spectral-imaging #primary, 
+  .page-life-and-times #primary, 
+  .page-behind-the-scenes- #primary, 
+  .page-resources #primary {
+    margin-top: -38px;
+  }   
 }  
 @media (max-width: 1024px) {
   /*** level 2  ***/
