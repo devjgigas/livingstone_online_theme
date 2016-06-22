@@ -78,6 +78,9 @@ body.page-islandora-search #sidebar #block-islandora-solr-simple h3,
 body.page-islandora-search #content-wrap h1.page-title {
   display: none;
 }
+body.page-islandora-search #content-wrap h1.page-title.level5 {
+  display: block;
+}
 body.page-islandora-search h1.page-title::before {
     content: "Browse by";
     font-size: 36.5px;
