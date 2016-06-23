@@ -365,10 +365,31 @@
   display: inline-block;
   margin: 0 4px;
 }
-.upperexternal2 .leaf a {
+.upperexternal2 .leaf.homelink a {
+  color: #3e5b97;
   display: block;
-  text-indent: -9999px;
-  font-size: 1px;
+  font-size: 27px;
+  position: relative;
+  top: 3px;
+}
+.upperexternal2 .leaf.email a {
+  color: #506777;
+  display: block;
+  font-size: 24px;   
+}
+.upperexternal2 .leaf.wp a {
+  color: #3e5b97;  
+  display: block;
+  font-size: 24px;   
+}
+.upperexternal2 .leaf.pith a {
+  color: #666;
+  display: block;
+    font-size: 24px;
+    -webkit-transform: matrix(0, 1, 1, 0, -5, 5);
+    -moz-transform: matrix(0, 1, 1, 0, -5, 5);
+    -o-transform: matrix(0, 1, 1, 0, -5, 5);
+    transform: matrix(0, 1, 1, 0, -5, 5);     
 }
 .upperexternal2 ul, .upperexternal2 ol {
   margin: 0;
