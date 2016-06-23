@@ -38,7 +38,7 @@
       max-width: 1260px;
   }
   #primary {
-    margin-top: -20px;
+    margin-top: -13px;
   }
   .flex-caption{
     text-align: center;
@@ -92,6 +92,8 @@
 
  #masthead {
     max-height: 255px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   } 
 
 /* level 2 pages */

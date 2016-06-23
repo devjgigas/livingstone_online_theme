@@ -12,22 +12,37 @@
   color: #506777;
   font-size: 22px;
   position: relative;
+  top: 4px;  
 }
 .fa.fa-home {
   color: #3e5b97;
   font-size: 28px;
   position: relative;
-  top: 2px;
+  top: 7px;
 }
 .fa.fa-wordpress,
 .fa.fa-wordpress-square {
+  color: #00abf2;
   margin-right: 10px;
   font-size: 21px;
-  vertical-align: top;
+  position: relative;  
+  top: 4px;  
+}
+.fa.fa-key,
+.fa.fa-key-square {
+  color: #666;
+  font-size: 24px;
+  position: relative;  
+  top: 4px; 
+    -webkit-transform: matrix(0, 1, 1, 0, -6, 7);
+    -moz-transform: matrix(0, 1, 1, 0, -6, 7);
+    -o-transform: matrix(0, 1, 1, 0, -6, 7);
+    transform: matrix(0, 1, 1, 0, -6, 7);  
 }
 .fa.fa-twitter,
 .fa.fa-twitter-square {
   color: #00abf2;
+  position: relative;  
   font-size: 24px;
 }
 .fa.fa-twitter:hover,
@@ -46,27 +61,55 @@
   text-align: right;
   width: 100%;
 }
-
+.fa-home::before {
+  content: "";
+  display: none;
+}
+.fa-envelope::before {
+  content: "";
+  display: none;  
+}
+.fa-key::before {
+  content: "";
+  display: none;  
+}
+.fa-wordpress::before {
+  content: "";
+  display: none;  
+}
+.fa-home::after {
+  content: "";
+}
+.fa-envelope::after {
+  content: "";
+}
+.fa-key::after {
+  content: "";
+  font-size: 23px;  
+}
+.fa-wordpress::after {
+  content: "";
+}
 .leaf.homelink {
-  background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/menu-home26.png") no-repeat scroll 0 0;
+  /*background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/menu-home26.png") no-repeat scroll 0 0;*/
   height: 24px;
   line-height: 1;
   width: 31px;
 }
 .leaf.pith {
-  background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/menu-pith26.png") no-repeat scroll 0 0;
+  /*background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/menu-pith26.png") no-repeat scroll 0 0;*/
   height: 24px;
   line-height: 1;
   width: 31px;
 }
 .leaf.email {
-  background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/menu-envelope26.png") no-repeat scroll 0 0;
+  /*background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/menu-envelope26.png") no-repeat scroll 0 0;*/
   height: 24px;
   line-height: 1;
   width: 31px;
 }
 .leaf.wp {
-  background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/menu-wp26.png") no-repeat scroll 0 0;
+  /*background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/menu-wp26.png") no-repeat scroll 0 0;*/
   height: 24px;
   line-height: 1;
   width: 31px;
@@ -84,6 +127,7 @@
 .upperexternal .leaf a {
   display: block;
   text-indent: -9999px;
+  font-size: 1px;
 }
 .upperexternal ul, .upperexternal ol {
   margin: 0;
@@ -166,7 +210,7 @@
   .page-life-and-times #primary, 
   .page-behind-the-scenes- #primary, 
   .page-resources #primary {
-    margin-top: -38px;
+    margin-top: -34px !important;
   }   
 }  
 @media (max-width: 1024px) {
@@ -229,38 +273,51 @@
     z-index: 80;
     position: relative;
   }
-.fixedbar_left {
-  display: inline-block;
-  margin: 0;
-  padding-left: 20px;
-  padding-top: 10px;
-  text-align: left;
-  width: 0%;
-}
-.fixedbar_center {
-  display: inline-block;
-  margin: 0 !important;
-  padding-top: 5px !important;
-  position: relative;
-  top: 0px !important;
-  width: 100% !important;
-}
-.fixedbar_right {
-  float: left;
-  margin: 10px 0 0 !important;
-  padding-top: 0;
-  position: relative;
-  text-align: right;
-  width: 20%;
-}
+  .fixedbar_left {
+    display: inline-block;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 10px;
+    text-align: left;
+    width: 0%;
+  }
+  .fixedbar_center {
+    display: inline-block;
+    margin: 0 !important;
+    padding-top: 5px !important;
+    position: relative;
+    top: 0px !important;
+    width: 100% !important;
+  }
+  .fixedbar_right {
+    float: left;
+    margin: 10px 0 0 !important;
+    padding-top: 0;
+    position: relative;
+    text-align: right;
+    width: 20%;
+  }
   .fixedbar_right #search-block-form--2, 
   .slideout-menu,
   #breadcrumb {
     display: none;
   } 
   .slicknav_menu {
-    width: 95%;
-  }   
+    width: 100%;
+    margin: 1px auto 0;
+  } 
+  .node-type-section-page .slicknav_menu {
+    width: 100%;
+    margin: 11px auto 0;
+  }
+  .node-type-page .region.region-content {
+    clear: none; 
+    margin: 18px auto 20px;
+   } 
+  .node-type-page .slicknav_menu {
+    width: 100%;
+    margin: 38px auto 0;
+  }
   #search-block-form {
     display: inline-block;
     margin-right: 10px;
@@ -312,6 +369,13 @@
     font-size: 14px;
     margin-left: 10px;
   }
+  .node-type-section-page #primary, .node-type-section-page #sidebar {
+    padding-bottom: 0;
+    padding-top: 0 !important;
+  }  
+  .view.view-image-banner-scroll.view-id-image_banner_scroll {
+      display: none;
+  }  
 }  
 
 
@@ -329,6 +393,14 @@
 }     
 
 @media all and (max-width: 450px) {
+  .page-search #page, 
+  .page-islandora #page, 
+  .page-browse-addressee #page, 
+  .page-browse-addressee #page, 
+  .node-type-section-page #page {
+    padding: 0 !important;
+  }
+
   #page{
       max-width:1260px;
       margin-left: 15px !important;
