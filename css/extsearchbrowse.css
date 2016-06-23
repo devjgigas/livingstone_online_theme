@@ -22,7 +22,7 @@
 }
 .fa.fa-wordpress,
 .fa.fa-wordpress-square {
-  color: #00abf2;
+  color: #3e5b97;
   margin-right: 10px;
   font-size: 21px;
   position: relative;  
@@ -34,10 +34,10 @@
   font-size: 24px;
   position: relative;  
   top: 4px; 
-    -webkit-transform: matrix(0, 1, 1, 0, -6, 7);
-    -moz-transform: matrix(0, 1, 1, 0, -6, 7);
-    -o-transform: matrix(0, 1, 1, 0, -6, 7);
-    transform: matrix(0, 1, 1, 0, -6, 7);  
+    -webkit-transform: matrix(0, 1, 1, 0, -5, 6);
+    -moz-transform: matrix(0, 1, 1, 0, -5, 6);
+    -o-transform: matrix(0, 1, 1, 0, -5, 6);
+    transform: matrix(0, 1, 1, 0, -5, 6);  
 }
 .fa.fa-twitter,
 .fa.fa-twitter-square {
@@ -85,7 +85,7 @@
 }
 .fa-key::after {
   content: "";
-  font-size: 23px;  
+ 
 }
 .fa-wordpress::after {
   content: "";
@@ -334,26 +334,25 @@
   .upperexternal  {
     display: none;
   }
-  .upperexternal2 .leaf {
-    display: inline-block;
-    margin: 0 4px;
-
-  }
-  .upperexternal2 .leaf a {
-    display: block;
-    text-indent: -9999px;
-  }
-  .upperexternal2 ul, .upperexternal2 ol {
-    margin: 0;
-    text-align: center;
-  } 
-  .upperexternal2 {
-    display: inline-block;
-    margin-left: 0px;
-    margin-bottom: 2px;
-    position: relative;
-    width: 100%;
-  } 
+.upperexternal2  {
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  width: auto;
+}
+.upperexternal2 .leaf {
+  display: inline-block;
+  margin: 0 4px;
+}
+.upperexternal2 .leaf a {
+  display: block;
+  text-indent: -9999px;
+  font-size: 1px;
+}
+.upperexternal2 ul, .upperexternal2 ol {
+  margin: 0;
+}
+  
   .fixedbar_center #search-block-form--2 .search, .fixedbar_center #search-block-form .search {
     max-width: 385px;
     margin-top: 0px;

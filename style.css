@@ -1064,7 +1064,6 @@ ol.search-results { padding-left: 0; }
   color: #506777;
   font-size: 24px;
   position: relative;
-  top: -1px;
 }
 .fa.fa-home,
 .fa.fa-wordpress {
@@ -1075,6 +1074,11 @@ ol.search-results { padding-left: 0; }
 }
 .fa.fa-twitter {
   color: #00abf2;
+}
+.fa.fa-key {
+  color: #00abf2;
+  font-size: 24px;
+  position: relative;  
 }
 .item-list ul {
   margin: 0;
