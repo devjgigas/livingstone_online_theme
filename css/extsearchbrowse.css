@@ -118,6 +118,7 @@
   display: inline-block;
   margin-right: 10px;
   position: relative;
+  top: 5px;
   width: auto;
 }
 .upperexternal .leaf {
@@ -127,24 +128,24 @@
 .upperexternal .leaf.homelink a {
   color: #3e5b97;
   display: block;
-  font-size: 27px;
+  font-size: 25px;
   position: relative;
-  top: 3px;
+  top: 2px;
 }
 .upperexternal .leaf.email a {
   color: #506777;
   display: block;
-  font-size: 24px;   
+  font-size: 22px;   
 }
 .upperexternal .leaf.wp a {
   color: #3e5b97;  
   display: block;
-  font-size: 24px;   
+  font-size: 22px;   
 }
 .upperexternal .leaf.pith a {
   color: #666;
   display: block;
-    font-size: 24px;
+    font-size: 22px;
     -webkit-transform: matrix(0, 1, 1, 0, -5, 5);
     -moz-transform: matrix(0, 1, 1, 0, -5, 5);
     -o-transform: matrix(0, 1, 1, 0, -5, 5);
@@ -192,10 +193,7 @@
   .browsecatalog {
     display: inline-block;
     width: auto;
-  } 
-  .upperexternal2  {
-    display: none;
-  }   
+  }  
 #block-menu-menu-browse ul li {
   display: block;
   text-align: left;
@@ -232,7 +230,49 @@
   .page-behind-the-scenes- #primary, 
   .page-resources #primary {
     margin-top: -34px !important;
-  }   
+  } 
+  .upperexternal  {
+    display: none;
+  } 
+  .upperexternal2  {
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    width: auto;
+  }
+  .upperexternal2 .leaf {
+    display: inline-block;
+    margin: 0 4px;
+  }
+  .upperexternal2 .leaf.homelink a {
+    color: #3e5b97;
+    display: block;
+    font-size: 27px;
+    position: relative;
+    top: 3px;
+  }
+  .upperexternal2 .leaf.email a {
+    color: #506777;
+    display: block;
+    font-size: 24px;   
+  }
+  .upperexternal2 .leaf.wp a {
+    color: #3e5b97;  
+    display: block;
+    font-size: 24px;   
+  }
+  .upperexternal2 .leaf.pith a {
+    color: #666;
+    display: block;
+      font-size: 24px;
+      -webkit-transform: matrix(0, 1, 1, 0, -5, 5);
+      -moz-transform: matrix(0, 1, 1, 0, -5, 5);
+      -o-transform: matrix(0, 1, 1, 0, -5, 5);
+      transform: matrix(0, 1, 1, 0, -5, 5);     
+  }
+  .upperexternal2 ul, .upperexternal2 ol {
+    margin: 0;
+  }      
 }  
 @media (max-width: 1024px) {
   /*** level 2  ***/
@@ -337,7 +377,9 @@
    } 
   .node-type-page .slicknav_menu {
     width: 100%;
-    margin: 38px auto 0;
+    position: relative;
+    margin: 38px auto 25px;
+    z-index: 108;
   }
   #search-block-form {
     display: inline-block;
@@ -355,46 +397,46 @@
   .upperexternal  {
     display: none;
   }
-.upperexternal2  {
-  display: inline-block;
-  margin-right: 10px;
-  position: relative;
-  width: auto;
-}
-.upperexternal2 .leaf {
-  display: inline-block;
-  margin: 0 4px;
-}
-.upperexternal2 .leaf.homelink a {
-  color: #3e5b97;
-  display: block;
-  font-size: 27px;
-  position: relative;
-  top: 3px;
-}
-.upperexternal2 .leaf.email a {
-  color: #506777;
-  display: block;
-  font-size: 24px;   
-}
-.upperexternal2 .leaf.wp a {
-  color: #3e5b97;  
-  display: block;
-  font-size: 24px;   
-}
-.upperexternal2 .leaf.pith a {
-  color: #666;
-  display: block;
-    font-size: 24px;
-    -webkit-transform: matrix(0, 1, 1, 0, -5, 5);
-    -moz-transform: matrix(0, 1, 1, 0, -5, 5);
-    -o-transform: matrix(0, 1, 1, 0, -5, 5);
-    transform: matrix(0, 1, 1, 0, -5, 5);     
-}
-.upperexternal2 ul, .upperexternal2 ol {
-  margin: 0;
-}
-  
+  .upperexternal2  {
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 0px;
+    position: relative;
+    width: auto;
+  }
+  .upperexternal2 .leaf {
+    display: inline-block;
+    margin: 0 4px;
+  }
+  .upperexternal2 .leaf.homelink a {
+    color: #3e5b97;
+    display: block;
+    font-size: 27px;
+    position: relative;
+    top: 3px;
+  }
+  .upperexternal2 .leaf.email a {
+    color: #506777;
+    display: block;
+    font-size: 24px;   
+  }
+  .upperexternal2 .leaf.wp a {
+    color: #3e5b97;  
+    display: block;
+    font-size: 24px;   
+  }
+  .upperexternal2 .leaf.pith a {
+    color: #666;
+    display: block;
+      font-size: 24px;
+      -webkit-transform: matrix(0, 1, 1, 0, -5, 5);
+      -moz-transform: matrix(0, 1, 1, 0, -5, 5);
+      -o-transform: matrix(0, 1, 1, 0, -5, 5);
+      transform: matrix(0, 1, 1, 0, -5, 5);     
+  }
+  .upperexternal2 ul, .upperexternal2 ol {
+    margin: 0;
+  }
   .fixedbar_center #search-block-form--2 .search, .fixedbar_center #search-block-form .search {
     max-width: 385px;
     margin-top: 0px;
@@ -416,7 +458,10 @@
   }  
   .view.view-image-banner-scroll.view-id-image_banner_scroll {
       display: none;
-  }  
+  }
+  .field.field-name-field-social-media-links {
+      border-top: 1px solid #999;
+  }    
 }  
 
 

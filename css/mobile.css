@@ -34,7 +34,7 @@
   } 
   .node-type-page .content_main {
       clear: both;
-      margin: 0px auto 20px;
+      margin: 0px auto 0px;
       max-width: 1260px;
   }
   #primary {
