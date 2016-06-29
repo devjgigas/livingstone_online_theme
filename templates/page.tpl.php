@@ -62,16 +62,29 @@
  * @see template_preprocess()
  * @see template_preprocess_page()
  * @see template_process()
+
+
+<ul class="menu"><li class="first leaf homelink "><a class="fa" href="/"></a></li>
+<li class="leaf pith"><a class="fa" href="http://livingstoneonline.org/about-this-site/livingstone-online-site-guide"></a></li>
+<li class="leaf email"><a class="fa" href="mailto:awisnicki@yahoo.com"></a></li>
+<li class="last leaf wp"><a class="fa" href="http://livingstoneonline.wordpress.com/"></a></li>
+</ul>
  */
 ?>
+
 <?php 
 if(isset($node) && $node->type =='section_page'): ?>
 
   <div id="fixedbar">
     <div class="fixedbar_left">
     <div class="fixedleft_1"><a href="#" class="slideout-menu-toggle"><i class="fa fa-bars"></i> </a></div>
-    <div class="fixedleft_2"><a href="/"><img class="fixedleft2" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/social/trans-social-home-28.png'; ?>"/></a>  </div>
-   <div class="fixedleft_3"><a href="/about-site/livingstone-online-site-guide"><img class="fixedleft3" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/menu-pith26.png'; ?>"/></a>  </div>
+    <div class="fixedleft_2 upperexternal">
+      <ul class="menu">
+      <li class="first leaf homelink "><a class="fa" href="/"></a></li>
+      <li class="leaf pith"><a class="fa" href="http://livingstoneonline.org/about-this-site/livingstone-online-site-guide"></a></li>
+      </ul> 
+    </div>
+
     </div>
     <div class="fixedbar_center">
       <div id="logo" class="site-branding">
