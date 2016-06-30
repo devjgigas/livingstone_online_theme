@@ -90,7 +90,7 @@ a:active {
 }
 #site-logo img.mobilelogo {
   max-width: 390px;
-  width: 100%;
+  width: 95%;
 }
 .fixedbar_center .site-branding {
     display: none;

@@ -250,24 +250,24 @@
   .upperexternal2 .leaf.homelink a {
     color: #3e5b97;
     display: block;
-    font-size: 27px;
+    font-size: 25px;
     position: relative;
     top: 3px;
   }
   .upperexternal2 .leaf.email a {
     color: #506777;
     display: block;
-    font-size: 24px;   
+    font-size: 22px;   
   }
   .upperexternal2 .leaf.wp a {
     color: #3e5b97;  
     display: block;
-    font-size: 24px;   
+    font-size: 22px;   
   }
   .upperexternal2 .leaf.pith a {
     color: #666;
     display: block;
-      font-size: 24px;
+      font-size: 22px;
       -webkit-transform: matrix(0, 1, 1, 0, -5, 5);
       -moz-transform: matrix(0, 1, 1, 0, -5, 5);
       -o-transform: matrix(0, 1, 1, 0, -5, 5);
@@ -509,6 +509,9 @@
   body.page-islandora-search .upperexternal2 {
       margin-bottom: 8px;
   }
+  .node-type-page .upperexternal2 {
+      margin-bottom: 0px;
+  }   
   .upperexternal2 {
       margin-bottom: 4px;
   }        

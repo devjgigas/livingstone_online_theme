@@ -28,6 +28,12 @@
   #breadcrumb {
     clear: both;
   }
+  span.breadcrumb-0 {
+    margin-bottom: 6px;
+  } 
+  span.breadcrumb-2 {
+    margin-bottom: 10px;
+  }  
   .node-type-page .mainmenu {
     float: right;
     width: 64%;

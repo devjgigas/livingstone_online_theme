@@ -69,7 +69,11 @@
   <div id="fixedbar">
     <div class="fixedbar_left">
     <div class="fixedleft_1"><a href="#" class="slideout-menu-toggle"><i class="fa fa-bars"></i> </a></div>
-    <div class="fixedleft_2"><a href="home"><img class="fixedheaderlogo" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/social/trans-social-home-28.png'; ?>"/></a>  </div>
+    <div class="fixedleft_2 upperexternal">
+      <ul class="menu">
+      <li class="first leaf homelink "><a class="fa" href="/"></a></li>
+      <li class="leaf pith"><a class="fa" href="http://livingstoneonline.org/about-this-site/livingstone-online-site-guide"></a></li>
+      </ul> 
     </div>
     <div class="fixedbar_center">
       <div class="his-own-words" id="breadcrumb">
