@@ -157,6 +157,48 @@
 .upperexternal ul, .upperexternal ol {
   margin: 0;
 }
+
+
+.upperexternal3  {
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  top: 5px;
+  width: auto;
+}
+.upperexternal3 .leaf {
+  display: inline-block;
+  margin: 0 4px;
+}
+.upperexternal3 .leaf.homelink a {
+  color: #3e5b97;
+  display: block;
+  font-size: 25px;
+  position: relative;
+  top: 2px;
+}
+.upperexternal3 .leaf.email a {
+  color: #506777;
+  display: block;
+  font-size: 22px;   
+}
+.upperexternal3 .leaf.wp a {
+  color: #3e5b97;  
+  display: block;
+  font-size: 22px;   
+}
+.upperexternal3 .leaf.pith a {
+  color: #666;
+  display: block;
+    font-size: 22px;
+    -webkit-transform: matrix(0, 1, 1, 0, -5, 5);
+    -moz-transform: matrix(0, 1, 1, 0, -5, 5);
+    -o-transform: matrix(0, 1, 1, 0, -5, 5);
+    transform: matrix(0, 1, 1, 0, -5, 5);     
+}
+.upperexternal3 ul, .upperexternal3 ol {
+  margin: 0;
+}
 .upperexternal2  {
   display: none;
 }  
@@ -237,34 +279,40 @@
   .upperexternal  {
     display: none;
   } 
-  .upperexternal2  {
+  .upperexternal2,
+  .upperexternal3  {
     display: inline-block;
     margin-left: 10px;
     position: relative;
     width: auto;
   }
-  .upperexternal2 .leaf {
+  .upperexternal2 .leaf,
+  .upperexternal3 .leaf  {
     display: inline-block;
     margin: 0 4px;
   }
-  .upperexternal2 .leaf.homelink a {
+  .upperexternal2 .leaf.homelink a,
+  .upperexternal3 .leaf.homelink a {
     color: #3e5b97;
     display: block;
     font-size: 25px;
     position: relative;
     top: 3px;
   }
-  .upperexternal2 .leaf.email a {
+  .upperexternal2 .leaf.email a,
+  .upperexternal3 .leaf.email a {
     color: #506777;
     display: block;
     font-size: 22px;   
   }
-  .upperexternal2 .leaf.wp a {
+  .upperexternal2 .leaf.wp a,
+  .upperexternal3 .leaf.wp a {
     color: #3e5b97;  
     display: block;
     font-size: 22px;   
   }
-  .upperexternal2 .leaf.pith a {
+  .upperexternal2 .leaf.pith a,
+  .upperexternal3 .leaf.pith a {
     color: #666;
     display: block;
       font-size: 22px;
@@ -273,7 +321,8 @@
       -o-transform: matrix(0, 1, 1, 0, -5, 5);
       transform: matrix(0, 1, 1, 0, -5, 5);     
   }
-  .upperexternal2 ul, .upperexternal2 ol {
+  .upperexternal2 ul, .upperexternal2 ol,
+  .upperexternal3 ul, .upperexternal3 ol {
     margin: 0;
   }      
 }  
@@ -400,35 +449,41 @@
   .upperexternal  {
     display: none;
   }
-  .upperexternal2  {
+  .upperexternal2,
+  .upperexternal3  {
     display: inline-block;
     margin-right: 0px;
     margin-left: 10px;
     position: relative;
     width: auto;
   }
-  .upperexternal2 .leaf {
+  .upperexternal2 .leaf,
+  .upperexternal3 .leaf {
     display: inline-block;
     margin: 0 4px;
   }
-  .upperexternal2 .leaf.homelink a {
+  .upperexternal2 .leaf.homelink a,
+  .upperexternal3 .leaf.homelink a {
     color: #3e5b97;
     display: block;
     font-size: 25px;
     position: relative;
     top: 3px;
   }
-  .upperexternal2 .leaf.email a {
+  .upperexternal2 .leaf.email a,
+  .upperexternal3 .leaf.email a {
     color: #506777;
     display: block;
     font-size: 22px;   
   }
-  .upperexternal2 .leaf.wp a {
+  .upperexternal2 .leaf.wp a,
+  .upperexternal3 .leaf.wp a {
     color: #3e5b97;  
     display: block;
     font-size: 22px;   
   }
-  .upperexternal2 .leaf.pith a {
+  .upperexternal2 .leaf.pith a,
+  .upperexternal3 .leaf.pith a {
     color: #666;
     display: block;
       font-size: 22px;
@@ -437,7 +492,8 @@
       -o-transform: matrix(0, 1, 1, 0, -5, 5);
       transform: matrix(0, 1, 1, 0, -5, 5);     
   }
-  .upperexternal2 ul, .upperexternal2 ol {
+  .upperexternal2 ul, .upperexternal2 ol,
+  .upperexternal3 ul, .upperexternal3 ol {
     margin: 0;
   }
   .fixedbar_center #search-block-form--2 .search, .fixedbar_center #search-block-form .search {
@@ -506,13 +562,18 @@
   }
   body.page-browse-addressee .upperexternal2, 
   body.page-browse-recipient .upperexternal2, 
-  body.page-islandora-search .upperexternal2 {
+  body.page-islandora-search .upperexternal2,
+  body.page-browse-addressee .upperexternal3, 
+  body.page-browse-recipient .upperexternal3, 
+  body.page-islandora-search .upperexternal3 {
       margin-bottom: 8px;
   }
-  .node-type-page .upperexternal2 {
+  .node-type-page .upperexternal2,
+  .node-type-page .upperexternal3 {
       margin-bottom: 0px;
   }   
-  .upperexternal2 {
+  .upperexternal2,
+  .upperexternal3 {
       margin-bottom: 4px;
   }        
   .project h3 {
