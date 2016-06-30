@@ -75,14 +75,20 @@
       <li class="leaf pith"><a class="fa" href="http://livingstoneonline.org/about-this-site/livingstone-online-site-guide"></a></li>
       </ul> 
     </div>
+
+    </div>
     <div class="fixedbar_center">
-      <div class="his-own-words" id="breadcrumb">
-        <span class="breadcrumb-0"><a href="/">Livingstone Online</a></span>  
-        <span class="breadcrumb-1"><a href="/in-his-own-words">In His Own Words</a></span>  
-        <span class="breadcrumb-2">Standard Catalogue Record </span>
+      <div id="logo" class="site-branding">
+        <?php if ($logo): ?>
+            <div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+            <img class="desktoplogo" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+            <img class="mobilelogo" src="<?php print $lo_mobilelogo = theme_get_setting('lo_mobilelogo'); ?>" alt="<?php print t('Home'); ?>" /></a></div>
+            <?php print $search_box; ?> <div class="uptotop"><a href="#TOP">Top ⤴</a></div>
+        <?php endif; ?>
       </div>
-</div>
-    <div class="fixedbar_right"><?php print $search_box; ?></div>    
+    <div id="header_mobilenav"></div>  
+    <?php print $breadcrumb; ?></div>
+    <div class="fixedbar_right"><?php print $search_box; ?></div>      
      
     <?php print render($page['fixedbar']); ?>  
     <div class="slideout-menu">
