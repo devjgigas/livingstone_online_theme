@@ -423,7 +423,7 @@
     width: 100%;
     margin: 11px auto 0;
   }
-  .node-type-page .region.region-content {
+  .not-front .node-type-page .region.region-content {
     clear: none; 
     margin: 18px auto 20px;
    } 

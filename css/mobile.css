@@ -21,17 +21,6 @@
 
 @media all and (max-width: 450px) {
 
-  .front #site-logo img {
-    width: 90%;
-  }
-  .front .content_main {
-      clear: both;
-      margin: 0px auto 0px !important;
-  }
-  .front #navigation > #main-menu {
-    margin: 0 auto;
-    width: 300px;
-  } 
   .node-type-page .content_main {
       clear: both;
       margin: 0px auto 0px;
@@ -193,11 +182,4 @@
   #mobile-menu-inner .menu li:nth-child(6){
      background-color: transparent; 
   }
-  .footer {
-    background: #000 none repeat scroll 0 0;
-    bottom: -29px;
-    padding: 20px 0;
-    position: absolute;
-  }
-
 }

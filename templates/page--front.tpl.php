@@ -65,7 +65,7 @@
  */
 ?>
 
-<div id="page-wide" class="page-row page-row-expanded wrapper">
+<div id="page" class="page-row page-row-expanded wrapper">
 
   <header id="masthead" class="site-header container" role="banner">
     <div class="row">
@@ -75,45 +75,12 @@
     </div>
   </header>
 
-  <div class="content_main">
-<!--      <div id="slider">
-          <div class="flexslider">
-            <div class="flex-caption">  
-                <?php print render($page['title']); ?>
-              <div class="row">
-                <div id="logo" class="site-branding">
-                  <?php if ($logo): ?><div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-                    <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-                  </a></div><?php endif; ?>
-                </div>
-              </div>
-            </div>
-          </div>  
-      </div> -->
-
-      <nav id="navigation" role="navigation">
-        <div id="main-menu">
-          <?php 
-            if (module_exists('i18n_menu')) {
-              $main_menu_tree = i18n_menu_translated_tree(variable_get('menu_main_links_source', 'main-menu'));
-            } else {
-              $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
-            }
-            print drupal_render($main_menu_tree);
-          ?>
-        </div>
-      </nav>    
+  <div class="content_main oh">
+        <?php print render($page['content']); ?>  
   </div>
-              <?php print render($page['content']); ?>
-               <?php print render($page['footer_first']); ?>
-  <div class="footer"> 
-    <div class="footerimages">
-        <div class="footimg"><a href="http://lib.umd.edu/" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/umd_libraries.png'; ?>"> </a></div>
-        <div class="footimg"><a href="http://www.nts.org.uk/property/davidlivingstonecentre/" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/nts.png'; ?>"> </a></div>
-        <div class="footimg"><a href="http://www.neh.gov/" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/humanities.png'; ?>"> </a></div>
-        <div class="footimg"><a href="http://www.nls.uk" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/nls.png'; ?>"> </a></div>
-        <div class="footimg"><a href="http://www.unl.edu" target="_blank"><img class="footerlogos" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/logos/nebraska.png'; ?>"> </a></div>
-    </div>
-  </div>
+  <footer class="footer <?php print $container_class; ?>">
+      <?php print render($page['footer_first']); ?>
+      <?php print render($page['footer']); ?>
+  </footer>    
 </div> 
  

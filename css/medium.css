@@ -1,8 +1,5 @@
 @media all and (max-width: 766px)  {
 
-  body.front {
-    background: #000;
-  }
   .fixedbar_center .site-branding {
     display: block !important;
     margin-top: 0;
@@ -12,17 +9,6 @@
     max-width: 100%;
     width: 100%;
   }
-  .front #navigation > #main-menu {
-    margin: 0 auto;
-    width: 400px;
-    z-index: 120;
-  }
-  .footer {
-    background: #000 none repeat scroll 0 0;
-    bottom: -29px;
-    padding: 20px 0;
-    position: absolute;
-  }  
   .fixedbar_center {
     width: 100%;
   }
@@ -34,20 +20,11 @@
   #breadcrumb {
     display: none;
   }
-  .front .site-branding {
-    margin-top: 0px;
-  }  
+ 
   .block-views-image-banner-scroll-block-2,
-  #navigation {
+  .not-front #navigation {
     display: none;
   }
-  .front #uppermost,
-  .front #navigation {
-    display: block;
-  }  
-  .front #site-logo img {
-    max-width: 480px;
-  } 
   #main-menu .menu li.expanded ul.menu {
     display: none;
   }  
@@ -207,26 +184,10 @@ body.page-islandora-search h1.page-title {
   html{
     font-size: 60%;
   }
-  body.front {
+/*  body.front {
     background: #000;
-  }
-  .front .col-md-12.mainmenu {
-      margin-top: 20px;
-  }
-  .front #site-logo img {
-    max-width: 480px;
-  }
-  .front #navigation > #main-menu {
-    margin: 0 auto;
-    width: 400px;
-    z-index: 120;
-  }  
-  .footer {
-    background: #000 none repeat scroll 0 0;
-    bottom: -29px;
-    padding: 20px 0;
-    position: absolute;
-  }
+  }*/
+
   .flex-direction-nav .flex-prev {opacity: 1; left: 0;}
   .flex-direction-nav .flex-next {opacity: 1; right: 0;}
 

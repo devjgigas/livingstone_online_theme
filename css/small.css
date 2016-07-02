@@ -17,18 +17,6 @@
     #navigation {
         display: none;
     }
-  .front #uppermost,
-  .front #navigation {
-     display: block;
-  } 
-  .front #masthead{  
-    position:absolute;
-    z-index: 120;
-    width:100%;
-    max-width: 100%;
-    top:5px;
-    height:auto;
-  }
   div#block-nodequeue-pager-2 {
       display: none;
   }
@@ -69,11 +57,5 @@
   body.page-browse-recipient .islandora-solr-facet-pages-wrapper {
     margin: 1% 0;
     z-index: 60;
-  }
-  .footer {
-    background: #000 none repeat scroll 0 0;
-    bottom: -29px;
-    padding: 20px 0;
-    position: absolute;
   }
 }

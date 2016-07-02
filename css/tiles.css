@@ -14,18 +14,6 @@
   text-align: center;
 }
 
-/* footer on home */
-.sideguideright {
-  float: right;
-  margin-right: 10px;
-  text-align: right;
-  width: 50%;
-}
-.linktocreditsleft {
-  float: left;
-  margin-left: 10px;
-  width: 40%;
-}
 .slideout-menu.open .block ul#externalmenu li.leaf {
   display: block;
   list-style-image: none;
