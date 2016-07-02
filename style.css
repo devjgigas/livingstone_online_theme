@@ -11,7 +11,7 @@ html {
   min-height: 100%;
 }
 .oh {
- 
+ overflow: hidden;
 }
 
 nav#navigation #main-menu ul.menu {
@@ -46,18 +46,7 @@ ul.menu, ol.menu {
 .creditssitemap a {
   color: #000;
 }
-.sideguideright {
-  float: right;
-  margin-right: 10px;
-  text-align: right;
-  width: 50%;
-}
-.linktocreditsleft {
-  float: left;
-  margin-left: 10px;
-  text-align: left;
-  width: 40%;
-}
+
 
 /* sticky footer on home page */
 
@@ -423,8 +412,18 @@ h1#site-title a:link, h1#site-title a:visited{
 }
 
 /* homepage  */
+@media all and (max-width: 1170px)  {
+  .view.view-partners {
+    margin: 0 auto;
+    max-width: 900px;
+  }
+}
 @media all and (min-width: 851px)  {
+  body {
+    background: #000;
+  }
   .oh {
+    background: #fff;
     position: relative;
   }
   #masthead{  
@@ -460,11 +459,24 @@ h1#site-title a:link, h1#site-title a:visited{
     position: absolute;
     width: 100%;
     z-index: 120;
+  }
+  .creditssitemap .sideguideright {
+    float: right;
+    margin-right: 10px;
+    text-align: right;
+    width: 50%;
+  }
+  .creditssitemap .linktocreditsleft {
+    float: left;
+    margin-left: 10px;
+    text-align: left;
+    width: 50%;
   }  
-  .region.region-footer-first {
-    background: transparent none repeat scroll 0 0;
+  .region.region-footer-first,
+  .region.region-footer-first .sideguideright,
+  .region.region-footer-first .linktocreditsleft {
     display: none;
-  }   
+  }    
 }
 
 @media all and (max-width: 850px)  {
