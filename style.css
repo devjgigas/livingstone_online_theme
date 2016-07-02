@@ -442,14 +442,21 @@ h1#site-title a:link, h1#site-title a:visited{
     width: 100%;
     text-align: center;
   }
+  .flex-control-nav {
+    position: absolute;
+    text-align: center;
+    top: 65%;
+    width: 100%;
+    z-index: 120;
+  }
   .topmenu {
     position: absolute;
-    top: 55%;
+    top: 49%;
     width: 100%;
     z-index: 120;
   } 
   .creditssitemap {
-    bottom: 6%;
+    bottom: 4%;
     position: absolute;
     width: 100%;
     z-index: 120;
