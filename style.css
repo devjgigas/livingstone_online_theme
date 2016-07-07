@@ -409,6 +409,9 @@ h1#site-title a:link, h1#site-title a:visited{
   text-align: center;
 }
 .homepagelogo img {
+    padding: 0 15px;
+}
+.homepagelogo img {
   max-width: 480px;
   width: 100%;
 }
@@ -442,7 +445,7 @@ h1#site-title a:link, h1#site-title a:visited{
   }  
   .homepagelogo {
     position: absolute;
-    top: 29%;
+    top: 31%;
     z-index: 100;
     width: 100%;
     text-align: center;
@@ -450,7 +453,7 @@ h1#site-title a:link, h1#site-title a:visited{
   .flex-control-nav {
     position: absolute;
     text-align: center;
-    top: 65%;
+    top: 70%;
     width: 100%;
     z-index: 120;
   }
@@ -476,7 +479,7 @@ h1#site-title a:link, h1#site-title a:visited{
     float: left;
     margin-left: 10px;
     text-align: left;
-    width: 48%;
+    width: 47%;
   }  
   .region.region-footer-first,
   .region.region-footer-first .sideguideright,
@@ -499,7 +502,7 @@ h1#site-title a:link, h1#site-title a:visited{
     width: 80%;
   }
   .flex-control-nav {
-    bottom: 20%;
+    bottom: 3%;
     position: absolute;
     text-align: center;
     width: 80%;
@@ -627,7 +630,7 @@ h1#site-title a:link, h1#site-title a:visited{
     padding: 0 15px;
   }
   .topmenu ul.menu {
-    margin: 0 .33em !important;
+    margin: 0 0 0 -5px !important
   }
   .region.region-footer-first a, .creditssitemap a {
     font-size: 14px;
