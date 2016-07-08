@@ -2,23 +2,24 @@ h3.timeline-date {
   font-size: 1em;
 }
 .timeline-text {
-	color: gray;
+  color: gray;
 }
 .timeline-text, .timeline-text a {
-	font-size: .9em !important;
-	line-height: 20.5px;
+  font-size: .9em !important;
+  line-height: 20.5px;
 }
 .simple_timeline ul .timeline-image {
   margin-top: 5px;
 }
 .timeline-date {
-	margin: 0 2% -1% 2%;
+  margin: 0 2% -1% 2%;
 }
 input#edit-creators-value,
 input#edit-title,
 input#edit-dates-value {
   border-radius: 7px;
   height: 25px;
+  width: 200px;
 }
 input#edit-submit-timeline-test, input#edit-reset {
   border-radius: 7px;
@@ -29,4 +30,11 @@ input#edit-submit-timeline-test, input#edit-reset {
 }
 #views-exposed-form-timeline-test-page .views-exposed-form .views-exposed-widget .form-submit {
   margin-top: 1.9em;
+}
+.view-timeline-test .view-filters {
+  text-align: center;
+}
+.view-timeline-test .views-exposed-form {
+  display: inline-flex;
+  margin: 0 auto;
 }

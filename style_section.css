@@ -572,6 +572,24 @@ body.not-front .flex-direction-nav {
   margin-left: 5px;
 }
 /* level 2 pages */
+
+/***browse catalog ***/
+
+.page-islandora-search .search-results th.access-column, 
+.page-islandora-search .search-results td.access-column {
+  max-width: 120px !important;
+  min-width: 120px !important;
+  width: 120px !important;
+}
+.page-islandora-search .region.region-content {
+  clear: both;
+  margin: -8px auto 20px;
+  max-width: 1260px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0 70px;
+}
+
 .page-in-his-own-words- #primary,
 .page-in-his-own-words #primary,
 .page-about-this-site #primary,
