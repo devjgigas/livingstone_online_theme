@@ -188,6 +188,20 @@ function lo_menu_link__menu_external_links(array $variables) {
   return '<li' . drupal_attributes($element['#attributes']) . '><li class="leaf"><a href="'.$element['#href'].'"' . $element['#title'] . "</a></li>\n";
 }
 
+function lo_form_alter(&$form, &$form_state, $form_id){
+  if($form_id == "views_exposed_form"){// not to be changed form_id 
+    if (isset($form['dates_value'])) {                       //title is name attribute value of input
+      $form['dates_value']['#attributes'] = array('placeholder' => array(t('Date(s)')));
+    }
+      if (isset($form['title'])) {                       //title is name attribute value of input
+      $form['title']['#attributes'] = array('placeholder' => array(t('Title')));
+    }
+      if (isset($form['creators_value'])) {                       //title is name attribute value of input
+      $form['creators_value']['#attributes'] = array('placeholder' => array(t('Creator(s)')));
+    }    
+  }
+}
+
 function lo_form_element($variables) {
   $element = &$variables['element'];
 
