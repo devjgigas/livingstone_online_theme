@@ -17,6 +17,7 @@ stylesheets[all][] = css/mobile.css
 stylesheets[all][] = css/sizes.css
 stylesheets[all][] = css/extsearchbrowse.css
 stylesheets[all][] = css/dropit.css
+stylesheets[all][] = css/timeline.css
 stylesheets[print][] = css/print.css
 
 scripts[] = js/bootstrap.min.js

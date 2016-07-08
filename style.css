@@ -417,6 +417,16 @@ h1#site-title a:link, h1#site-title a:visited{
 }
 
 /* homepage  */
+@media all and (min-width: 1171px)  {
+  .flex-control-paging li a {
+    height: 13px;
+    width: 15px;
+  }
+  .homepagelogo img {
+    padding: 0px;
+  }
+}
+
 @media all and (max-width: 1170px)  {
 /*  .homepagelogo img {
     max-width: 400px;
@@ -445,7 +455,7 @@ h1#site-title a:link, h1#site-title a:visited{
   }  
   .homepagelogo {
     position: absolute;
-    top: 31%;
+    top: 37%;
     z-index: 100;
     width: 100%;
     text-align: center;
@@ -453,13 +463,13 @@ h1#site-title a:link, h1#site-title a:visited{
   .flex-control-nav {
     position: absolute;
     text-align: center;
-    top: 70%;
+    top: 74%;
     width: 100%;
     z-index: 120;
   }
   .topmenu {
     position: absolute;
-    top: 49%;
+    top: 52.55%;
     width: 100%;
     z-index: 120;
   } 
@@ -579,6 +589,9 @@ h1#site-title a:link, h1#site-title a:visited{
     padding: 20px 0;
     width: 25%;
   }
+  .region.region-content {
+    margin-bottom: 20px;
+  }  
 }
 @media all and (max-width: 766px)  {
   #navigation > #main-menu {
@@ -625,7 +638,10 @@ h1#site-title a:link, h1#site-title a:visited{
   }  
   #search-block-form {
       margin-bottom: 0em;
-  }         
+  }  
+  .menu-name-menu-upper ul.menu {
+    margin: 0 0 0 15px !important;
+  }          
   .homepagelogo img {
     padding: 0 15px;
   }
