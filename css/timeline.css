@@ -1,10 +1,25 @@
+.his-own-words.timeline .node-type-section-page .field.field-name-field-social-media-links .field-items {
+  border: 0;
+}
+.simple_timeline ul .timeline-content {
+  min-width: 125px;
+  padding: 0 6px !important;
+}
 h3.timeline-date {
   font-size: 1em;
 }
-.timeline-text {
-  color: gray;
+.simple_timeline .timeline-date {
+  margin: 0 2% -1%;
+  text-align: right;
 }
-.timeline-text, .timeline-text a {
+.simple_timeline ul li .timeline-text {
+  font-size: .9em !important;
+  color: gray;
+  width: auto;
+  margin-left:2%;
+  line-height:20.5px;
+}
+.simple_timeline ul li .timeline-text a {
   font-size: .9em !important;
   line-height: 20.5px;
 }
@@ -29,12 +44,42 @@ input#edit-submit-timeline-test, input#edit-reset {
   border: 1px solid #ddd;
 }
 #views-exposed-form-timeline-test-page .views-exposed-form .views-exposed-widget .form-submit {
-  margin-top: 1.9em;
+  margin-top: 0;
 }
 .view-timeline-test .view-filters {
+  text-align: center;
+}
+.views-exposed-widgets {
+  display: inline-block;
+  margin-bottom: 1em;
+  width: auto;
+}
+#views-exposed-form-timeline-test-page .views-exposed-form {
   text-align: center;
 }
 .view-timeline-test .views-exposed-form {
   display: inline-flex;
   margin: 0 auto;
+}
+.simple_timeline ul li:nth-child(2n+1) > div .timeline-content {
+  float: right;
+  padding-right: 2px;
+}
+@media all and (max-width: 450px) {
+  #views-exposed-form-timeline-test-page .views-exposed-form .views-exposed-widget {
+    display: inline-block;
+    padding: 0.5em 1em 0 0;
+  }
+  .item-list.simple_timeline {
+    padding: 0 10px;
+  }
+  .simple_timeline ul li:nth-child(2n) > div .timeline-date {
+    text-align: left;
+  }
+  .simple_timeline .timeline-date {
+    margin-left: 0;
+  }
+  .simple_timeline ul li .timeline-text {
+    margin-left: 0;
+  }
 }
