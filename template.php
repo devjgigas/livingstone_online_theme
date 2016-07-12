@@ -191,13 +191,13 @@ function lo_menu_link__menu_external_links(array $variables) {
 function lo_form_alter(&$form, &$form_state, $form_id){
   if($form_id == "views_exposed_form"){// not to be changed form_id 
     if (isset($form['dates_value'])) {                       //title is name attribute value of input
-      $form['dates_value']['#attributes'] = array('placeholder' => array(t('Date(s)')));
+      $form['dates_value']['#attributes'] = array('placeholder' => array(t('Search date(s)')));
     }
       if (isset($form['title'])) {                       //title is name attribute value of input
-      $form['title']['#attributes'] = array('placeholder' => array(t('Title')));
+      $form['title']['#attributes'] = array('placeholder' => array(t('Search title')));
     }
       if (isset($form['creators_value'])) {                       //title is name attribute value of input
-      $form['creators_value']['#attributes'] = array('placeholder' => array(t('Creator(s)')));
+      $form['creators_value']['#attributes'] = array('placeholder' => array(t('Search creator(s)')));
     }    
   }
 }
