@@ -325,9 +325,7 @@
   .upperexternal2 ul, .upperexternal2 ol,
   .upperexternal3 ul, .upperexternal3 ol {
     margin: 0;
-  }      
-}  
-@media (max-width: 1024px) {
+  } 
   /*** level 2  ***/
   .node-type-page #block-nodequeue-pager-7,
   .node-type-page #block-nodequeue-pager-8 {
@@ -369,7 +367,10 @@
     line-height: 1;
     margin-bottom: 0;
     padding: 0px 7px 10px;
-  }
+  }       
+}  
+@media (max-width: 1024px) {
+
   #primary .view-repository-list table {
     font-size: 14px;
     width: 80%;

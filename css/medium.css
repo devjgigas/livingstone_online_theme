@@ -226,6 +226,9 @@ body.page-islandora-search h1.page-title {
   .nodequeuepager, .prevnextnode_mid {
         display: none;
   } 
+  .page-islandora-search #form_wrapper {
+      padding: 0px !important;
+  }    
   .node-type-section-page .panel-pane.pane-node-content .content {
       margin: 1% 0% 0 !important;
       position: relative;
