@@ -334,7 +334,7 @@ a:focus {
 
 .page-browse-addressee #masthead,
 .page-browse-addressee #masthead,
-.node-type-section-page #masthead{  /*level 3 pages */
+.node-type-section-page #masthead {  /*level 3 pages */
   position: relative;
   max-width: 1260px;
   padding-left: 0px;
@@ -347,6 +347,8 @@ a:focus {
   padding-left: 15px;
   padding-right: 15px;
 }
+.page-browse-addressee #masthead, 
+.page-islandora-search #masthead, 
 .node-type-section-page #masthead{
   margin-bottom: 10px;
 }  
@@ -581,7 +583,7 @@ body.not-front .flex-direction-nav {
   min-width: 120px !important;
   width: 120px !important;
 }
-.page-islandora-search .region.region-content {
+.page-islandora-search #form_wrapper {
   clear: both;
   margin: -8px auto 20px;
   max-width: 1260px;

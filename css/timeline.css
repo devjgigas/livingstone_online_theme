@@ -1,5 +1,10 @@
-.his-own-words.timeline .node-type-section-page .field.field-name-field-social-media-links .field-items {
+.his-own-words.timeline.node-type-section-page .field.field-name-field-social-media-links .field-items {
   border: 0;
+}
+.his-own-words.timeline .fixedbar_right #search-block-form {
+  display: none;
+  margin-right: 10px;
+  width: auto;
 }
 .simple_timeline ul .timeline-content {
   min-width: 125px;
@@ -20,7 +25,7 @@ h3.timeline-date {
   line-height:20.5px;
 }
 .simple_timeline ul li .timeline-text a {
-  font-size: .9em !important;
+  font-size: 14px !important;
   line-height: 20.5px;
 }
 .simple_timeline ul .timeline-image {
@@ -29,11 +34,12 @@ h3.timeline-date {
 .timeline-date {
   margin: 0 2% -1% 2%;
 }
-input#edit-creators-value,
-input#edit-title,
-input#edit-dates-value {
+input#edit-creators-value, input#edit-title, input#edit-dates-value {
+  background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/search-button.png") no-repeat scroll 0 0;
   border-radius: 7px;
+  font-size: 14px;
   height: 25px;
+  padding-left: 31px;
   width: 200px;
 }
 input#edit-submit-timeline-test, input#edit-reset {
@@ -42,6 +48,18 @@ input#edit-submit-timeline-test, input#edit-reset {
   height: 25px;
   padding: 0 10px;
   border: 1px solid #ddd;
+}
+.views-exposed-widget.views-widget-filter-dates_value {
+  display: inline-block;
+  float: none;
+}
+.views-exposed-widget.views-widget-filter-title {
+  display: inline-block;
+  float: none;
+}
+.views-exposed-widget.views-widget-filter-creators_value {
+  display: inline-block;
+  float: none;
 }
 #views-exposed-form-timeline-test-page .views-exposed-form .views-exposed-widget .form-submit {
   margin-top: 0;
@@ -65,10 +83,74 @@ input#edit-submit-timeline-test, input#edit-reset {
   float: right;
   padding-right: 2px;
 }
-@media all and (max-width: 450px) {
+.simple_timeline ul li:nth-child(2n) > div .timeline-content {
+  float: left;
+  padding-left: 2px;
+}
+.views-exposed-widget.views-submit-button {
+  display: inline-block;
+  float: none;
+}
+.views-exposed-widget.views-reset-button {
+  display: inline-block;
+  float: none;
+}
+
+@media all and (max-width: 1229px) {
+  .timeline-text {
+    max-width: 400px;
+    min-width: 400px;
+    width: 100% !important;
+  }
+}
+@media all and (max-width: 850px) {
+  .timeline-text {
+    max-width: 100%;
+    min-width: 275px;
+    width: 100% !important;
+  }
+  #edit-submit-timeline-test {
+    float: none;
+  }
+  #edit-reset {
+    float: none;
+  }
+ .views-exposed-widget.views-reset-button {
+    display: inline-block;
+    float: none;
+    text-align: left;
+    width: 20%;
+  }
+  .views-exposed-widget.views-submit-button {
+    display: inline-block;
+    float: none;
+    text-align: right;
+    width: 20%;
+  } 
+  .views-exposed-form .views-exposed-widget {
+    padding: 0.5em 1em 0 0;
+    float: none;
+  }
+}
+@media all and (max-width: 684px) {
+ .views-exposed-widget.views-reset-button {
+    display: inline-block;
+    float: none;
+    text-align: left;
+    width: auto;
+  }
+  .views-exposed-widget.views-submit-button {
+    display: inline-block;
+    float: none;
+    text-align: right;
+    width: auto;
+  }
+}
+@media all and (max-width: 465px) {
   #views-exposed-form-timeline-test-page .views-exposed-form .views-exposed-widget {
     display: inline-block;
     padding: 0.5em 1em 0 0;
+    text-align: center;
   }
   .item-list.simple_timeline {
     padding: 0 10px;
@@ -81,5 +163,34 @@ input#edit-submit-timeline-test, input#edit-reset {
   }
   .simple_timeline ul li .timeline-text {
     margin-left: 0;
+  }
+  .views-exposed-widget.views-widget-filter-dates_value {
+    display: block;
+    float: none;
+  }
+  #views-exposed-form-timeline-test-page .views-exposed-form .views-exposed-widget {
+    display: block;
+    padding: 0.5em 1em 0 0;
+    text-align: center;
+  }
+  .views-exposed-widget.views-widget-filter-title {
+    display: block;
+    float: none;
+  }
+  .views-exposed-widget.views-widget-filter-creators_value {
+    display: block;
+    float: none;
+  }
+  .views-exposed-widget.views-submit-button {
+    display: inline-block !important;
+    float: none;
+    text-align: right;
+    width: auto;
+  }
+  .views-exposed-widget.views-reset-button {
+    display: inline-block !important;
+    float: none;
+    text-align: left;
+    width: auto;
   }
 }
