@@ -1,11 +1,6 @@
 .his-own-words.timeline.node-type-section-page .field.field-name-field-social-media-links .field-items {
   border: 0;
 }
-.his-own-words.timeline .fixedbar_right #search-block-form {
-  display: none;
-  margin-right: 10px;
-  width: auto;
-}
 .his-own-words.timeline .field.field-name-field-social-media-links {
   border-top: 0 solid #999;
 }
@@ -18,12 +13,13 @@ h3.timeline-date {
 }
 .simple_timeline .timeline-date {
   text-align: right;
+  margin: 0 !important
 }
 .simple_timeline ul li .timeline-text {
   font-size: .9em !important;
   color: gray;
   margin-left: 0;
-  width: auto;
+  width: auto;  
   line-height:20.5px;
 }
 .simple_timeline ul li .timeline-text a {
@@ -34,7 +30,7 @@ h3.timeline-date {
   margin-top: 5px;
 }
 .timeline-date {
-
+  margin: 0 !important;
 }
 input#edit-creators-value, input#edit-title, input#edit-dates-value {
   background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/search-button.png") no-repeat scroll 0 0;
@@ -70,14 +66,14 @@ input#edit-submit-timeline-test, input#edit-reset {
   padding: 0.5em .5em 0 0;
   float: none;
 }
-.view-timeline-test .view-filters {
-  text-align: center;
+.content > form#views-exposed-form-timeline-test-page {
+  margin-top: -20px;
 }
 .view-timeline-test .item-list {
   margin-bottom: 20px;
 }
-.content > form#views-exposed-form-timeline-test-page {
-  margin-top: -20px;
+.view-timeline-test .view-filters {
+  text-align: center;
 }
 .views-exposed-widgets {
   display: inline-block;
@@ -96,7 +92,7 @@ margin-left: 10px;
 }
 .simple_timeline ul li:nth-child(2n+1) > div .timeline-content {
   float: right;
-  padding-right: 0px;
+  padding-right: 0px !important;
 }
 .simple_timeline ul li:nth-child(2n+1) > div .timeline-text {
   float: right;
@@ -109,7 +105,7 @@ margin-left: 10px;
 }
 .simple_timeline ul li:nth-child(2n) > div .timeline-content {
   float: left;
-  padding-left: 0px;
+  padding-left: 0px !important;
 }
 .views-exposed-widget.views-submit-button {
   display: inline-block;
