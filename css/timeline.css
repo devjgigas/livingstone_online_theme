@@ -6,22 +6,24 @@
   margin-right: 10px;
   width: auto;
 }
+.his-own-words.timeline .field.field-name-field-social-media-links {
+  border-top: 0 solid #999;
+}
 .simple_timeline ul .timeline-content {
   min-width: 125px;
-  padding: 0 6px !important;
+  max-width: 400px;
 }
 h3.timeline-date {
   font-size: 1em;
 }
 .simple_timeline .timeline-date {
-  margin: 0 2% -1%;
   text-align: right;
 }
 .simple_timeline ul li .timeline-text {
   font-size: .9em !important;
   color: gray;
+  margin-left: 0;
   width: auto;
-  margin-left:2%;
   line-height:20.5px;
 }
 .simple_timeline ul li .timeline-text a {
@@ -32,7 +34,7 @@ h3.timeline-date {
   margin-top: 5px;
 }
 .timeline-date {
-  margin: 0 2% -1% 2%;
+
 }
 input#edit-creators-value, input#edit-title, input#edit-dates-value {
   background: rgba(0, 0, 0, 0) url("/sites/all/themes/lo/images/search-button.png") no-repeat scroll 0 0;
@@ -64,8 +66,18 @@ input#edit-submit-timeline-test, input#edit-reset {
 #views-exposed-form-timeline-test-page .views-exposed-form .views-exposed-widget .form-submit {
   margin-top: 0;
 }
+#views-exposed-form-timeline-test-page .views-exposed-form .views-exposed-widget {
+  padding: 0.5em .5em 0 0;
+  float: none;
+}
 .view-timeline-test .view-filters {
   text-align: center;
+}
+.view-timeline-test .item-list {
+  margin-bottom: 20px;
+}
+.content > form#views-exposed-form-timeline-test-page {
+  margin-top: -20px;
 }
 .views-exposed-widgets {
   display: inline-block;
@@ -79,13 +91,25 @@ input#edit-submit-timeline-test, input#edit-reset {
   display: inline-flex;
   margin: 0 auto;
 }
+.simple_timeline ul li:nth-child(2n+1) > div .timeline-image {
+margin-left: 10px;
+}
 .simple_timeline ul li:nth-child(2n+1) > div .timeline-content {
   float: right;
-  padding-right: 2px;
+  padding-right: 0px;
+}
+.simple_timeline ul li:nth-child(2n+1) > div .timeline-text {
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: right;
+}
+.simple_timeline ul li:nth-child(2n) > div .timeline-image {
+  margin-right: 10px;
 }
 .simple_timeline ul li:nth-child(2n) > div .timeline-content {
   float: left;
-  padding-left: 2px;
+  padding-left: 0px;
 }
 .views-exposed-widget.views-submit-button {
   display: inline-block;

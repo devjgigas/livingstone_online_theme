@@ -856,7 +856,7 @@ body.node-type-page .nodequeuepager li.last .title {
   padding-left: 1.5% 20%;
 }
 .node-type-section-page  .field.field-name-field-social-media-links .field-items {
-  border-top: 1px solid #999;
+  border-top: 0px solid #999;
   margin: 2% 10%;
   padding-top: 30px;
   text-align: center;
@@ -868,7 +868,7 @@ body.node-type-page .nodequeuepager li.last .title {
   text-align: center;
 }
 .node-type-section-page.repository .block.footershare::before {
-  border-top: 0px solid #999;
+  border-top: 1px solid #999;
   bottom: 0;
   content: "";
   height: 1px;
@@ -886,6 +886,18 @@ position: relative;
 }
 .node-type-section-page .sharethis-wrapper {
   text-align: center;
+}
+.block.footershare::before {
+   border-color: rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-width: 1px 0 0;
+  bottom: 0;
+  content: "";
+  height: 1px;
+  left: 25%;
+  position: absolute;
+  top: 0;
+  width: 50%;
 }
 span.footlogo {
   background: url("images/social/trans-social-home-28.png") no-repeat scroll 0 0 transparent;
