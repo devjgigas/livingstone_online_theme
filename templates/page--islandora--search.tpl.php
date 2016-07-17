@@ -87,7 +87,10 @@
         <?php endif; ?>
       </div>
     <div id="header_mobilenav"></div>  
-    <?php print $breadcrumb; ?></div>
+
+<div class="his-own-words" id="breadcrumb"><span class="breadcrumb-0"><a href="/">Livingstone Online</a></span>  <span class="breadcrumb-1"><a href="/in-his-own-words">In His Own Words</a></span>  <span class="breadcrumb-2">Browse by Standard Catalogue</span></div>
+
+    </div>
     <div class="fixedbar_right"><?php print $search_box; ?></div>      
      
     <?php print render($page['fixedbar']); ?>  

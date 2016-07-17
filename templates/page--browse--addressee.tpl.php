@@ -69,16 +69,30 @@
   <div id="fixedbar">
     <div class="fixedbar_left">
     <div class="fixedleft_1"><a href="#" class="slideout-menu-toggle"><i class="fa fa-bars"></i> </a></div>
-    <div class="fixedleft_2"><a href="home"><img class="fixedheaderlogo" src="<?php print base_path() . drupal_get_path('theme', 'lo') . '/images/social/trans-social-home-28.png'; ?>"/></a>  </div>
+    <div class="fixedleft_2 upperexternal">
+      <ul class="menu">
+      <li class="first leaf homelink "><a class="fa" href="/"></a></li>
+      <li class="leaf pith"><a class="fa" href="http://livingstoneonline.org/about-this-site/livingstone-online-site-guide"></a></li>
+      </ul> 
+    </div>
+
     </div>
     <div class="fixedbar_center">
-      <div class="his-own-words" id="breadcrumb">
-        <span class="breadcrumb-0"><a href="/">Livingstone Online</a></span>  
-        <span class="breadcrumb-1"><a href="/in-his-own-words">In His Own Words</a></span>  
-        <span class="breadcrumb-2"><?php echo $title ?></span>
+      <div id="logo" class="site-branding">
+        <?php if ($logo): ?>
+            <div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+            <img class="desktoplogo" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+            <img class="mobilelogo" src="<?php print $lo_mobilelogo = theme_get_setting('lo_mobilelogo'); ?>" alt="<?php print t('Home'); ?>" /></a></div>
+            <?php print $search_box; ?> <div class="uptotop"><a href="#TOP">Top ⤴</a></div>
+        <?php endif; ?>
       </div>
-</div>
-    <div class="fixedbar_right"><?php print $search_box; ?></div>    
+    <div id="header_mobilenav"></div>  
+
+<div class="his-own-words" id="breadcrumb"><span class="breadcrumb-0"><a href="/">Livingstone Online</a></span>  <span class="breadcrumb-1"><a href="/in-his-own-words">In His Own Words</a></span>  <span class="breadcrumb-2">Browse by Addressee</span></div>
+
+
+    </div>
+    <div class="fixedbar_right"><?php print $search_box; ?></div>      
      
     <?php print render($page['fixedbar']); ?>  
     <div class="slideout-menu">
