@@ -247,7 +247,9 @@
 .headertopmenu {
   display: none;
 } 
-
+.node-type-section-page .region.region-content {
+  margin: -8px auto 10px;
+}
 
 @media (max-width: 1229px) {
   .region.region-external {
