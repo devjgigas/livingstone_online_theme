@@ -267,6 +267,8 @@
   .node-type-section-page .pane-node-content h2.pane-title {
     margin: 20px 0% !important;
   }
+  .page-browse-addressee #masthead, 
+  .page-islandora-search #masthead, 
   .node-type-section-page #masthead {
     margin-bottom: -4px !important;
   }
