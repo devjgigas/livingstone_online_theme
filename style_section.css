@@ -787,14 +787,6 @@ body.node-type-page .nodequeuepager li.last .title {
   margin: 0 auto1.5em;
   width: auto;
 }
-.node-type-section-page  h2.pane-title,
-.node-type-section-page  .field.field-name-field-section-page-date,
-.node-type-section-page  .field.field-name-field-section-page-byline,
-.node-type-section-page  .field.field-name-field-social-media-links,
-.node-type-section-page  .field.field-name-field-section-page-tag-line,
-.node-type-section-page .pane-node-content p {
-
-}
 .node-type-section-page .field-name-field-section-page-tag-line {
   /* border-top: 1px solid #999; */
   border-color: rgba(0, 0, 0, 0.2);
@@ -803,6 +795,9 @@ body.node-type-page .nodequeuepager li.last .title {
   font-family: "Crimson Text",serif;
   font-weight: bold;
   padding-top: 20px;
+}
+.browsecatalogtitle {
+  margin-bottom: 20px;
 }
 .node-type-section-page .pane-node-content .field-item ul {
   margin: 1.5% 0 1.5% 3.5%;

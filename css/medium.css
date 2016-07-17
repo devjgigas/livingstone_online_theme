@@ -240,6 +240,9 @@ body.page-islandora-search h1.page-title {
       position: relative;
       z-index: 60;
   }
+  .page-islandora-search #form_wrapper {
+    padding: 0 !important;
+  }
 
   body.page-browse-addressee .field-name-field-section-page-tag-line, 
   body.page-browse-recipient .field-name-field-section-page-tag-line {

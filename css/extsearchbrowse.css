@@ -265,7 +265,7 @@
   body.page-browse-recipient h1.page-title, 
   body.page-islandora-search h1.page-title,
   .node-type-section-page .pane-node-content h2.pane-title {
-    margin: 20px 0% !important;
+    margin: 20px 10% 0;
   }
   .page-browse-addressee #masthead, 
   .page-islandora-search #masthead, 
@@ -457,7 +457,10 @@
   }
   .browsecatalog ul {
     margin-left: 0;
-  }  
+  } 
+  .page-islandora-search #form_wrapper {
+    padding: 0 !important;
+  } 
   .upperexternal  {
     display: none;
   }
@@ -575,6 +578,9 @@
     margin-top: 10px;
     width: 100%;
   }
+  .page-islandora-search #form_wrapper {
+    padding: 0 !important;
+  } 
   body.page-browse-addressee .upperexternal2, 
   body.page-browse-recipient .upperexternal2, 
   body.page-islandora-search .upperexternal2,
