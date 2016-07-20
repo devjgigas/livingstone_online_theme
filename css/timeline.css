@@ -173,6 +173,11 @@ input#edit-submit-timeline-test, input#edit-reset {
     padding: 0.5em 1em 0 0;
     float: none;
   }
+  .timeline-text {
+    max-width: 100%;
+    min-width: 0;
+    width: 100% !important;
+  }  
 }
 @media all and (max-width: 684px) {
  .views-exposed-widget.views-reset-button {
