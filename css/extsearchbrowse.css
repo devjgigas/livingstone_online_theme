@@ -331,6 +331,10 @@
     margin: 0;
   } 
   /*** level 2  ***/
+
+  #edit-results {
+    padding-top: 17px;
+  }
   .node-type-page #block-nodequeue-pager-7,
   .node-type-page #block-nodequeue-pager-8 {
     display: none;
