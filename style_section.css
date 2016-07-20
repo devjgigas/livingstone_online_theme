@@ -484,7 +484,7 @@ img.grayscale {
 /* level 3 pages */
 .field.field-name-field-social-media-links {
   display: block;
-  height: 0;
+  height: 1px;
 }
 .panel-display.panel-1col .panel-pane.pane-node-content {
   border-right: 0px solid #eee;
