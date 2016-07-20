@@ -8,7 +8,7 @@
 }
 #block-views-timeline-test-block-1, #block-views-exp-timeline-test-page {
   position: relative;
-  z-index: 100;
+  z-index: 60;
 }
 .simple_timeline ul .timeline-content {
   min-width: 125px;
