@@ -1,8 +1,14 @@
 .his-own-words.timeline.node-type-section-page .field.field-name-field-social-media-links .field-items {
   border: 0;
+  display: none;
 }
 .his-own-words.timeline .field.field-name-field-social-media-links {
   border-top: 0 solid #999;
+  display: none;
+}
+#block-views-timeline-test-block-1, #block-views-exp-timeline-test-page {
+  position: relative;
+  z-index: 100;
 }
 .simple_timeline ul .timeline-content {
   min-width: 125px;
@@ -170,6 +176,9 @@ input#edit-submit-timeline-test, input#edit-reset {
    /* background: green none repeat scroll 0 0;*/
     padding: 0px;
   }
+  #views-exposed-form-timeline-test-page .views-exposed-form .views-exposed-widget.views-submit-button {
+    padding-right: 0;
+  }  
   .timeline-text {
     max-width: 100%;
     width: 100% !important;

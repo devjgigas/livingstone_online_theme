@@ -1312,6 +1312,7 @@ span.footpdf {
  .region.region-footer {
   clear: both;
   font-size: 15px;
+  display: relative;
 }
 .footer-block{
   color: #aaa;
