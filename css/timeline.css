@@ -9,12 +9,12 @@
   max-width: 385px;
 }
 .view-timeline-test .view-content {
-  background: green none repeat scroll 0 0;
-  padding: 0 70px;
+  /*background: green none repeat scroll 0 0;*/
+  padding: 0 59px;
 }
 
 .item-list.simple_timeline {
-  background: yellow none repeat scroll 0 0;
+ /* background: yellow none repeat scroll 0 0;*/
 }
 h3.timeline-date {
   font-size: 1em;
@@ -133,7 +133,7 @@ input#edit-submit-timeline-test, input#edit-reset {
 @media all and (max-width: 1024px) {
   .simple_timeline ul .timeline-content {
     background: white none repeat scroll 0 0;
-    border: 1px solid;
+    /*border: 1px solid;*/
     display: inline-block;
     max-width: 385px;
     width: 100%;
@@ -141,16 +141,6 @@ input#edit-submit-timeline-test, input#edit-reset {
   .timeline-text {
     max-width: 100%;
     min-width: auto;
-  }
-}
-@media all and (max-width: 850px) {
-  .view-timeline-test .view-content {
-    background: green none repeat scroll 0 0;
-    padding: 0px;
-  }
-  .timeline-text {
-    max-width: 100%;
-    width: 100% !important;
   }
   #edit-submit-timeline-test {
     float: none;
@@ -173,7 +163,18 @@ input#edit-submit-timeline-test, input#edit-reset {
   .views-exposed-form .views-exposed-widget {
     padding: 0.5em 1em 0 0;
     float: none;
+  }  
+}
+@media all and (max-width: 850px) {
+  .view-timeline-test .view-content {
+   /* background: green none repeat scroll 0 0;*/
+    padding: 0px;
   }
+  .timeline-text {
+    max-width: 100%;
+    width: 100% !important;
+  }
+
   .timeline-text {
     max-width: 100%;
     min-width: 0;
