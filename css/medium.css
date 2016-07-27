@@ -75,7 +75,10 @@
   } 
   .behind-the-scenes .field.field-name-field-section-page-image img {
     border: 6px solid #cc9999;
-  }  
+  }
+  .behind-scenes .field.field-name-field-section-page-image img {
+    border: 6px solid #cc9999;
+  }      
   .resources .field.field-name-field-section-page-image img {
     border: 6px solid #cccc99;
   }  

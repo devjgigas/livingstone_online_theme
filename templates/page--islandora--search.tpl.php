@@ -88,7 +88,7 @@
       </div>
     <div id="header_mobilenav"></div>  
 
-<div class="his-own-words" id="breadcrumb"><span class="breadcrumb-0"><a href="/">Livingstone Online</a></span>  <span class="breadcrumb-1"><a href="/in-his-own-words">In His Own Words</a></span>  <span class="breadcrumb-2">Browse by Digital Catalogue</span></div>
+<div class="his-own-words" id="breadcrumb"><span class="breadcrumb-0"><a href="/">Livingstone Online</a></span>  <span class="breadcrumb-1"><a href="/in-his-own-words">In His Own Words</a></span>  <span class="breadcrumb-2">Digital Catalogue</span></div>
 
     </div>
     <div class="fixedbar_right"><?php print $search_box; ?></div>      
