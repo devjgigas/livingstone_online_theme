@@ -830,6 +830,12 @@ body.node-type-page .nodequeuepager li.last .title {
   font-style: italic;
   padding-right: 7px;
 }
+.node-type-section-page.his-own-words.browse-timeline h2.pane-title::before {
+  content: "Browse by";
+  font-size: 36.5px;
+  font-style: italic;
+  padding-right: 7px;
+}
 .node-type-section-page.his-own-words.repository .pane-node-content h2.pane-title:before,
 .node-type-section-page.his-own-words.timeline .pane-node-content h2.pane-title:before {
   content: "Browse by";
@@ -883,10 +889,20 @@ position: relative;
 .node-type-section-page .sharethis-wrapper {
   text-align: center;
 }
+.node-type-section-page .field.field-name-field-social-media-links .field-items {
+  border-top: 1px solid #999;
+}
+.field.field-name-field-social-media-links {
+  display: block;
+  height: 0px;
+}
+.block.footershare {
+  padding-top: 0 !important;
+}
 .block.footershare::before {
    border-color: rgba(0, 0, 0, 0.2);
     border-style: solid;
-    border-width: 1px 0 0;
+    border-width: 0px 0 0;
   bottom: 0;
   content: "";
   height: 1px;

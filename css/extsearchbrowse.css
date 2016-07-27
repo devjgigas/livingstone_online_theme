@@ -251,6 +251,7 @@
   margin: -8px auto 10px;
 }
 
+
 @media (max-width: 1229px) {
   .region.region-external {
     display: inline-block;
@@ -285,6 +286,9 @@
   .upperexternal  {
     display: none;
   } 
+  .fixedleft_2.upperexternal {
+    display: block;
+  }
   .upperexternal2,
   .upperexternal3  {
     display: inline-block;
@@ -386,6 +390,33 @@
     z-index: 80;
     position: relative;
   }
+   .fixedleft_2.upperexternal {
+    display: none;
+  }
+  .page-islandora-search .pane-node-content h1.pane-title,
+  .page-browse-addressee .pane-node-content h1.pane-title,
+  .node-type-section-page .pane-node-content h1.pane-title {
+     margin: 20px 10% 0;
+  }
+
+  body.page-browse-addressee .islandora-solr-facet-pages-wrapper {
+    margin: 1% 10% 0 !important;
+    z-index: 60;
+  }
+
+  body.page-islandora-search .field-name-field-section-page-tag-line, 
+  body.page-browse-addressee .field-name-field-section-page-tag-line {
+      margin: 1% 10%;
+      padding-top: 20px;
+      z-index: 60;
+  }
+  .page-islandora-search .panel-pane.pane-node-content .content,
+  .page-browse-addressee .panel-pane.pane-node-content .content , 
+  .node-type-section-page .panel-pane.pane-node-content .content {
+    margin: 1% 10% 0 !important;
+    position: relative;
+    z-index: 60;
+  }    
 }
 @media all and (max-width: 766px)  {
   .desktoplogo {
@@ -421,6 +452,7 @@
     text-align: right;
     width: 20%;
   }
+  .his-own-words.browse-timeline .fixedbar_right #search-block-form,
   .his-own-words.timeline .fixedbar_right #search-block-form,
   .fixedbar_right #search-block-form--2, 
   .slideout-menu,

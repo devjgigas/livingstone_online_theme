@@ -171,6 +171,7 @@ body.page-browse-recipient .field-name-field-section-page-tag-line {
 ul.islandora-solr-facet-pages-letterer {
   margin-top: 20px;
   text-align: center;
+  overflow-y: auto;
 }
 body.page-browse-addressee .islandora-solr-facet-pages-wrapper,
 body.page-browse-recipient .islandora-solr-facet-pages-wrapper {
