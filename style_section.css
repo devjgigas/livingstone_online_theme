@@ -834,7 +834,7 @@ body.node-type-page .nodequeuepager li.last .title {
   content: "Browse by";
   font-size: 36.5px;
   font-style: italic;
-  padding-right: 7px;
+  padding-right: 0px;
 }
 .node-type-section-page .pane-node-content h2.pane-title {
   color: #000;
