@@ -347,6 +347,7 @@ a:focus {
   padding-left: 15px;
   padding-right: 15px;
 }
+.page-search #masthead,
 .page-browse-addressee #masthead, 
 .page-islandora-search #masthead, 
 .node-type-section-page #masthead{

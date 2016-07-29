@@ -536,7 +536,10 @@
   }
   .field.field-name-field-social-media-links {
       border-top: 0px solid #999;
-  }    
+  }
+  .page-search #block-system-main .content {
+    margin: 1% 10% !important;
+  }      
 }  
 
 
