@@ -82,6 +82,9 @@ input#edit-submit-timeline-test, input#edit-reset {
   padding: 0.5em .5em 0 0;
   float: none;
 }
+#views-exposed-form-timeline-test-block-1 .views-exposed-form  .views-exposed-widget .form-submit {
+  margin-top: 0.5em;
+}
 .content > form#views-exposed-form-timeline-test-page {
   margin-top: -20px;
 }
@@ -103,7 +106,7 @@ input#edit-submit-timeline-test, input#edit-reset {
   display: inline-flex;
   margin: 0 auto;
 }
-.simple_timeline ul li:nth-child(2n+1) > div .timeline-image {
+.simple_timeline ul li:nth-child(2n+1) > div .timeline-image img {
   margin-left: 10px;
 }
 .simple_timeline ul li:nth-child(2n+1) > div .timeline-content {
