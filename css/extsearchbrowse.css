@@ -259,13 +259,14 @@
     text-align: center !important;
     width: 100%;
   }
-
-  body.page-search-node h1.page-title,
+  body.page-search-node h1.page-title  {
+    margin: 20px 10%;
+  }
   body.page-browse-addressee h1.page-title,
   body.page-browse-recipient h1.page-title, 
   body.page-islandora-search h1.page-title,
   .node-type-section-page .pane-node-content h2.pane-title {
-    margin: 20px 10% 0;
+    margin: 20px 10% 0 !important;
   }
   .page-browse-addressee #masthead, 
   .page-islandora-search #masthead, 
