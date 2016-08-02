@@ -382,12 +382,6 @@ a .info > .pretitle {
 #block-views-repository-list-block {
   z-index: 60;
 }
-.node-type-section-page.his-own-words.repository .pane-node-content h2.pane-title:before {
-  content: "Browse by";
-  font-style: italic;
-  font-size: 32px;
-  padding-right: 7px;
-}
 #primary .view-repository-list table {
   font-size: 14px;
   width: 70%;
