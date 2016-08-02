@@ -563,7 +563,7 @@
   }
 
   body.page-browse-addressee .islandora-solr-facet-pages-wrapper {
-    margin: 1% 10% 0 !important;
+    margin: 1% 10% 0;
     z-index: 60;
   }
 
