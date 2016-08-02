@@ -43,7 +43,7 @@
   body.page-browse-recipient .field-name-field-section-page-tag-line {
     border-color: rgba(0, 0, 0, 0.2);
     border-style: solid;
-    border-width: 0 0 1px;
+    border-width: 1px 0 1px;
     font-family: "Crimson Text",serif;
     font-weight: bold;
     margin: 1% 0 3%;
