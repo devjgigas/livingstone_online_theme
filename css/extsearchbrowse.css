@@ -571,11 +571,11 @@ body.page-browse-recipient h1.page-title {
   }
   body.page-browse-addressee h1.page-title::before, 
   body.page-browse-recipient h1.page-title::before {
-  content: "Browse by";
-  font-size: 32px;
-  font-style: italic;
-  padding-right: 7px;
-} 
+    content: "Browse by";
+    font-size: 32px;
+    font-style: italic;
+    padding-right: 7px;
+  } 
   .page-islandora-search .pane-node-content h1.pane-title,
   .page-browse-addressee .pane-node-content h1.pane-title,
   .node-type-section-page .pane-node-content h1.pane-title {
