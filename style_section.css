@@ -761,11 +761,6 @@ body.node-type-page .nodequeuepager li.last .title {
 .node-type-section-page .pane-node-content {
     margin: 0 auto;
 }
-.node-type-section-page .panel-pane.pane-node-content .content {
-  margin: 1% 20% 0;
-  position: relative;
-  z-index: 60;
-}
 .node-type-section-page  p.insetimage {
   margin: 2% 5% !important;
 }
@@ -2129,9 +2124,7 @@ height:25px;
 
 
 /*  Search  */
-.page-search #block-system-main .content {
-  margin: 1% 20%;
-}
+
 .page-search .criterion:nth-child(2) {
   display: none;
 }
