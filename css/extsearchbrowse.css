@@ -675,9 +675,6 @@ body.page-browse-recipient h1.page-title {
   .upperexternal  {
     display: none;
   } 
-  .fixedleft_2.upperexternal {
-    display: block;
-  }
   .upperexternal2,
   .upperexternal3  {
     display: inline-block;
