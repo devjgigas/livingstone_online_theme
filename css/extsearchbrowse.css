@@ -251,14 +251,53 @@
 .node-type-section-page .panel-pane.pane-node-content .content {
   margin: 1% auto 0;
   position: relative;
-  width: 745px;
+  width: 715px;
   z-index: 60;
 }
 .page-search #block-system-main .content {
   margin: 1% auto 0;
-  width: 745px;
+  width: 715px;
 }
-
+.node-type-section-page.his-own-words.repository .pane-node-content h2.pane-title:before,
+.node-type-section-page.his-own-words.timeline .pane-node-content h2.pane-title:before {
+  content: "Browse by";
+  font-size: 36.5px;
+  font-style: italic;
+  padding-right: 0px;
+}
+.node-type-section-page .pane-node-content h2.pane-title {
+  color: #000;
+  font-family: 'Crimson Text', serif;
+  font-size: 36.5px;
+  font-weight: 600;
+  line-height: 105%;
+  text-align: center;
+  margin: 20px 20%;
+  margin-bottom: 0;  
+}
+body.page-browse-addressee h1.page-title::before,
+body.page-browse-recipient h1.page-title::before {
+  content: "Browse by";
+  font-size: 36.5px;
+  font-style: italic;
+  padding-right: 7px;
+}
+body.page-search-node h1.page-title,
+body.page-browse-addressee h1.page-title,
+body.page-browse-recipient h1.page-title {
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 0 0 1px;
+  color: #000;
+  font-family: "Crimson Text",serif;
+  font-size: 36.5px;
+  font-weight: 600;
+  line-height: 105%;
+  margin: 20px auto;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 715px;
+}
 @media all and (max-width: 450px) {
   .page-search #page, 
   .page-islandora #page, 
@@ -498,6 +537,9 @@
 
 @media all and (max-width: 850px) {
 
+  .page-islandora-search #form_wrapper {
+    border-top: 1px solid #ccc;
+  }
   body.page-islandora-search h1.page-title::before {
     content: "Browse by";
     font-size: 32px;
@@ -507,7 +549,7 @@
   .node-type-section-page.his-own-words.repository .pane-node-content h2.pane-title::before,
   .node-type-section-page.his-own-words.timeline .pane-node-content h2.pane-title::before {
     content: "Browse by";
-    font-size: 32px;
+    font-size: 32px !important;
     font-style: italic;
     padding-right: 0;
   } 
@@ -515,7 +557,25 @@
   .node-type-section-page .pane-node-content h2.pane-title {
     font-size: 32px !important;
     margin: 20px 0 0 !important;
-  }  
+  }
+  body.page-search-node h1.page-title, 
+  body.page-browse-addressee h1.page-title, 
+  body.page-browse-recipient h1.page-title {
+    border-color: rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-width: 0 0 1px;
+    color: #000;
+    font-family: "Crimson Text",serif;
+    font-size: 32px !important;
+    width: auto;
+  }
+  body.page-browse-addressee h1.page-title::before, 
+  body.page-browse-recipient h1.page-title::before {
+    content: "Browse by";
+    font-size: 32px;
+    font-style: italic;
+    padding-right: 7px;
+  } 
   .page-islandora-search .pane-node-content h1.pane-title,
   .page-browse-addressee .pane-node-content h1.pane-title,
   .node-type-section-page .pane-node-content h1.pane-title {
@@ -582,7 +642,13 @@
     position: relative;
     z-index: 60;
     width: auto;
-  }      
+  } 
+  body.page-browse-addressee .islandora-solr-facet-pages-wrapper,
+  body.page-browse-recipient .islandora-solr-facet-pages-wrapper {
+    margin: 1% 10% 0;
+    width: auto;
+    z-index: 60;
+  }       
 }
 @media (max-width: 1229px) {
   .region.region-external {

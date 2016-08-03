@@ -831,23 +831,6 @@ body.node-type-page .nodequeuepager li.last .title {
   font-style: italic;
   padding-right: 7px;
 }
-.node-type-section-page.his-own-words.repository .pane-node-content h2.pane-title:before,
-.node-type-section-page.his-own-words.timeline .pane-node-content h2.pane-title:before {
-  content: "Browse by";
-  font-size: 36.5px;
-  font-style: italic;
-  padding-right: 0px;
-}
-.node-type-section-page .pane-node-content h2.pane-title {
-  color: #000;
-  font-family: 'Crimson Text', serif;
-  font-size: 36.5px;
-  font-weight: 600;
-  line-height: 105%;
-  text-align: center;
-  margin: 20px 20%;
-  margin-bottom: 0;  
-}
 .node-type-section-page .field.field-name-body {
   margin-bottom: 0px;
   padding-left: 1.5% 20%;
