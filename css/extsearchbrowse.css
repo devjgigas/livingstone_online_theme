@@ -769,7 +769,13 @@ body.page-browse-recipient h1.page-title {
   }       
 }
   
-
+@media all and (max-width: 450px) {
+  .fixedbar_center #search-block-form--2 .search {
+    max-width: 385px;
+    margin-top: 0px;
+    width: 225px;
+  }
+}
 
 
     
