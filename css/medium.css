@@ -32,6 +32,9 @@
     display: block;
     text-align: center;
   }
+    .page-islandora-search #form_wrapper {
+    border-top: 1px solid #ccc;
+  }
   body.page-islandora-search h1.page-title,
 /*  body.page-search-node h1.page-title, */
   body.page-browse-addressee h1.page-title, 
@@ -169,10 +172,10 @@ body.page-islandora-search h1.page-title {
   .node-type-section-page .pane-node-content h2.pane-title {
     margin: 20px 3% 0 !important;
   }
-  .page-browse-addressee 
+  .page-browse-addressee h1.page-title,
   body.page-islandora-search h1.page-title,
   .node-type-section-page .pane-node-content h2.pane-title {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #ccc !important;
     padding-top: 30px;
   }
   .doubleleft img {
