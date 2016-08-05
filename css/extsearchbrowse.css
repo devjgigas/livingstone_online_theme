@@ -808,7 +808,7 @@ body.page-search-node h1.page-title  {
 }
   
 @media all and (max-width: 450px) {
-  .fixedbar_center .search {
+ .fixedbar_center #search-block-form--2 .search, .fixedbar_center #search-block-form .search {
     max-width: 385px;
     margin-top: 0px;
     width: 225px;
