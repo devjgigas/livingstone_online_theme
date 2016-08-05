@@ -294,7 +294,7 @@ body.page-browse-recipient h1.page-title {
   font-weight: 600;
   line-height: 105%;
   margin: 20px auto;
-  padding-bottom: 10px;
+  padding-bottom: 17px;
   text-align: center;
   width: 715px;
 }
@@ -419,6 +419,8 @@ body.page-browse-recipient h1.page-title {
     width: 100%;
     margin: 1px auto 0;
   } 
+  .page-browse .slicknav_menu, 
+  .page-islandora-search .slicknav_menu,  
   .node-type-section-page .slicknav_menu {
     width: 100%;
     margin: 11px auto 0;
@@ -674,6 +676,10 @@ body.page-browse-recipient h1.page-title {
     text-align: center !important;
     width: 100%;
   }
+  .page-search #masthead {
+    margin-bottom: -1px !important;
+  }
+
   .page-browse-addressee #masthead, 
   .page-islandora-search #masthead, 
   .node-type-section-page #masthead {
