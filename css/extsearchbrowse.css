@@ -439,7 +439,7 @@ body.page-search-node h1.page-title  {
   .page-islandora-search .slicknav_menu,  
   .node-type-section-page .slicknav_menu {
     width: 100%;
-    margin: 11px auto 0;
+    margin: 4px auto 0;
   }  
   .not-front .node-type-page .region.region-content {
     clear: none; 
