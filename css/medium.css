@@ -162,13 +162,14 @@
     font-size: 14px;
     margin-left: -1px;
   }
-
-body.page-browse-addressee h1.page-title, 
-body.page-browse-recipient h1.page-title, 
-body.page-islandora-search h1.page-title {
-    border-top: 1px solid #ccc;
-    padding-top: 14px;
-  }
+  body.page-browse-addressee h1.page-title, 
+  body.page-browse-recipient h1.page-title {
+      border-top: 1px solid #ccc;
+    }
+  body.page-islandora-search h1.page-title {
+      border-top: 1px solid #ccc;
+      padding-top: 14px;
+    }
   .node-type-section-page .pane-node-content h2.pane-title {
     margin: 20px 3% 0 !important;
   }
