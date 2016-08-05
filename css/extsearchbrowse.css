@@ -432,12 +432,15 @@ body.page-search-node h1.page-title  {
     width: 100%;
     margin: 1px auto 0;
   } 
-  .page-browse .slicknav_menu, 
+  .page-browse .slicknav_menu {
+    width: 100%;
+    margin: 7px auto 0;
+  }
   .page-islandora-search .slicknav_menu,  
   .node-type-section-page .slicknav_menu {
     width: 100%;
     margin: 11px auto 0;
-  }
+  }  
   .not-front .node-type-page .region.region-content {
     clear: none; 
     margin: 18px auto 20px;
