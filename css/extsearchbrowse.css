@@ -434,12 +434,12 @@ body.page-search-node h1.page-title  {
   } 
   .page-browse .slicknav_menu {
     width: 100%;
-    margin: 5px auto 0;
+    margin: 3px auto 0;
   }
   .page-islandora-search .slicknav_menu,  
   .node-type-section-page .slicknav_menu {
     width: 100%;
-    margin: 11px auto 0;
+    margin: 4px auto 0;
   }  
   .not-front .node-type-page .region.region-content {
     clear: none; 
@@ -448,7 +448,7 @@ body.page-search-node h1.page-title  {
   .node-type-page .slicknav_menu {
     width: 100%;
     position: relative;
-    margin: 28px auto 30px;
+    margin: 33px auto 30px;
     z-index: 108;
   }
   #search-block-form {
@@ -808,7 +808,7 @@ body.page-search-node h1.page-title  {
 }
   
 @media all and (max-width: 450px) {
- .fixedbar_center #search-block-form--2 .search, .fixedbar_center #search-block-form .search {
+  .fixedbar_center #search-block-form--2 .search {
     max-width: 385px;
     margin-top: 0px;
     width: 225px;
