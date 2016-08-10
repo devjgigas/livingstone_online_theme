@@ -91,7 +91,6 @@ a:active {
 #site-logo img.mobilelogo {
   max-width: 390px;
   width: 95%;
-  display: none;
 }
 .fixedbar_center .site-branding {
     display: none;
