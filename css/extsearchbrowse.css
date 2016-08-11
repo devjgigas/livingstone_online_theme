@@ -453,7 +453,6 @@ body.page-search-node h1.page-title  {
   }
   #search-block-form {
     display: inline-block;
-    margin-right: 10px;
     width: auto;
   }
   .front #search-block-form {
@@ -526,7 +525,7 @@ body.page-search-node h1.page-title  {
   .fixedbar_center #search-block-form--2 .search, .fixedbar_center #search-block-form .search {
     max-width: 385px;
     margin-top: 0px;
-    width: 300px;
+    width: 225px;
   }
   .fixedbar_center #logo > form {
     display: inline-block;
