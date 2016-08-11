@@ -453,7 +453,6 @@ body.page-search-node h1.page-title  {
   }
   #search-block-form {
     display: inline-block;
-    margin-right: 10px;
     width: auto;
   }
   .front #search-block-form {
