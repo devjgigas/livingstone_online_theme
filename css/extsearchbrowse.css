@@ -814,8 +814,11 @@ body.page-search-node h1.page-title  {
   }
 }
 
-
-    
-
-  
-
+@media all and (max-width: 766px) {
+  #page #primary {
+    margin-top: 0px !important;
+  }
+  .node-type-page .slicknav_menu {
+    margin: 0px auto 30px;
+  }
+}
