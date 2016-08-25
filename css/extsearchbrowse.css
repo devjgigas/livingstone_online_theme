@@ -823,3 +823,23 @@ body.page-search-node h1.page-title  {
 #masthead {
   z-index: 1;
 }
+
+.search-type {
+  text-align: left;
+  margin-top: 40px;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  padding: 0.5em;
+  font-size: 0.8em;
+  position: absolute;
+  width: 200px;
+  z-index: 1000;
+  box-sizing: border-box;
+  border-color: black;
+  border: 1px solid rgb(208, 208, 208);
+}
+
+.search-type input {
+  margin: 0;
+}
