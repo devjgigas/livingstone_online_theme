@@ -814,11 +814,12 @@ body.page-search-node h1.page-title  {
   }
 }
 
-@media all and (max-width: 766px) {
-  #page #primary {
-    margin-top: 0px !important;
-  }
-  .node-type-page .slicknav_menu {
-    margin: 0px auto 30px;
-  }
+/* Negative margin is breaking layout, it's too much to
+   actually properly structure the CSS to avoid this issue
+   everywhere that it occurs, so for now lets move the header
+   of the page forward slightly so it doesn't
+   cover up links in the header etc.
+ */
+#masthead {
+  z-index: 1;
 }
