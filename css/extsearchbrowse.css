@@ -839,17 +839,17 @@ body.page-search-node h1.page-title  {
   text-align: left;
   margin-top: 32px;
   background-color: white;
-  color: black;
   border-radius: 8px;
   padding: 0.5em;
   padding-left: 0.8em;
-  font-size: 0.85em;
   position: absolute;
   width: 200px;
   z-index: 1000;
   box-sizing: border-box;
   border-color: black;
   border: 1px solid rgb(208, 208, 208);
+  color: #333;
+  font-size: 14px;
 }
 
 .search-type input {
