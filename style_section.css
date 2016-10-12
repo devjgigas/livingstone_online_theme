@@ -806,7 +806,7 @@ body.node-type-page .nodequeuepager li.last .title {
 .node-type-section-page  .field.field-name-field-section-page-byline {
   font-size: 14px;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .node-type-section-page  .field.field-name-field-section-page-date {
   font-size: 13px;
