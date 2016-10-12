@@ -634,13 +634,13 @@ h1#site-title a:link, h1#site-title a:visited{
   }
   .sideguideright {
     float: right;
-    margin-right: 10px;
+    padding-right: 10px;
     text-align: right;
     width: 50%;
   }
   .linktocreditsleft {
     float: left;
-    margin-left: 10px;
+    padding-left: 10px;
     text-align: left;
     width: 50%;
   }    

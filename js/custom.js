@@ -8,6 +8,9 @@ jQuery(document).ready(function($) {
 
 	bumpIt();
 
+	$('img').load(function() {
+		didResize = true;
+	});
 	$(window).resize(function() {
 	  didResize = true;
 	});
