@@ -270,7 +270,7 @@
   font-family: 'Crimson Text', serif;
   font-size: 36.5px;
   font-weight: 600;
-  line-height: 105%;
+  line-height: 120%;
   text-align: center;
   margin: 20px 20%;
   margin-bottom: 0;  
@@ -814,8 +814,44 @@ body.page-search-node h1.page-title  {
   }
 }
 
+/* Negative margin is breaking layout, it's too much to
+   actually properly structure the CSS to avoid this issue
+   everywhere that it occurs, so for now lets move the header
+   of the page forward slightly so it doesn't
+   cover up links in the header etc.
+ */
+#masthead {
+  z-index: 1;
+}
 
-    
+.browsecatalog ul#browsemenu {
+  margin-top: 1px;
+  border-radius: 8px;
+  font-size: 0.85em;
+  border: 1px solid rgb(208, 208, 208);
+}
 
-  
+.browsecatalog ul#browsemenu li {
+  padding-left: 16px;
+}
 
+.search-type {
+  text-align: left;
+  margin-top: 32px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 0.5em;
+  padding-left: 0.8em;
+  position: absolute;
+  width: 200px;
+  z-index: 1000;
+  box-sizing: border-box;
+  border-color: black;
+  border: 1px solid rgb(208, 208, 208);
+  color: #333;
+  font-size: 14px;
+}
+
+.search-type input {
+  margin: 0.5em;
+}
