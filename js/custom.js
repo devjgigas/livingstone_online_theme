@@ -27,7 +27,17 @@ jQuery(document).ready( function($) {
 	$('#navigation').slicknav ({
 		label: 'Site sections and pages',
 		prependTo:'#primary'
-	});	
+	});
+	$('#sub-section-navigation').slicknav ({
+		label: '',
+		closedSymbol: '',
+		openedSymbol: '',
+		removeClasses: true,
+		removeStyles: true,
+		prependTo:'#sub-section-navigation'
+	}).slicknav('open');
+	$('#sub-section-navigation .slicknav_arrow, #sub-section-navigation .slicknav_icon').addClass('fa');
+
 	// $('.menu-name-menu-topmenu').slicknav ({
 	// 	label: 'Site sections and pages',
 	// 	prependTo:'#header_mobilenav'
