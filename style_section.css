@@ -2201,7 +2201,7 @@ height:25px;
   text-align: left;
   padding: 2px 10px;
   font-size: 14px;
-  margin: 10px auto;
+  margin: 20px auto 10px;
 }
 #sub-section-navigation > div.slicknav_menu ul {
   list-style: none;
@@ -2277,4 +2277,5 @@ height:25px;
   text-align: center;
   font-size: 24px;
   font-style: italic;
+  font-family: 'Crimson Text', serif;
 }
