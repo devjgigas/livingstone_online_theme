@@ -249,7 +249,7 @@
   margin: -8px auto 10px;
 }
 .node-type-section-page .panel-pane.pane-node-content .content {
-  margin: 0 auto;
+  margin: 1% auto 0;
   position: relative;
   width: 715px;
   z-index: 60;
