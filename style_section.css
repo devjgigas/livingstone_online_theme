@@ -806,7 +806,6 @@ body.node-type-page .nodequeuepager li.last .title {
 .node-type-section-page  .field.field-name-field-section-page-byline {
   font-size: 14px;
   text-align: center;
-  padding-bottom: 10px;
 }
 .node-type-section-page  .field.field-name-field-section-page-date {
   font-size: 13px;
@@ -2188,6 +2187,21 @@ height:25px;
   z-index: 1000;
 }
 
+/* Move border when present. */
+@media all and (max-width: 766px) {
+  #sub-section-navigation {
+    margin-top: 32px;
+    border-top: 1px solid #ccc !important;
+  }
+  .node-type-section-page .pane-node-content h2.pane-title {
+    border-top: none !important;
+    padding-top: 0;
+  }
+  .field-name-field-subtitle {
+    padding-top: 4px;
+  }
+}
+
 #sub-section-navigation > ul.menu {
   display: none;
 }
@@ -2272,11 +2286,19 @@ height:25px;
   margin-right: 0;
   margin-top: 0;
   width: auto;
+
+
 }
+
+
 .field-name-field-subtitle {
   text-align: center;
   font-size: 24px;
   font-style: italic;
   font-family: 'Crimson Text', serif;
   margin-top: -13px;
+}
+
+.field-name-field-subtitle ~ .field-name-field-section-page-byline {
+  padding-top: 16px;
 }
