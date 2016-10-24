@@ -806,6 +806,7 @@ body.node-type-page .nodequeuepager li.last .title {
 .node-type-section-page  .field.field-name-field-section-page-byline {
   font-size: 14px;
   text-align: center;
+  padding-bottom: 8px;
 }
 .node-type-section-page  .field.field-name-field-section-page-date {
   font-size: 13px;
@@ -2190,7 +2191,7 @@ height:25px;
 /* Move border when present. */
 @media all and (max-width: 766px) {
   #sub-section-navigation {
-    margin-top: 32px;
+    margin-top: 24px;
     border-top: 1px solid #ccc !important;
   }
   .node-type-section-page .pane-node-content h2.pane-title {
@@ -2299,6 +2300,8 @@ height:25px;
   margin-top: -13px;
 }
 
-.field-name-field-subtitle ~ .field-name-field-section-page-byline {
-  padding-top: 16px;
+@media (min-width: 767px) {
+  .field-name-field-subtitle ~ .field-name-field-section-page-byline {
+    padding-top: 16px;
+  }
 }
