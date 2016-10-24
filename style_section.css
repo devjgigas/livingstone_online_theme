@@ -2197,6 +2197,9 @@ height:25px;
     border-top: none !important;
     padding-top: 0;
   }
+  .field-name-field-subtitle {
+    padding-top: 4px;
+  }
 }
 
 #sub-section-navigation > ul.menu {
