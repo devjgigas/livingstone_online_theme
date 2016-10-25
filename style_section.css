@@ -2291,6 +2291,9 @@ height:25px;
 
 }
 
+.sub-section-page .field-name-field-section-page-image {
+  display: none;
+}
 
 .field-name-field-subtitle {
   text-align: center;
