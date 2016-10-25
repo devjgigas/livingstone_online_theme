@@ -18,6 +18,8 @@
  */
 ?>
 <?php
+$node = $content['#node'];
+$nid = $node->nid;
 $find_menu = function($menu_items) use(&$find_menu) {
   foreach ($menu_items as $menu_item) {
     // Check current active menu.
@@ -32,9 +34,30 @@ $find_menu = function($menu_items) use(&$find_menu) {
   }
   return FALSE;
 };
+$is_sub_section_page = function($menu_items) use($nid, &$is_sub_section_page) {
+  foreach ($menu_items as $menu_item) {
+    // Check current active menu.
+    $active = $menu_item['link']['in_active_trail'];
+    if ($active) {
+      $path = $menu_item['link']['link_path'];
+      $depth = $menu_item['link']['depth'];
+      if ($depth <= 2 && $path == "node/$nid" ) {
+        return FALSE;
+      }
+      elseif ($depth > 2) {
+        return TRUE;
+      }
+      return $is_sub_section_page($menu_item['below']);
+    }
+  }
+  return FALSE;
+};
 $menu_items = menu_tree_page_data('menu-topmenu', NULL, FALSE);
 $menu = $find_menu($menu_items);
 $menu_output = empty($menu['below']) ? array() : menu_tree_output(array($menu));
+if ($is_sub_section_page($menu_items)) {
+  $classes .= ' sub-section-page';
+}
 ?>
 <?php if ($pane_prefix): ?>
   <?php print $pane_prefix; ?>
