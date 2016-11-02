@@ -534,6 +534,7 @@ img.grayscale {
 .breadcrumb-2 {
   background: none repeat scroll 0 0 #eee;
   min-width: 127px;
+  padding: 0 7px;
 }
 /*
 .breadcrumb-2:before {
@@ -1449,7 +1450,7 @@ img.fixedleft2, img.fixedleft3 {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 100;
+  z-index: 500;
 }
 
 #fixednav { 
