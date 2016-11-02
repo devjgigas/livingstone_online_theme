@@ -14,38 +14,19 @@
  * - $solr_field: Facet solr field to be used to create url's including a filter
  *
  */
-
 ?>
-
 <ul class="islandora-solr-facet-pages-results">
   <?php foreach ($results as $result => $count): ?>
     <li>
-        
-        
-      
-        
-        <?php 
-        $filter = $solr_field . ':"' . addslashes($result) . '"';
-        $resultExplodeArray = explode(':', $result);        
-        ?>
-        
-        <?php 
-      
-      
-    /*  if($solr_field == 'addressee_description_ms'){
-    $filter = 'mods_name_personal_addressee_namePart_ms'. ':"' . addslashes(trim($resultExplodeArray[0])) . '"'; 
-  }else{
-      
-  }*/
-      
-     ?> 
-        
-      <?php print l(truncate_utf8($resultExplodeArray[0], 72, TRUE, TRUE), 'islandora/search/*:*', array('query' => array('f' => array($filter)))); ?>
-      <span class="bucket-size">(<?php print $count; ?>)</span> 
       <?php
-      
-      if(trim($resultExplodeArray[1]) != false){
-          print " - ".$resultExplodeArray[1];
+      $filter = $solr_field . ':"' . addslashes($result) . '"';
+      $result = explode(':', $result);
+      ?>
+      <?php print l(htmlspecialchars_decode(truncate_utf8($result[0], 72, TRUE, TRUE)), 'islandora/search/*:*', array('query' => array('f' => array($filter)))); ?>
+      <span class="bucket-size">(<?php print $count; ?>)</span>
+      <?php
+      if(trim($result[1]) != false){
+        print " - " . htmlspecialchars_decode($result[1]);
       }
       ?>
     </li>
