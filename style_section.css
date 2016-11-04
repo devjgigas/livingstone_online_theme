@@ -2186,7 +2186,7 @@ height:25px;
 
 #sub-section-navigation {
   position: relative;
-  z-index: 1000;
+  z-index: 400;
 }
 
 /* Move border when present. */
