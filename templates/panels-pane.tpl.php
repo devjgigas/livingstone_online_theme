@@ -52,10 +52,29 @@ $is_sub_section_page = function($menu_items) use($nid, &$is_sub_section_page) {
   }
   return FALSE;
 };
+$exists_outside_of_sub_section = FALSE;
+$menu_item_instances = array();
+$get_menu_item_instances = function($menu_items) use($nid, &$get_menu_item_instances, &$menu_item_instances) {
+  foreach ($menu_items as $menu_item) {
+    $path = $menu_item['link']['link_path'];
+    if ($path == "node/$nid" ) {
+      $menu_item_instances[] = $menu_item;
+    }
+    $get_menu_item_instances($menu_item['below']);
+  }
+};
 $menu_items = menu_tree_page_data('menu-topmenu', NULL, FALSE);
+// Checks if the page exists outside of this active trail.
+$get_menu_item_instances($menu_items);
+foreach ($menu_item_instances as $menu_item) {
+  $active = $menu_item['link']['in_active_trail'];
+  if (!$active) {
+    $exists_outside_of_sub_section = TRUE;
+  }
+}
 $menu = $find_menu($menu_items);
-$menu_output = empty($menu['below']) ? array() : menu_tree_output(array($menu));
-if ($is_sub_section_page($menu_items)) {
+$menu_output = $exists_outside_of_sub_section || empty($menu['below']) ? array() : menu_tree_output(array($menu));
+if (!$exists_outside_of_sub_section && $is_sub_section_page($menu_items)) {
   $classes .= ' sub-section-page';
 }
 ?>
