@@ -2216,7 +2216,7 @@ height:25px;
   border: 1px solid #ccc;
   text-align: left;
   padding: 2px 10px;
-  font-size: 16.8px;
+  font-size: 14.5px;
   margin: 20px auto 10px;
 }
 @media all and (max-width: 766px) {
@@ -2246,8 +2246,8 @@ height:25px;
 #sub-section-navigation > div.slicknav_menu .slicknav_arrow,
 #sub-section-navigation > div.slicknav_menu .slicknav_icon {
   float: right;
-  padding: 7px 12px 0 0;
-  font-size: 14.4px;
+  padding: 5px 13px 0 0;
+  font-size: 13px;
 }
 @media all and (max-width: 766px) {
   #sub-section-navigation > div.slicknav_menu .slicknav_arrow,
