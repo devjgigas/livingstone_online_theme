@@ -2216,13 +2216,8 @@ height:25px;
   border: 1px solid #ccc;
   text-align: left;
   padding: 2px 10px;
-  font-size: 16.8px;
+  font-size: 14px;
   margin: 20px auto 10px;
-}
-@media all and (max-width: 766px) {
-  #sub-section-navigation > div.slicknav_menu {
-    font-size: 14px;
-  }
 }
 #sub-section-navigation > div.slicknav_menu ul {
   list-style: none;
@@ -2246,15 +2241,8 @@ height:25px;
 #sub-section-navigation > div.slicknav_menu .slicknav_arrow,
 #sub-section-navigation > div.slicknav_menu .slicknav_icon {
   float: right;
-  padding: 7px 12px 0 0;
-  font-size: 14.4px;
-}
-@media all and (max-width: 766px) {
-  #sub-section-navigation > div.slicknav_menu .slicknav_arrow,
-  #sub-section-navigation > div.slicknav_menu .slicknav_icon {
-    padding: 5px 12px 0 0;
-    font-size: 12px;
-  }
+  padding: 5px 12px 0 0;
+  font-size: 12px;
 }
 #sub-section-navigation > div.slicknav_menu .slicknav_collapsed .slicknav_icon:before,
 #sub-section-navigation > div.slicknav_menu .slicknav_collapsed .slicknav_arrow:before {
