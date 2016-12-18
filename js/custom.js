@@ -101,7 +101,16 @@ jQuery(window).load(function() {
     jQuery(".header_title_region").click(function(){
         window.location.href = "http://"+window.location.hostname;
          
-    });     
+    });
+
+	if (window.location.hash) {
+    var target = jQuery(window.location.hash).offset().top;
+    var fixedbar = target > 215 ? 55 : 0;
+    // Account for the fixed bar size.
+    jQuery('html, body').animate({
+      scrollTop: target - fixedbar
+    });
+	}
 });
 
 // $(function(){
