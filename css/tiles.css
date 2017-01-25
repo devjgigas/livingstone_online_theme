@@ -84,27 +84,27 @@
 }
 #main-menu li:nth-child(1),
 .topmenu li:nth-child(1){
-   background-color:#99cc99; 
+   background-color:#aca28b; 
 }
 #main-menu li:nth-child(2),
 .topmenu li:nth-child(2){
-   background-color:#F7C983; 
+   background-color:#92959e; 
 }
 #main-menu li:nth-child(3),
 .topmenu li:nth-child(3){
-   background-color:#a48bc2; 
+   background-color:#99988c; 
 }
 #main-menu li:nth-child(4),
 .topmenu li:nth-child(4){
-   background-color:#99ccff; 
+   background-color:#9e9081; 
 }
 #main-menuli:nth-child(5),
 .topmenu li:nth-child(5){
-   background-color:#cc9999; 
+   background-color:#939191; 
 }
 #main-menu li:nth-child(6),
 .topmenu li:nth-child(6){
-   background-color:#cccc99; 
+   background-color:#9a8888; 
 }
 
 
@@ -161,27 +161,27 @@
 }
 #main-menu .menu li:nth-child(1),
 .topmenu .menu li:nth-child(1){
-   background-color:#99cc99; 
+   background-color:#aca28b; 
 }
 #main-menu .menu li:nth-child(2),
 .topmenu .menu li:nth-child(2){
-   background-color:#F7C983; 
+   background-color:#92959e; 
 }
 #main-menu .menu li:nth-child(3),
 .topmenu .menu li:nth-child(3){
-   background-color:#a48bc2; 
+   background-color:#99988c; 
 }
 #main-menu .menu li:nth-child(4),
 .topmenu .menu li:nth-child(4){
-   background-color:#99ccff; 
+   background-color:#9e9081; 
 }
 #main-menu .menu li:nth-child(5),
 .topmenu .menu li:nth-child(5){
-   background-color:#cc9999; 
+   background-color:#939191; 
 }
 #main-menu .menu li:nth-child(6),
 .topmenu .menu li:nth-child(6){
-   background-color:#cccc99; 
+   background-color:#9a8888; 
 }
 .front #block-menu-menu-topmenu ul.menu li ul.menu {
   display: none;
@@ -277,29 +277,29 @@ height:25px;
 .page-about-site .views-row .views-field.views-field-nothing,
 .page-about-this-site .views-row .views-field.views-field-nothing,
 .page-livingstone-online .views-row .views-field.views-field-nothing {
-    border: 6px solid #99cc99; 
+    border: 6px solid #aca28b; 
     overflow: hidden;
 }
 .page-in-his-own-words- .views-row .views-field.views-field-nothing,
 .page-his-own-words .views-row .views-field.views-field-nothing{
-    border: 6px solid #F7C983; 
+    border: 6px solid #92959e; 
     overflow: hidden;
 }
 .page-spectral-imaging .views-row .views-field.views-field-nothing {
-    border: 6px solid #a48bc2;; 
+    border: 6px solid #99988c;; 
     overflow: hidden;
 }
 .page-behind-the-scenes- .views-row .views-field.views-field-nothing,
 .page-behind-the-scenes .views-row .views-field.views-field-nothing {
-    border: 6px solid #cc9999; 
+    border: 6px solid #939191; 
     overflow: hidden;   
 }
 .page-life-and-times .views-row .views-field.views-field-nothing {
-    border: 6px solid #99ccff;
+    border: 6px solid #9e9081;
     overflow: hidden;   
 }
 .page-resources .views-row .views-field.views-field-nothing {
-    border: 6px solid #cccc99;
+    border: 6px solid #9a8888;
     overflow: hidden;
 }
 .project.Yes, .project.No { 
