@@ -27,7 +27,17 @@ jQuery(document).ready( function($) {
 	$('#navigation').slicknav ({
 		label: 'Site sections and pages',
 		prependTo:'#primary'
-	});	
+	});
+	$('#sub-section-navigation').slicknav ({
+		label: '',
+		closedSymbol: '',
+		openedSymbol: '',
+		removeClasses: true,
+		removeStyles: true,
+		prependTo:'#sub-section-navigation'
+	}).slicknav('open');
+	$('#sub-section-navigation .slicknav_arrow, #sub-section-navigation .slicknav_icon').addClass('fa');
+
 	// $('.menu-name-menu-topmenu').slicknav ({
 	// 	label: 'Site sections and pages',
 	// 	prependTo:'#header_mobilenav'
@@ -91,7 +101,16 @@ jQuery(window).load(function() {
     jQuery(".header_title_region").click(function(){
         window.location.href = "http://"+window.location.hostname;
          
-    });     
+    });
+
+	if (window.location.hash) {
+    var target = jQuery(window.location.hash).offset().top;
+    var fixedbar = target > 215 ? 55 : 0;
+    // Account for the fixed bar size.
+    jQuery('html, body').animate({
+      scrollTop: target - fixedbar
+    });
+	}
 });
 
 // $(function(){

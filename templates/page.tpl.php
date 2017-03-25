@@ -61,7 +61,8 @@ if(isset($node) && $node->type =='section_page'): ?>
               if (module_exists('i18n_menu')) {
                 $main_menu_tree = i18n_menu_translated_tree(variable_get('menu_main_links_source', 'main-menu'));
               } else {
-                $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
+                $tree = menu_tree_page_data(variable_get('menu_main_links_source', 'main-menu'), 2);
+                $main_menu_tree = menu_tree_output($tree);
               }
               print drupal_render($main_menu_tree);
             ?>
