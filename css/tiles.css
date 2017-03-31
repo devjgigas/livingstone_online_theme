@@ -88,7 +88,7 @@
 }
 #main-menu li:nth-child(2),
 .topmenu li:nth-child(2){
-   background-color:#dfd0a9; 
+   background-color:#dfd0ae; 
 }
 #main-menu li:nth-child(3),
 .topmenu li:nth-child(3){
@@ -165,7 +165,7 @@
 }
 #main-menu .menu li:nth-child(2),
 .topmenu .menu li:nth-child(2){
-   background-color:#dfd0a9; 
+   background-color:#dfd0ae; 
 }
 #main-menu .menu li:nth-child(3),
 .topmenu .menu li:nth-child(3){
@@ -282,7 +282,7 @@ height:25px;
 }
 .page-in-his-own-words- .views-row .views-field.views-field-nothing,
 .page-his-own-words .views-row .views-field.views-field-nothing{
-    border: 6px solid #dfd0a9; 
+    border: 6px solid #dfd0ae; 
     overflow: hidden;
 }
 .page-spectral-imaging .views-row .views-field.views-field-nothing {
