@@ -1104,7 +1104,7 @@ span.footpdf {
 }
 .view-image-banner-scroll .jcarousel-skin-tango .jcarousel-item {
   background: none ;
-  border: 1px solid /*#7c7a7a*/;
+  border: 1px solid #4f504e/*#7c7a7a*/;
   height: 80px;
   list-style: outside none none;
   overflow: hidden;
