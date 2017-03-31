@@ -84,7 +84,7 @@
 }
 #main-menu li:nth-child(1),
 .topmenu li:nth-child(1){
-   background-color:#ae857f; 
+   background-color:#ae7b75; 
 }
 #main-menu li:nth-child(2),
 .topmenu li:nth-child(2){
@@ -161,7 +161,7 @@
 }
 #main-menu .menu li:nth-child(1),
 .topmenu .menu li:nth-child(1){
-   background-color:#ae857f; 
+   background-color:#ae7b75; 
 }
 #main-menu .menu li:nth-child(2),
 .topmenu .menu li:nth-child(2){
@@ -277,7 +277,7 @@ height:25px;
 .page-about-site .views-row .views-field.views-field-nothing,
 .page-about-this-site .views-row .views-field.views-field-nothing,
 .page-livingstone-online .views-row .views-field.views-field-nothing {
-    border: 6px solid #ae857f; 
+    border: 6px solid #ae7b75; 
     overflow: hidden;
 }
 .page-in-his-own-words- .views-row .views-field.views-field-nothing,
