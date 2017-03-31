@@ -84,15 +84,15 @@
 }
 #main-menu li:nth-child(1),
 .topmenu li:nth-child(1){
-   background-color:#977470; 
+   background-color:#a87f79; 
 }
 #main-menu li:nth-child(2),
 .topmenu li:nth-child(2){
-   background-color:#dfd0aa; 
+   background-color:#dfd0a9; 
 }
 #main-menu li:nth-child(3),
 .topmenu li:nth-child(3){
-   background-color:#7b8295; 
+   background-color:#888b9c; 
 }
 #main-menu li:nth-child(4),
 .topmenu li:nth-child(4){
@@ -104,7 +104,7 @@
 }
 #main-menu li:nth-child(6),
 .topmenu li:nth-child(6){
-   background-color:#a69496; 
+   background-color:#af9c9e; 
 }
 
 
@@ -161,15 +161,15 @@
 }
 #main-menu .menu li:nth-child(1),
 .topmenu .menu li:nth-child(1){
-   background-color:#977470; 
+   background-color:#a87f79; 
 }
 #main-menu .menu li:nth-child(2),
 .topmenu .menu li:nth-child(2){
-   background-color:#dfd0aa; 
+   background-color:#dfd0a9; 
 }
 #main-menu .menu li:nth-child(3),
 .topmenu .menu li:nth-child(3){
-   background-color:#7b8295; 
+   background-color:#888b9c; 
 }
 #main-menu .menu li:nth-child(4),
 .topmenu .menu li:nth-child(4){
@@ -181,7 +181,7 @@
 }
 #main-menu .menu li:nth-child(6),
 .topmenu .menu li:nth-child(6){
-   background-color:#a69496; 
+   background-color:#af9c9e; 
 }
 .front #block-menu-menu-topmenu ul.menu li ul.menu {
   display: none;
@@ -277,16 +277,16 @@ height:25px;
 .page-about-site .views-row .views-field.views-field-nothing,
 .page-about-this-site .views-row .views-field.views-field-nothing,
 .page-livingstone-online .views-row .views-field.views-field-nothing {
-    border: 6px solid #977470; 
+    border: 6px solid #a87f79; 
     overflow: hidden;
 }
 .page-in-his-own-words- .views-row .views-field.views-field-nothing,
 .page-his-own-words .views-row .views-field.views-field-nothing{
-    border: 6px solid #dfd0aa; 
+    border: 6px solid #dfd0a9; 
     overflow: hidden;
 }
 .page-spectral-imaging .views-row .views-field.views-field-nothing {
-    border: 6px solid #7b8295; 
+    border: 6px solid #888b9c; 
     overflow: hidden;
 }
 .page-life-and-times .views-row .views-field.views-field-nothing {
@@ -299,7 +299,7 @@ height:25px;
     overflow: hidden;   
 }
 .page-resources .views-row .views-field.views-field-nothing {
-    border: 6px solid #a69496;
+    border: 6px solid #af9c9e;
     overflow: hidden;
 }
 .project.Yes, .project.No { 
