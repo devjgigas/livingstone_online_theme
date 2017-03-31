@@ -104,7 +104,7 @@
 }
 #main-menu li:nth-child(6),
 .topmenu li:nth-child(6){
-   background-color:#a29394; 
+   background-color:#a28f90; 
 }
 
 
@@ -181,7 +181,7 @@
 }
 #main-menu .menu li:nth-child(6),
 .topmenu .menu li:nth-child(6){
-   background-color:#a29394; 
+   background-color:#a28f90; 
 }
 .front #block-menu-menu-topmenu ul.menu li ul.menu {
   display: none;
@@ -299,7 +299,7 @@ height:25px;
     overflow: hidden;   
 }
 .page-resources .views-row .views-field.views-field-nothing {
-    border: 6px solid #a29394;
+    border: 6px solid #a28f90;
     overflow: hidden;
 }
 .project.Yes, .project.No { 
