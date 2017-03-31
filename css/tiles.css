@@ -84,7 +84,7 @@
 }
 #main-menu li:nth-child(1),
 .topmenu li:nth-child(1){
-   background-color:#a87f79; 
+   background-color:#ae857f; 
 }
 #main-menu li:nth-child(2),
 .topmenu li:nth-child(2){
@@ -100,11 +100,11 @@
 }
 #main-menuli:nth-child(5),
 .topmenu li:nth-child(5){
-   background-color:#9f856c; 
+   background-color:#96806b; 
 }
 #main-menu li:nth-child(6),
 .topmenu li:nth-child(6){
-   background-color:#af9c9e; 
+   background-color:#ab9598; 
 }
 
 
@@ -161,7 +161,7 @@
 }
 #main-menu .menu li:nth-child(1),
 .topmenu .menu li:nth-child(1){
-   background-color:#a87f79; 
+   background-color:#ae857f; 
 }
 #main-menu .menu li:nth-child(2),
 .topmenu .menu li:nth-child(2){
@@ -177,11 +177,11 @@
 }
 #main-menu .menu li:nth-child(5),
 .topmenu .menu li:nth-child(5){
-   background-color:#9f856c; 
+   background-color:#96806b; 
 }
 #main-menu .menu li:nth-child(6),
 .topmenu .menu li:nth-child(6){
-   background-color:#af9c9e; 
+   background-color:#ab9598; 
 }
 .front #block-menu-menu-topmenu ul.menu li ul.menu {
   display: none;
@@ -277,7 +277,7 @@ height:25px;
 .page-about-site .views-row .views-field.views-field-nothing,
 .page-about-this-site .views-row .views-field.views-field-nothing,
 .page-livingstone-online .views-row .views-field.views-field-nothing {
-    border: 6px solid #a87f79; 
+    border: 6px solid #ae857f; 
     overflow: hidden;
 }
 .page-in-his-own-words- .views-row .views-field.views-field-nothing,
@@ -295,11 +295,11 @@ height:25px;
 }
 .page-behind-the-scenes- .views-row .views-field.views-field-nothing,
 .page-behind-the-scenes .views-row .views-field.views-field-nothing {
-    border: 6px solid #9f856c; 
+    border: 6px solid #96806b; 
     overflow: hidden;   
 }
 .page-resources .views-row .views-field.views-field-nothing {
-    border: 6px solid #af9c9e;
+    border: 6px solid #ab9598;
     overflow: hidden;
 }
 .project.Yes, .project.No { 
