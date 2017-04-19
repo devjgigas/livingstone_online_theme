@@ -84,7 +84,7 @@
 }
 #main-menu li:nth-child(1),
 .topmenu li:nth-child(1){
-   background-color:#ae7b75; 
+   background-color:#888b9c; 
 }
 #main-menu li:nth-child(2),
 .topmenu li:nth-child(2){
@@ -92,7 +92,7 @@
 }
 #main-menu li:nth-child(3),
 .topmenu li:nth-child(3){
-   background-color:#888b9c; 
+   background-color:#ae7b75; 
 }
 #main-menu li:nth-child(4),
 .topmenu li:nth-child(4){
@@ -104,7 +104,7 @@
 }
 #main-menu li:nth-child(6),
 .topmenu li:nth-child(6){
-   background-color:#a28f90; 
+   background-color:#C7C2CB; 
 }
 
 
@@ -161,7 +161,7 @@
 }
 #main-menu .menu li:nth-child(1),
 .topmenu .menu li:nth-child(1){
-   background-color:#ae7b75; 
+   background-color:#888b9c; 
 }
 #main-menu .menu li:nth-child(2),
 .topmenu .menu li:nth-child(2){
@@ -169,7 +169,7 @@
 }
 #main-menu .menu li:nth-child(3),
 .topmenu .menu li:nth-child(3){
-   background-color:#888b9c; 
+   background-color:#ae7b75; 
 }
 #main-menu .menu li:nth-child(4),
 .topmenu .menu li:nth-child(4){
@@ -181,7 +181,7 @@
 }
 #main-menu .menu li:nth-child(6),
 .topmenu .menu li:nth-child(6){
-   background-color:#a28f90; 
+   background-color:#C7C2CB; 
 }
 .front #block-menu-menu-topmenu ul.menu li ul.menu {
   display: none;
@@ -277,7 +277,7 @@ height:25px;
 .page-about-site .views-row .views-field.views-field-nothing,
 .page-about-this-site .views-row .views-field.views-field-nothing,
 .page-livingstone-online .views-row .views-field.views-field-nothing {
-    border: 6px solid #ae7b75; 
+    border: 6px solid #888b9c; 
     overflow: hidden;
 }
 .page-in-his-own-words- .views-row .views-field.views-field-nothing,
@@ -286,7 +286,7 @@ height:25px;
     overflow: hidden;
 }
 .page-spectral-imaging .views-row .views-field.views-field-nothing {
-    border: 6px solid #888b9c; 
+    border: 6px solid #ae7b75; 
     overflow: hidden;
 }
 .page-life-and-times .views-row .views-field.views-field-nothing {
@@ -299,7 +299,7 @@ height:25px;
     overflow: hidden;   
 }
 .page-resources .views-row .views-field.views-field-nothing {
-    border: 6px solid #a28f90;
+    border: 6px solid #C7C2CB;
     overflow: hidden;
 }
 .project.Yes, .project.No { 
