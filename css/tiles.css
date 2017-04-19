@@ -447,8 +447,8 @@ a .info > .pretitle {
 @media screen and (min-width: 769px) {
     .leveltwo .view-id-l .views-row {
         display: inline-block;
-        margin: 1%;
-        width: 31%;   
+        margin: .3em;
+        width: 32%;   
     }
 }
 @media screen and (max-width: 568px) {
