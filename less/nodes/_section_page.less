@@ -1,0 +1,51 @@
+@import "../_variables";
+
+// Make tabs appear more clearly.
+.nav-tabs > li > a {
+  border-color: #eee;
+  border-bottom-color: #ddd;
+}
+
+.node-section-page {
+  header {
+    h2 {
+      .title;
+      em {
+        font-style: italic;
+      }
+      margin: 0;
+    }
+  }
+  a {
+    color: #428bca;
+    outline: 0;
+    &:focus {
+      outline: 0;
+    }
+    &:link {
+      text-decoration: none;
+    }
+  }
+
+}
+
+// Custom colours for each site main image border.
+.section-about-this-site .field-name-field-section-image img {
+  border: 6px solid @about-this-site;
+}
+.section-in-his-own-words .field-name-field-section-image img {
+  border: 6px solid @in-his-own-words;
+}
+.section-spectral-imaging .field-name-field-section-image img {
+  border: 6px solid @spectral-imaging;
+}
+.section-life-and-times .field-name-field-section-image img {
+  border: 6px solid @life-and-times;
+}
+.section-behind-the-scenes .field-name-field-section-image img {
+  border: 6px solid @behind-the-scenes;
+}
+.section-resources .field-name-field-section-image img {
+  border: 6px solid @resources;
+}
+// Needs cleaning.

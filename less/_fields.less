@@ -1,0 +1,137 @@
+@import "_mixins";
+
+.title {
+  color: #000;
+  font-family: "Crimson Text", serif;
+  font-size: 36.5px;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0 0;
+}
+.field-name-field-section-image {
+  @media @media-md-min {
+    display: none;
+  }
+  img {
+    margin: 10px auto;
+  }
+}
+.field-name-field-section-table-of-contents {
+  .slicknav_menu {
+    margin: auto;
+  }
+  .menu.nav {
+    display: none;
+  }
+}
+.field-name-field-section-subtitle {
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+  font-family: 'Crimson Text', serif;
+}
+.field-name-field-section-byline {
+  text-align: center;
+  font-size: 0.9em;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+.field-name-field-section-overview {
+  font-family: "Crimson Text", serif;
+  font-weight: bold;
+  font-size: 15px;
+  // @todo refactor.
+  line-height: 24px;
+  border: solid rgba(0, 0, 0, 0.2);
+  border-width: 1px 0;
+  padding: @line-height-computed 0;
+  p {
+    padding-left: 5px;
+  }
+  margin: @line-height-computed 0;
+}
+.field-name-field-section-body {
+  line-height: 25.6px;
+  // For now remove the extra HR element.
+  & .field-item > hr:first-child {
+    display: none;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    margin-bottom: 20px;
+  }
+  p {
+    margin: 0 0 20px;
+    &.space-2 {
+      margin: 0px 0 5px !important;
+    }
+    &.space-1 {
+      margin: 0px 0 10px !important;
+    }
+    &.space1 {
+      margin: 10px 0 30px !important;
+    }
+    &.space2 {
+      margin: 20px 0 40px !important;
+    }
+  }
+  table {
+    width: 100%;
+    margin: 0 auto 1.5em;
+    background: white;
+  }
+  img {
+    .img-responsive();
+  }
+  // Needs cleaning.
+  .doubleimg {
+    margin:0 auto;
+    text-align: center;
+    width: 100%;
+  }
+  .doubleleft,
+  .doubleright {
+    display: inline-block;
+    margin: 2.5px;
+    width: 45%;
+  }
+  .doubleleft img {
+    float: right;
+  }
+  .doubleright img {
+    float: left;
+  }
+}
+.field-name-field-section-page-transcription {
+  .transcription-viewer-toolbar {
+    .flexbox(space-between);
+    .form-type-select {
+      .flex(0, 0, 49%);
+      width: 49%;
+    }
+  }
+  .transcription-field-display {
+    .flexbox(space-between);
+    .pane {
+      // Only one pane on small displays.
+      @media @media-sm-max {
+        .flex(0, 0, 100%);
+        width: 100%;
+        &:last-of-type {
+          display: none;
+        }
+      }
+      // Two displays on larger screens.
+      @media @media-md-min {
+        .flex(0, 0, 49%);
+        width: 49%;
+      }
+    }
+  }
+  .transcription-viewer-content {
+    display: block;
+    height: 800px;
+    overflow: scroll;
+    position: relative;
+  }
+}

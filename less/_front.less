@@ -1,0 +1,172 @@
+/**
+ * @file
+ * Customizations that only affect the front page.
+ */
+
+// z-index for absolute elements to appear above the main content.
+@front-link-z-index: 5;
+// Point at which the page goes from fluid to fixed width.
+@front-abs-breakpoint: 850px;
+@front-abs-breakpoint-min: ~"screen and (min-width: @{front-abs-breakpoint})";
+@front-abs-breakpoint-max: %(~"screen and (max-width: %d)", (@front-abs-breakpoint - 1));
+@front-footer-color: black;
+
+// Position absolutely on sizes greater than @break-point.
+.absolute() {
+  @media @front-abs-breakpoint-min {
+    position: absolute;
+    // Prevent overflow issues.
+    max-width: 100%;
+    width: 100%;
+    z-index: @front-link-z-index;
+  }
+}
+
+// Sticky footer requires that HTML be position relatively so that it can be
+// positioned relative to the entire page not the body's content.
+html.front {
+  position: relative;
+  min-height: 100%;
+}
+
+// Positioned relative to the HTML element.
+.sticky-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+}
+
+body.front {
+  // The overrides.less files sets the body to relative which prevents the use
+  // of a sticky footer, so we only override it on the front page as it fixes
+  //overflow issues (in safari) on other pages.
+  position: static;
+  // Makes the gap between the main body and the sticky footer appear to be
+  // part of the footer..
+  @media @front-abs-breakpoint-min {
+    background-color: @front-footer-color;
+  }
+  #navbar {
+    // When on large screens we position the #navbar absolutely over top of the
+    // main content, otherwise it's part of the normal flow.
+    .absolute();
+    @media @front-abs-breakpoint-min {
+      padding: 15px;
+      margin: 0;
+    }
+  }
+  #site-logo {
+    .absolute();
+    top: 40%;
+    text-align: center;
+  }
+  .main-container {
+    // All children of the main container that are position absolutely, are done
+    // so relative to the main container rather than the HTML element.
+    position: relative;
+    // Behave like a fluid container beyond the break point.
+    @media @front-abs-breakpoint-min {
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 100%;
+      // Remove the gutter.
+      .row > [class*='col-'] {
+        padding-right: 0;
+        padding-left: 0;
+      }
+    }
+    // Main Menu Links.
+    nav.main {
+      .absolute();
+      // Position just beyond the middle of the main content block.
+      top: 55%;
+      .menu.primary {
+        // On the front page the primary menu is displayed even on mobile.
+        // Slick Nav, is not used.
+        display: block;
+        float: none;
+        text-align: center;
+        // XXX: Forces the menu to break in half. This will break if the menu
+        // changes in content or length.
+        @media @front-abs-breakpoint-max {
+          max-width: 450px;
+          margin: 10px auto
+        }
+        li {
+          float: none;
+          display: inline-block;
+          margin: 5px;
+          a {
+            width: 120px;
+          }
+        }
+      }
+    }
+    // Image Gallery.
+    .flexslider {
+      // Have the flexslider controls positioned relative to the images, rather
+      // than relative to it's container.
+      position: relative;
+      border: 4px solid black;
+      margin: 0;
+      @media @front-abs-breakpoint-min {
+        border: none;
+      }
+      .flex-control-nav {
+        bottom: 25%;
+        z-index: @front-link-z-index;
+        li {
+          vertical-align: middle;
+          a {
+            width: 13px;
+            background: white;
+            border: 1px solid #a1a1a1;
+            box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+            &.flex-active {
+              background: yellow;
+            }
+          }
+        }
+      }
+    }
+    nav.site-guide {
+      .absolute();
+      bottom: 0;
+      padding: 20px;
+      ul {
+        li {
+          &:first-child {
+            float: left;
+          }
+          &:last-child {
+            float: right;
+          }
+          a {
+            padding: 0;
+            color: @navbar-default-link-color;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  // Black footer with partner logos.
+  footer {
+    background-color: @front-footer-color;
+    // Center align all footer icon's and render them as blocks.
+    .view-content {
+      text-align: center;
+      .views-row {
+        display: inline-block;
+        margin: 10px 0;
+        width: auto;
+      }
+    }
+  }
+}

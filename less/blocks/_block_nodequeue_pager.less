@@ -1,0 +1,33 @@
+@import "../_variables";
+
+@background-color: #F2F2F2;
+.block-nodequeue-pager {
+  position: relative;
+  // Hide the pager on lower resolutions.
+  @media @media-md-max {
+    display: none;
+  }
+  a {
+    position: absolute;
+    border: 1px solid #eee;
+    display: block;
+    height: 100px;
+    width: 50px;
+    z-index: 110;
+    text-decoration: none;
+    &:focus,
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  a:first-of-type {
+    left: 0;
+    background: url(../images/page-arrows.png) no-repeat 0 0 @background-color;
+    border-radius: 0px 6px 6px 0px;
+  }
+  a:last-of-type {
+    right: 0;
+    background: url(../images/page-arrows.png) no-repeat 100% 0 @background-color;
+    border-radius: 6px 0px 0px 6px;
+  }
+}

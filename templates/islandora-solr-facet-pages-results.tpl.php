@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @file
  * islandora-solr-facet-pages-results.tpl.php
@@ -19,15 +18,17 @@
   <?php foreach ($results as $result => $count): ?>
     <li>
       <?php
-      $filter = $solr_field . ':"' . addslashes($result) . '"';
-      $result = explode(':', $result);
+        $filter = $solr_field . ':"' . addslashes($result) . '"';
+        $resultExplodeArray = explode(':', $result);
+        print l(truncate_utf8($resultExplodeArray[0], 72, TRUE, TRUE), 'in-his-own-words/catalogue', array(
+          'query' => array('f' => array($filter)))
+        );
       ?>
-      <?php print l(htmlspecialchars_decode(truncate_utf8($result[0], 72, TRUE, TRUE)), 'islandora/search/*:*', array('query' => array('f' => array($filter)))); ?>
       <span class="bucket-size">(<?php print $count; ?>)</span>
       <?php
-      if(trim($result[1]) != false){
-        print " - " . htmlspecialchars_decode($result[1]);
-      }
+        if(trim($resultExplodeArray[1]) != false) {
+          print " - ".$resultExplodeArray[1];
+        }
       ?>
     </li>
   <?php endforeach; ?>

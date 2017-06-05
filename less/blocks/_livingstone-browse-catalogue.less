@@ -1,0 +1,207 @@
+@import "../_variables";
+@import "../_mixins";
+
+.block-livingstone-browse-catalogue {
+  margin-top: @line-height-computed;
+  font-size: 0.9em;
+  .table-responsive > .table > tbody > tr > td {
+    white-space: normal;
+  }
+  button {
+    background-color: #f2f2f2;
+    color: black;
+  }
+  .search-block {
+    .flexbox(space-between);
+    .form-item-query {
+      margin-right: 10px;
+    }
+    input {
+      .appearance(none);
+      box-shadow: none;
+      border-left: none;
+      border-color: #ccc;
+    }
+  }
+  .date-container {
+    .flexbox(space-between);
+    .align-items(center);
+    .form-item {
+      min-width: 30%;
+      margin: 0;
+    }
+  }
+  .clear-button {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .control-group-4 {
+    .flexbox(flex-start, row, wrap);
+    .align-items(baseline);
+    .full-record {
+      .flex(0, 1, auto);
+    }
+    .catalogue-download-links {
+      .flexbox(flex-end);
+      .flex(1, 0, auto);
+      font-size: 0.9em;
+      > div {
+        padding: 0 1em;
+        &:last-child {
+          padding: 0 0 0 1em;
+        }
+      }
+      @media @media-sm-max {
+        display: none;
+      }
+      .download-label {
+        font-style: italic;
+      }
+      a {
+        padding-right: 0.3em;
+      }
+    }
+  }
+  .hide-instructions() {
+    .scroll-instructions-left,
+    .scroll-instructions-right {
+      display: none;
+    }
+  }
+  .pager-wrapper {
+    .flexbox(space-between);
+    .align-items(center);
+    // Show alt-instructions below the pager on small devices.
+    @media @media-sm-max {
+      .justify-content(center);
+      .hide-instructions();
+    }
+  }
+  .alt-scroll-instructions {
+    display: none;
+    // Only show on medium screens.
+    @media @media-sm {
+      .flexbox(space-between);
+    }
+  }
+  .hide-instructions {
+    .pager-wrapper {
+      .justify-content(center);
+    }
+    .hide-instructions();
+  }
+  .pager {
+    margin: 0;
+    li > a,
+    li > span {
+      padding: 0 10px;
+    }
+  }
+  table {
+    margin: 0 auto;
+    thead {
+      tr {
+        th {
+          background-color: #eee;
+          color: #428bca;
+          font-weight: normal;
+          &.active {
+            background-color: #eee;
+          }
+          a {
+            text-decoration: none;
+            &:hover,
+            &:focus {
+              text-decoration: none;
+            }
+          }
+          img {
+            display: inline-block;
+            vertical-align: baseline;
+          }
+        }
+      }
+    }
+    tbody {
+      tr td {
+        background-color: white;
+        &.active {
+          background-color: white;
+        }
+      }
+    }
+  }
+  .search-results {
+    overflow-x: auto;
+    /* Access column icons */
+    .access-column {
+      a {
+        margin: 0 0.5em;
+        vertical-align: middle;
+        text-decoration: none;
+        &:hover,
+        &:focus {
+          text-decoration: none;
+        }
+        &.fa-ban,
+        &.fa-ban:hover {
+          color: #b22222;
+        }
+      }
+      .download-size {
+        display: inline-block;
+        color: #808080;
+        font-size: 0.8em;
+        vertical-align: middle;
+      }
+    }
+    /* Columns Width's */
+    .fixed-column-width(@width) {
+      max-width: @width !important;
+      min-width: @width !important;
+      width: @width !important;
+    }
+    .access-column {
+      .fixed-column-width(140px);
+    }
+    .title-column {
+      .fixed-column-width(240px);
+    }
+    &.full-record .title-column {
+      .fixed-column-width(350px);
+    }
+    .date-column {
+      .fixed-column-width(135px);
+    }
+    .creator-column {
+      .fixed-column-width(200px);
+    }
+    .addressee-column {
+      .fixed-column-width(200px);
+    }
+    .place-created-column {
+      .fixed-column-width(150px);
+    }
+    .pages-column {
+      .fixed-column-width(108px);
+    }
+    .size-column {
+      .fixed-column-width(95px);
+    }
+    .genre-column {
+      .fixed-column-width(187px);
+    }
+    .repository-column {
+      .fixed-column-width(300px);
+    }
+    .copy-column {
+      .fixed-column-width(110px);
+    }
+    .other-versions-column {
+      .fixed-column-width(350px);
+    }
+    .catalogue-number-column {
+      .fixed-column-width(160px);
+    }
+  }
+}

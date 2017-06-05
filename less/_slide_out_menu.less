@@ -1,0 +1,104 @@
+@import "_mixins";
+@import "_variables";
+
+@slideout-menu-width: 190px;
+@slideout-menu-link-width: 120px;
+
+.slideout-menu-toggle {
+  .border-radius(6px);
+  color: black;
+  background: none repeat scroll 0 0 #eee;
+  border: 1px solid #ccc;
+  padding: 0px 7px;
+  line-height: 23px !important;
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    color: black;
+  }
+}
+.slideout-menu {
+  text-align: center;
+  // Hide search block and contextual links.
+  .contextual-links-wrapper {
+    .hide;
+  }
+  background: white;
+  border-right: 2px solid #EEE;
+  position: fixed;
+  top: 0;
+  left: -@slideout-menu-width;
+  width: @slideout-menu-width;
+  height: 100%;
+  z-index: 100;
+  transition: all 0.5s ease;
+  font-size: 14px;
+  a {
+    text-decoration: none;
+  }
+  h3 {
+    color: #999;
+    font-size: .9em;
+    font-weight: 400;
+    margin: 40px 0;
+    .slideout-menu-toggle {
+      .border-radius(6px);
+      background: none repeat scroll 0 0 #eee;
+      border: 1px solid #ccc;
+      color: black;
+      font-family: Arial, sans-serif;
+      margin-left: 10px;
+      padding: 1px 4px;
+      font-size: 0.8em;
+    }
+  }
+  .menu.primary {
+    // Override defaults.
+    float: none;
+    li {
+      display: block;
+      width: 65%;
+      margin: @line-height-computed auto;
+      // Override defaults.
+      float: none;
+      // Hide sub menus.
+      ul.menu {
+        .hide;
+      }
+      /*
+      a {
+        color: black;
+        font-family: 'Oxygen',sans-serif;
+        font-size: 12.4px;
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+      }*/
+      /*
+      &:nth-child(1){
+        background-color: @about-this-site;
+      }
+      &:nth-child(2){
+        background-color: @in-his-own-words;
+      }
+      &:nth-child(3){
+        background-color: @spectral-imaging;
+      }
+      &:nth-child(4){
+        background-color: @life-and-times;
+      }
+      &:nth-child(5){
+        background-color: @behind-the-scenes;
+      }
+      &:nth-child(6){
+        background-color: @resources;
+      }
+      &:hover {
+        background: #ccc;
+      }*/
+    }
+  }
+  .menu.secondary {
+    float: none;
+  }
+}

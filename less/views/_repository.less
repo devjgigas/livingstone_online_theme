@@ -1,0 +1,42 @@
+@import "../_variables";
+@import "../_mixins";
+
+.view-repository {
+  table {
+    margin: 0 auto;
+    thead {
+      tr {
+        border: 1px solid #ccc;
+        th {
+          border: 1px solid #ccc;
+          background-color: #eee;
+          color: #428bca;
+          font-weight: bold;
+          &.active {
+            background-color: #eee;
+          }
+          a {
+            text-decoration: underline;
+          }
+          img {
+            display: inline-block;
+            vertical-align: baseline;
+          }
+        }
+      }
+    }
+    tbody {
+      tr td {
+        border: 1px solid #ccc;
+        background-color: white;
+        &.active {
+          background-color: white;
+        }
+        &.views-field.views-field-field-repo-link,
+        &.views-field.views-field-field-repo-repository {
+          width: 400px;
+        }
+      }
+    }
+  }
+}

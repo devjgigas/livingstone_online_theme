@@ -1,0 +1,50 @@
+name = Livingstone Online Theme
+description = Drupal 7 sub theme of the Bootstrap Theme.
+core = 7.x
+base theme = bootstrap
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[carousel]       = 'Carousel'
+regions[fixed_header]   = 'Fixed Header'
+regions[content_pager]  = 'Content Pager'
+regions[content]        = 'Content'
+regions[footer]         = 'Footer'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/bootstrap-select.min.css
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+
+scripts[] = 'bootstrap/js/affix.js'
+scripts[] = 'bootstrap/js/alert.js'
+scripts[] = 'bootstrap/js/button.js'
+scripts[] = 'bootstrap/js/carousel.js'
+scripts[] = 'bootstrap/js/collapse.js'
+scripts[] = 'bootstrap/js/dropdown.js'
+scripts[] = 'bootstrap/js/modal.js'
+scripts[] = 'bootstrap/js/tooltip.js'
+scripts[] = 'bootstrap/js/popover.js'
+scripts[] = 'bootstrap/js/scrollspy.js'
+scripts[] = 'bootstrap/js/tab.js'
+scripts[] = 'bootstrap/js/transition.js'
+
+;; Customizations.
+scripts[] = js/modernizr.js
+scripts[] = js/custom.js
+scripts[] = js/jquery.slicknav.js
+scripts[] = js/isotope.pkgd.min.js
+scripts[] = js/bootstrap-select.min.js
+
+; Disable the CDN provider so compiled source files can be used.
+settings[bootstrap_cdn] = ''

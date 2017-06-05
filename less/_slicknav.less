@@ -1,0 +1,51 @@
+@import "_variables";
+@import "_utils";
+
+.slicknav_menu {
+  height: auto !important;
+  width: 100%;
+  max-width: @max-logo-width;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  text-align: left;
+  padding: 10px;
+  margin: 0 auto;
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      padding: 5px 0 2px 10px;
+    }
+  }
+  a {
+    color: #333 !important;
+    outline: none;
+    &:hover, &:focus {
+      text-decoration: none;
+    }
+  }
+  .slicknav_arrow,
+  .slicknav_icon {
+    float: right;
+  }
+  .slicknav_collapsed {
+    .slicknav_icon:before,
+    .slicknav_arrow:before {
+      content: "\e080"
+    }
+  }
+  .slicknav_open {
+    .slicknav_icon:after,
+    .slicknav_arrow:before {
+      content: "\e114";
+    }
+    .slicknav_menutxt {
+      color: #333;
+      font-weight: bold;
+    }
+    .menu a {
+      color: #666;
+      font-weight: normal;
+    }
+  }
+}

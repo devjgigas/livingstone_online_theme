@@ -1,0 +1,45 @@
+@import "_variables";
+@import "_utils";
+
+.menu {
+  // Primary "main-menu".
+  &.primary {
+    > li {
+      .trim();
+      > a {
+        .trim();
+        font-family: 'Oxygen',sans-serif;
+        font-size: 0.8em;
+        font-weight: 600;
+        color: @navbar-default-link-color;
+        &:hover,
+        &:focus {
+          background-color: initial;
+        }
+      }
+      // Background colors.
+      &:nth-child(1) {
+        background-color: @about-this-site;
+      }
+      &:nth-child(2) {
+        background-color: @in-his-own-words;
+      }
+      &:nth-child(3) {
+        background-color: @spectral-imaging;
+      }
+      &:nth-child(4) {
+        background-color: @life-and-times;
+      }
+      &:nth-child(5) {
+        background-color: @behind-the-scenes;
+      }
+      &:nth-child(6) {
+        background-color: @resources;
+      }
+    }
+  }
+  // Do not display sub menus.
+  .menu {
+    display: none;
+  }
+}

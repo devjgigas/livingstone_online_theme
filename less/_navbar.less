@@ -1,0 +1,123 @@
+@import "_variables";
+@import "_utils";
+@import "_mixins";
+
+@max-logo-width: 400px;
+@nav-vertical-margin: 10px 0;
+@nav-item-horizontal-margin: 0 10px;
+@nav-primary-horizontal-margin: 0 2.5px;
+
+body.front {
+  // Center align on the front page only.
+  .navbar nav .region-navigation {
+    justify-content: center;
+  }
+}
+
+.navbar {
+  @navbar-item-vertical-gap: @line-height-computed;
+  // Our header elements handle the margin;
+  margin-bottom: 0;
+  // All text in the header should be center aligned.
+  text-align: center;
+  // A bit a space between the header and the top of the
+  // browser window.
+  padding-top: @navbar-item-vertical-gap;
+  // The logo should be centered on all but large screens,
+  // where it floats to the left.
+  .navbar-header {
+    float: none;
+    margin-bottom: @navbar-item-vertical-gap;
+    .logo {
+      padding: 0;
+      margin: 0;
+    }
+  }
+  // Link navigation and forms alignment.
+  nav {
+    margin-bottom: @navbar-item-vertical-gap;
+    // Holds the search form block, and the browse by block.
+    .region-navigation {
+      .flexbox(flex-end, row, wrap);
+      @media @media-md-max {
+        .justify-content(center);
+      }
+      @media @media-xs-max {
+        height: auto;
+      }
+      & > * {
+        // We must use important to override the properties defined by bootstrap
+        // and overrides.less
+        vertical-align: middle;
+        margin: 0 0 @navbar-item-vertical-gap;
+        // Hard coded margins to get the correct alignment for three items max,
+        // we only need to set the left and right margins on the middle element.
+        &:nth-of-type(2) {
+          margin: 0 10px @navbar-item-vertical-gap;
+        }
+      }
+    }
+    // Main menu links and secondary links.
+    .menu {
+      // Main menu links, "About this Site", etc.
+      // Only visible on non mobile.
+      @menu-item-gap: 10px;
+      @menu-item-half-gap: @menu-item-gap / 2;
+      &.primary {
+        float: none;
+        .flexbox(space-between);
+
+        // Replaced by the mobile drop down on smaller screens.
+        @media @media-xs-max {
+          display: none;
+        }
+        // Add a margin in-between 6 items excluding the first and last items.
+        @media @media-md-min {
+          li {
+            .flex(1, 0, auto);
+            margin: 0 @menu-item-half-gap;
+            &.first {
+              margin-left: 0;
+            }
+            &.last {
+              margin-right: 0;
+            }
+          }
+        }
+        // Add a margin in-between elements 6 items.
+        @media @media-sm-max {
+          .flex-flow(row, wrap);
+          li {
+            .flex(1, 0, e(%('calc(33% - %s)', @menu-item-gap)));
+            // Add padding the the middle elements of each row.
+            &:nth-child(2), &:nth-child(5) {
+              margin-left: @menu-item-gap;
+              margin-right: @menu-item-gap;
+            }
+            // Add a margin to the bottom row to separate it from the top.
+            &:nth-child(n+4) {
+               margin-top: @menu-item-gap;
+            }
+          }
+        }
+      }
+    }
+  }
+  // Drop down main menu navigation, for when viewing on mobile devices only.
+  #mobile-navigation {
+    width: 100%;
+    @media @media-sm-min {
+      display: none;
+    }
+  }
+}
+
+// Browse by navigation button.
+#block-livingstone-livingstone-browse-collection {
+  // Button.
+  #browse-collection {
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    min-width: 140px;
+  }
+}

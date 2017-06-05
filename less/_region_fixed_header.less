@@ -1,0 +1,54 @@
+@import "_variables";
+
+.region-fixed-header {
+  // Should only appear when the user scrolls past it.
+  display: none;
+  &.show {
+    display: block;
+  }
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: @zindex-navbar-fixed;
+  background: white;
+  border-bottom: 2px solid #eee;
+  .block {
+    // Vertically align all the blocks.
+    display: inline-block;
+    line-height: 50px;
+    & > * {
+      display: inline-block;
+      line-height: normal;
+      vertical-align: middle;
+    }
+  }
+  #block-menu-menu-fixed-header-menu {
+    display: none;
+    @media @media-md-min {
+      display: inline-block;
+    }
+    ul li {
+      display: inline-block;
+      &:first-of-type a {
+        margin-left: 0;
+      }
+      &:last-of-type a {
+        margin-right: 0;
+      }
+    }
+  }
+  #block-livingstone-livingstone-breadcrumbs {
+
+  }
+  #block-livingstone-livingstone-fixed-search-form {
+    float: right;
+    form {
+      margin: 0 auto;
+      max-width: 260px;
+    }
+    a {
+      margin-left: 0.5em;
+    }
+  }
+}
