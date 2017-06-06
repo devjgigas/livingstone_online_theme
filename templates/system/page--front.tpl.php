@@ -95,10 +95,10 @@
       <nav role="navigation" class="site-guide">
         <ul class="nav">
           <li>
-            <a href="/behind-scenes/illustrative-image-credits">Image Credits</a>
+            <a href="/behind-the-scenes/illustrative-image-credits">Image Credits</a>
           </li>
           <li>
-            <a href="/about-site/livingstone-online-site-guide">Site Guide</a>
+            <a href="/about-this-site/livingstone-online-site-guide">Site Guide</a>
           </li>
         </ul>
       </nav>
