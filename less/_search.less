@@ -20,3 +20,40 @@
     }
   }
 }
+
+.page-search-node {
+  h2 {
+    border: 0 solid rgba(0, 0, 0, 0.2);
+    border-bottom-width: 1px;
+    color: #000;
+    font-family: "Crimson Text", serif;
+    font-size: 36.5px;
+    font-weight: 600;
+    padding-bottom: @line-height-computed;
+    text-align: center;
+  }
+  ol {
+    padding: 0;
+  }
+  li {
+    list-style: none;
+  }
+  .search-result {
+    border-bottom: 1px solid #d3d7d9;
+    padding-bottom: @line-height-computed;
+    margin-bottom: @line-height-computed;
+    .title {
+      // Override the defaults for centered titles.
+      text-align: left;
+      font-family: "Crimson Text", serif;
+      font-size: 1.25em;
+      margin-bottom: @line-height-computed;
+      a {
+        text-decoration: none;
+      }
+    }
+    .search-info {
+      display: none;
+    }
+  }
+}
