@@ -51,22 +51,29 @@
         height: 100%;
         width: 100%;
       }
-      // On hover change the display.
-      &:hover {
-        .hover {
-          opacity: 1;
-          height: 100%;
-          bottom: auto;
-          top: 0;
-          .fields {
-
-          }
-          .views-field-title {
-            font-size: 28px;
-          }
-          .views-field-field-teaser {
+      // On larger screens hide the caption unless hovered.
+      // Only display caption on smaller screens.
+      @media screen and (min-width: 1024px) {
+        &:hover {
+          .hover {
             display: block;
+            opacity: 1;
+            height: 100%;
+            bottom: auto;
+            top: 0;
+            .fields {
+
+            }
+            .views-field-title {
+              font-size: 28px;
+            }
+            .views-field-field-teaser {
+              display: block;
+            }
           }
+        }
+        .hover {
+          display: none;
         }
       }
       .hover {
