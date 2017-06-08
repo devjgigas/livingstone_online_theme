@@ -20,14 +20,14 @@
       <?php
         $filter = $solr_field . ':"' . addslashes($result) . '"';
         $resultExplodeArray = explode(':', $result);
-        print l(truncate_utf8($resultExplodeArray[0], 72, TRUE, TRUE), 'in-his-own-words/catalogue', array(
+        print l(truncate_utf8(html_entity_decode($resultExplodeArray[0]), 72, TRUE, TRUE), 'in-his-own-words/catalogue', array(
           'query' => array('f' => array($filter)))
         );
       ?>
       <span class="bucket-size">(<?php print $count; ?>)</span>
       <?php
         if(trim($resultExplodeArray[1]) != false) {
-          print " - ".$resultExplodeArray[1];
+          print " - ". html_entity_decode($resultExplodeArray[1]);
         }
       ?>
     </li>
