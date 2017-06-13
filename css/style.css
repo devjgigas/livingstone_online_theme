@@ -9868,10 +9868,8 @@ footer hr {
 }
 /* line 99, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/_fields.less */
 .field-name-field-section-body img {
-  display: block;
-  max-width: 100%;
-  height: auto;
   margin: auto;
+  max-width: 100%;
 }
 /* line 104, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/_fields.less */
 .field-name-field-section-body .doubleimg {
