@@ -119,5 +119,17 @@ body.front {
     background: #f2f2f2;
     border: 1px solid #ddd;
     min-width: 140px;
+    border-radius: @border-radius-default;
+    font-size: @nav-icon-font-size;
+    line-height: @nav-icon-height;
+    height: @nav-icon-height;
+    padding: @nav-icon-padding;
+  }
+  .dropdown-menu {
+    min-width: 140px;
+    max-width: 140px;
+    > li > a {
+      padding: 3px 10px;
+    }
   }
 }

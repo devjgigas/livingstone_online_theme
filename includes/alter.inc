@@ -17,7 +17,7 @@ function livingstone_theme_form_alter(array &$form, array &$form_state = array()
         $form['#attributes']['class'][] = 'form-inline';
         $form['search_block_form']['#attributes']['placeholder'] = t('Enter Your Search Terms');
         $form['search_block_form']['#attributes']['class'][] = 'input-xs';
-        $form['search_block_form']['#size'] = 30;
+        $form['search_block_form']['#size'] = 25;
         break;
       case 'views_exposed_form':
         $views = array(

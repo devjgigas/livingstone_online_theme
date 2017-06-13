@@ -35,7 +35,9 @@
     <h2 class="element-invisible"><?php print t('Search form'); ?></h2>
   <?php endif; ?>
   <div class="input-group">
-    <span class="input-group-addon"><?php print _bootstrap_icon('search', t('Search')) ?></span>
+    <span class="input-group-addon">
+      <span aria-hidden="true" class="icon glyphicon">&#xe003;</span>
+    </span>
     <?php print $search['search_block_form']; ?>
     <span class="input-group-btn">
       <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
