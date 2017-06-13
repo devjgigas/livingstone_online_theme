@@ -9,14 +9,14 @@
     justify-content: space-between;
   }
   .views-row {
-    @grid-gap: 2%;
+    @grid-gap: 20px;
     @grid-half-gap: @grid-gap / 2;
     // Mobile screens is 1 per row.
     flex: 0 0 100%;
     margin-bottom: @grid-gap;
     // Smaller screens is 2 per row.
     @media @media-sm-through-md {
-      flex: 0 0 calc(50% - @grid-half-gap);
+      flex: 0 0 ~"calc(50% - @{grid-half-gap})";
       margin-bottom: @grid-gap;
       // Center the item when the list has a remainder of one.
       .mod-list(2, 1, {
@@ -27,7 +27,7 @@
     }
     // Large screens is 3 per row.
     @media @media-lg {
-      flex: 0 0 calc(33% - @grid-half-gap);
+      flex: 0 0 ~"calc(33% - @{grid-half-gap})";
       margin-bottom: @grid-gap;
       // Center the last two items when the list has a remainder of two.
       .mod-list(3, 2, {
@@ -53,7 +53,7 @@
       }
       // On larger screens hide the caption unless hovered.
       // Only display caption on smaller screens.
-      @media screen and (min-width: 1024px) {
+      @media screen and (min-width: 1025px) {
         &:hover {
           .hover {
             display: block;
@@ -79,7 +79,11 @@
       .hover {
         background-color: rgba(63, 73, 83, 0.70);
         font-size: 28px;
-        height: 30%;
+        height: 40%;
+        // On medium screens we have a smaller title to make room
+        @media screen and (min-width: @screen-xs) and (max-width: 1024px) {
+          height: 30%;
+        }
         left: 0;
         opacity: 1;
         position: absolute;
@@ -97,7 +101,11 @@
         .views-field-title {
           color: #fff;
           font-family: 'Crimson Text', serif;
-          font-size: 24px;
+          font-size: 20px;
+          // On medium screens we have a smaller title to make room
+          @media screen and (min-width: @screen-xs) and (max-width: 1024px) {
+            font-size: 24px;
+          }
         }
         .views-field-field-teaser {
           // Only display during hover.
