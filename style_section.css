@@ -2322,9 +2322,9 @@ height:25px;
   }
 }
 
-.hidden {
+.hidden-link {
   visibility: hidden;
 }
-.hidden-wrapper:hover .hidden {
+.hidden-link-wrapper:hover .hidden-link {
   visibility: visible;
 }
