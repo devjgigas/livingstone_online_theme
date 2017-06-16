@@ -2321,3 +2321,10 @@ height:25px;
     padding-top: 16px;
   }
 }
+
+.hidden {
+  visibility: hidden;
+}
+.hidden-wrapper:hover .hidden {
+  visibility: visible;
+}
