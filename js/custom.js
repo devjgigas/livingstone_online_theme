@@ -107,6 +107,17 @@
           prependTo: '.field-name-field-section-table-of-contents'
         });
         $('.field-name-field-section-table-of-contents .slicknav_arrow, .field-name-field-section-table-of-contents .slicknav_icon').addClass('glyphicon');
+        $('.field-name-field-section-table-of-contents .slicknav_btn').click(function () {
+          var modal = $('.field-name-field-section-table-of-contents .table-of-contents-modal');
+          if (modal.hasClass('open')) {
+            modal.removeClass('open');
+            $('body').css('overflow', 'auto');
+          }
+          else {
+            modal.addClass('open');
+            $('body').css('overflow', 'hidden');
+          }
+        });
       });
     }
   };
