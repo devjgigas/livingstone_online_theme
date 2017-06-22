@@ -122,7 +122,7 @@
         $(document).mouseup(function(event) {
           var container = $('.slicknav_menu');
           // if the target of the click isn't the container nor a descendant of the container
-          if (!container.is(event.target) && container.has(event.target).length === 0) {
+          if (!container.is(event.target) && container.has(event.target).length === 0 && $('.table-of-contents-modal').hasClass('open')) {
             $('.field-name-field-section-table-of-contents .slicknav_btn').click();
           }
         })
