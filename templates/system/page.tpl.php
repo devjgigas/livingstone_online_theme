@@ -137,6 +137,6 @@
     <?php print render($page['footer']); ?>
   <?php endif; ?>
   <div id="footer-copyright">
-    <p>© Livingstone Online | <a href="mailto:awisnicki@yahoo.com">Adrian S. Wisnicki</a>, director | <a href="http://www.lib.umd.edu/" target="_blank">University of Maryland Libraries</a>, 2016 (new version, first edition) | <a href="/behind-scenes/credits-and-permissions">Credits and Permissions</a> | <a href="/behind-scenes/illustrative-image-credits">Illustrative Image Credits</a> | <a href="mailto:awisnicki@yahoo.com?subject=Technical%20issue%20with%20Livingstone%20Online%20site">Bugs?</a> | <a href="/about-site/livingstone-online-site-guide">Site Guide</a></p>
+    <p>© Livingstone Online | <a href="mailto:awisnicki@yahoo.com">Adrian S. Wisnicki</a>, director | <a href="http://www.lib.umd.edu/" target="_blank">University of Maryland Libraries</a>, 2016 (new version, first edition) | <a href="/behind-the-scenes/credits-and-permissions">Credits and Permissions</a> | <a href="/behind-the-scenes/illustrative-image-credits">Illustrative Image Credits</a> | <a href="mailto:awisnicki@yahoo.com?subject=Technical%20issue%20with%20Livingstone%20Online%20site">Bugs?</a> | <a href="/about-this-site/livingstone-online-site-guide">Site Guide</a></p>
   </div>
 </footer>
