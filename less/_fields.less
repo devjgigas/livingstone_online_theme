@@ -16,30 +16,29 @@
     margin: 10px auto;
   }
 }
+// Moved to the body but starts inside of '.field-name-field-section-table-of-contents'
+body > .table-of-contents-modal {
+  display: none;
+  &.open {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+}
 .field-name-field-section-table-of-contents {
   position: relative;
   height: 44px;
   margin-bottom: @line-height-computed;
-  .table-of-contents-modal {
-    display: none;
-    &.open {
-      display: block;
-      position: absolute;
-      width: 200vw;
-      height: 200vh;
-      background: rgba(0, 0, 0, 0.50);
-      top: -100vh;
-      left: -100vw;
-      z-index: 1000;
-    }
-  }
   .slicknav_menu {
     position: absolute;
     margin: 0 auto;
     left: 0;
     right: 0;
     background: white;
-    z-index: 2000;
+    z-index: 1010;
   }
   .menu.nav {
     display: none;

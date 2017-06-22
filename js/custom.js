@@ -107,17 +107,24 @@
           prependTo: '.field-name-field-section-table-of-contents'
         });
         $('.field-name-field-section-table-of-contents .slicknav_arrow, .field-name-field-section-table-of-contents .slicknav_icon').addClass('glyphicon');
+        $('.field-name-field-section-table-of-contents .table-of-contents-modal').prependTo('body');
         $('.field-name-field-section-table-of-contents .slicknav_btn').click(function () {
-          var modal = $('.field-name-field-section-table-of-contents .table-of-contents-modal');
+          var modal = $('.table-of-contents-modal');
           if (modal.hasClass('open')) {
             modal.removeClass('open');
-            $('body').css('overflow', 'auto');
           }
           else {
             modal.addClass('open');
-            $('body').css('overflow', 'hidden');
           }
         });
+        // Close when clicked outside.
+        $(document).mouseup(function(event) {
+          var container = $('.slicknav_menu');
+          // if the target of the click isn't the container nor a descendant of the container
+          if (!container.is(event.target) && container.has(event.target).length === 0) {
+            $('.field-name-field-section-table-of-contents .slicknav_btn').click();
+          }
+        })
       });
     }
   };
