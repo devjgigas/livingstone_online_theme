@@ -75,6 +75,7 @@
 
         adjust_footer();
         $(window).resize(adjust_footer);
+        $('img').bind('load', adjust_footer);
       });
     }
   };
