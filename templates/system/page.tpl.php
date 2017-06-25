@@ -82,7 +82,7 @@
         <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
           <nav role="navigation">
             <?php if (!empty($page['navigation'])): ?>
-              <?php print render($page['navigation']); ?>
+                <?php print render($page['navigation']); ?>
             <?php endif; ?>
             <?php if (!empty($primary_nav)): ?>
               <?php print render($primary_nav); ?>

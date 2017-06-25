@@ -8,13 +8,42 @@
   text-align: center;
   margin: 20px 0 0;
 }
-.field-name-field-section-image {
-  @media @media-md-min {
+.field-name-field-section-grid-image {
+  @media screen and (min-width: @screen-sm-min) {
     display: none;
   }
   img {
     margin: 10px auto;
   }
+}
+// Adds a colored border image.
+.add-colored-border(@color) {
+  .field-name-field-section-grid-image img {
+    border: 6px solid @color;
+  }
+}
+.section-about-this-site {
+  .add-colored-border(@about-this-site);
+}
+
+.section-in-his-own-words {
+  .add-colored-border(@in-his-own-words);
+}
+
+.section-spectral-imaging {
+  .add-colored-border(@spectral-imaging);
+}
+
+.section-life-and-times {
+  .add-colored-border(@life-and-times);
+}
+
+.section-behind-the-scenes {
+  .add-colored-border(@behind-the-scenes);
+}
+
+.section-resources {
+  .add-colored-border(@resources);
 }
 // Moved to the body but starts inside of '.field-name-field-section-table-of-contents'
 body > .table-of-contents-modal {

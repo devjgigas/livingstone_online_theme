@@ -75,7 +75,7 @@
   <?php endif; ?>
 </header>
 <div class="main-container container">
-  <div class="row no-gutter">
+  <div class="row">
     <section<?php print $content_column_class; ?>>
       <a id="main-content"></a>
       <?php if ($logo): ?>

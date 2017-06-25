@@ -52,6 +52,10 @@ body.front {
     // When on large screens we position the #navbar absolutely over top of the
     // main content, otherwise it's part of the normal flow.
     .absolute();
+    // Extra space isn't needed on the front page.
+    &.navbar nav {
+      margin: 0;
+    }
     @media @front-abs-breakpoint-min {
       padding: 15px;
       margin: 0;
@@ -61,6 +65,7 @@ body.front {
     .absolute();
     top: 40%;
     text-align: center;
+    margin-bottom: 20px;
   }
   .main-container {
     // All children of the main container that are position absolutely, are done

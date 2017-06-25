@@ -2,6 +2,10 @@
 
 .view-id-section_pages_carousel {
   margin-bottom: @line-height-computed;
+  // Hide on mobile.
+  @media screen and (max-width: @screen-xs-max) {
+    display: none;
+  }
   .jcarousel-skin-tango .jcarousel-container-horizontal {
     padding: 0px;
     width: auto;
