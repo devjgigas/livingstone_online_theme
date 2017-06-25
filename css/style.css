@@ -9157,6 +9157,14 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 #navbar-administration.navbar-oriented .navbar-tray-vertical {
   width: 24rem;
 }
+/* line 854, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/overrides.less */
+ul.islandora-solr-facet-pages-letterer li {
+  margin: 0 !important;
+}
+/* line 857, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/overrides.less */
+ul.islandora-solr-facet-pages-letterer li > * {
+  padding: 2px 5px;
+}
 /* line 1, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/_utils.less */
 .no-gutter > [class*='col-'] {
   padding-right: 0;
