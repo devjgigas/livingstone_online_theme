@@ -84,6 +84,11 @@ body.front {
         padding-left: 0;
       }
     }
+    .region-content {
+      @media @front-abs-breakpoint-max {
+        padding: 0 15px;
+      }
+    }
     // Main Menu Links.
     nav.main {
       .absolute();
@@ -116,7 +121,7 @@ body.front {
       // Have the flexslider controls positioned relative to the images, rather
       // than relative to it's container.
       position: relative;
-      border: 4px solid black;
+      border: 2px solid black;
       margin: 0;
       @media @front-abs-breakpoint-min {
         border: none;
