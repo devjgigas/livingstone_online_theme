@@ -151,14 +151,26 @@ body > .table-of-contents-modal {
   .doubleleft,
   .doubleright {
     display: inline-block;
-    margin: 2.5px;
-    width: 45%;
+    margin: 2.5% 10px !important;
+    float: none !important;
+    @media (max-width: 450px) {
+      img {
+        height: auto !important;
+      }
+    }
+    @media (min-width: @screen-sm-min) {
+      width: 45%;
+      margin: 2.5px;
+    }
   }
-  .doubleleft img {
-    float: right;
-  }
-  .doubleright img {
-    float: left;
+  @media (min-width: @screen-sm-min) {
+    .doubleleft img {
+      float: right;
+      height: auto;
+    }
+    .doubleright img {
+      float: left;
+    }
   }
 }
 .field-name-field-section-page-transcription {
