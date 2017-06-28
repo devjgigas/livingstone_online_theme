@@ -68,6 +68,9 @@ body > .table-of-contents-modal {
     right: 0;
     background: white;
     z-index: 1010;
+    &.open {
+      border: 1px solid black;
+    }
   }
   .menu.nav {
     display: none;
@@ -79,6 +82,7 @@ body > .table-of-contents-modal {
     }
     &> a {
       padding-left: 30px;
+      display: inline-block;
     }
   }
 }

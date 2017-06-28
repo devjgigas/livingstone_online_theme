@@ -111,11 +111,14 @@
         $('.field-name-field-section-table-of-contents .table-of-contents-modal').prependTo('body');
         $('.field-name-field-section-table-of-contents .slicknav_btn').click(function () {
           var modal = $('.table-of-contents-modal');
+          var dropdown = $('.field-name-field-section-table-of-contents .slicknav_menu');
           if (modal.hasClass('open')) {
             modal.removeClass('open');
+            dropdown.removeClass('open');
           }
           else {
             modal.addClass('open');
+            dropdown.addClass('open');
           }
         });
         // Close when clicked outside.
