@@ -13,7 +13,27 @@ body.front {
     .justify-content(center);
   }
 }
-
+// XXX. Hacks
+header#navbar {
+  @media @media-lg-min {
+    & > .container {
+      & > .row:first-of-type {
+        position: relative;
+        & > div:first-child {
+          position: absolute;
+          bottom: 0;
+          .navbar-header {
+            margin-bottom: 19px;
+          }
+        }
+        & > div:last-child {
+          //.col-lg-offset-4;
+          margin-left: 33.33333333%;
+        }
+      }
+    }
+  }
+}
 .navbar {
   @navbar-item-vertical-gap: @line-height-computed;
   // Our header elements handle the margin;
