@@ -18,12 +18,23 @@
   text-align: center;
   .view-content {
     .flexbox(space-between, row, wrap);
+    @media @grid-1-per-row {
+      .justify-content(center);
+    }
   }
   .views-row {
-    @grid-gap: 20px;
+    @grid-gap: 10px;
     @grid-half-gap: @grid-gap / 2;
+    @grid-thrid-gap: @grid-gap / 3;
     // Mobile screens is 1 per row.
-    flex: 0 0 100%;
+    flex: 0 0 90%;
+    // Add some padding at the awkward sizes for single column.
+    @media screen and (min-width: 400px) and (max-width: @grid-1-max) {
+      flex: 0 0 80%;
+    }
+    @media screen and (min-width: 500px) and (max-width: @grid-1-max) {
+      flex: 0 0 70%;
+    }
     margin-bottom: @grid-gap;
     // Smaller screens is 2 per row.
     @media @grid-2-per-row {
@@ -38,7 +49,7 @@
     }
     // Large screens is 3 per row.
     @media @grid-3-per-row {
-      flex: 0 0 ~"calc(33% - @{grid-half-gap})";
+      flex: 0 0 ~"calc(33% - @{grid-thrid-gap})";
       margin-bottom: @grid-gap;
       // Center the last two items when the list has a remainder of two.
       .mod-list(3, 2, {
@@ -87,7 +98,7 @@
       .hover {
         background-color: rgba(63, 73, 83, 0.70);
         font-size: 24px;
-        height: 30%;
+        min-height: 30%;
         left: 0;
         opacity: 1;
         position: absolute;
@@ -96,19 +107,15 @@
         text-align: center;
         width: 100%;
         .fields {
-          position: relative;
-          float: left;
-          top: 50%;
-          left: 50%;
-          -ms-transform: translate(-50%, -50%);
-          -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-
+          .flexbox(center, column, nowrap);
+          .align-items(center);
+          height: 100%;
         }
         .views-field-title {
           color: #fff;
           font-family: 'Crimson Text', serif;
           font-size: 24px;
+          padding: 5px;
         }
         .views-field-field-teaser {
           // Only display during hover.
@@ -118,23 +125,23 @@
           font-style: italic;
           font-weight: 300;
           font-size: 16px;
-          padding: 0 20px 0;
+          padding: 20px 20px 0;
           text-transform: none;
         }
         @media @grid-3-per-row {
-          height: 50%;
+          min-height: 50%;
           .views-field-title {
             font-size: 20px;
           }
         }
         @media @grid-2-per-row {
-          height: 40%;
+          min-height: 40%;
           .views-field-title {
             font-size: 22px;
           }
         }
         @media @grid-1-per-row {
-          height: 40%;
+          min-height: 30%;
           .views-field-title {
             font-size: 22px;
           }
@@ -148,7 +155,7 @@
 .add-colored-border(@color) {
   // Custom Border Colors.
   .view-section-pages-grid .views-row .views-field-nothing {
-    border: 6px solid @color;
+    border: 4px solid @color;
   }
 }
 

@@ -140,6 +140,13 @@
     attach: function (context, settings) {
       $('.form-search', document).once('livingstoneSearchForm', function () {
         var form = $(this);
+        $('input.form-text', form).click(function (e) {
+          if (!$('.input-group-btn', form).hasClass('open')) {
+            $('button', form)[0].click();
+          }
+          return e.stopPropagation();
+        });
+
         // Resize dropdown.
         $('.dropdown-menu', form).css('width', $('.input-group', form).width());
         $(window).resize(function () {
@@ -268,5 +275,60 @@
     }
   }
 
+  /**
+   * Hack for empty paragraphs on grid page.
+   */
+  Drupal.behaviors.livingstoneGrid = {
+    attach: function (context, settings) {
+      $('.view-section-pages-grid .fields p').filter(function() {
+          return $.trim(this.innerHTML) === "&nbsp;" || $.trim(this.innerHTML) === "";
+      }).remove();
+    }
+  }
+
+  /**
+   * Hack for adding titles to flexslider controls on home page.
+   */
+  Drupal.behaviors.livingstoneFlexNavControls = {
+    attach: function (context, settings) {
+      function set_title(links) {
+        var i = 1;
+        links.each(function() {
+          $(this).attr('title', 'Home page image ' + i);
+          i += 1;
+        });
+      }
+      function poll_flexslider() {
+        var links = $('.flexslider .flex-control-paging a');
+        if (links.length > 0) {
+          set_title(links);
+        }
+        else {
+          setTimeout(poll_flexslider, 1000);
+        }
+      }
+      setTimeout(poll_flexslider, 1000);
+    }
+  }
+
+  /**
+   * Hack for adding titles to jcarousel controls on home page.
+   */
+  Drupal.behaviors.livingstoneJCarousel = {
+    attach: function (context, settings) {
+      function poll_jcarousel() {
+        var prev = $('.jcarousel-prev');
+        var next = $('.jcarousel-next');
+        if (prev.length > 0 && next.length > 0) {
+          prev.attr('title', 'Scroll left in carousel');
+          next.attr('title', 'Scroll right in carousel');
+        }
+        else {
+          setTimeout(poll_jcarousel, 1000);
+        }
+      }
+      setTimeout(poll_jcarousel, 1000);
+    }
+  }
 }(jQuery));
 

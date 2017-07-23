@@ -1,13 +1,21 @@
 .islandora-solr-facet-pages-letterer {
-  margin-top: 20px;
   text-align: center;
-  overflow-y: auto;
+  overflow-y: visible;
   padding: 0;
+  line-height: 25.6px;
+  margin: 0 auto 20px;
+  @media screen and (max-width: 400px) {
+    max-width: 260px;
+  }
+  @media screen and (min-width: 400px) and (max-width: 660px) {
+    max-width: 325px;
+  }
 }
 .islandora-solr-facet-pages-results {
   list-style: outside none none;
   margin-bottom: 0;
   padding: 0;
+  line-height: 25.6px;
   &> li {
     margin-left: 20px;
     a {

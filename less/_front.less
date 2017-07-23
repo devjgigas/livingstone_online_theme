@@ -2,6 +2,7 @@
  * @file
  * Customizations that only affect the front page.
  */
+@import "_mixins";
 
 // z-index for absolute elements to appear above the main content.
 @front-link-z-index: 5;
@@ -53,12 +54,30 @@ body.front {
     // main content, otherwise it's part of the normal flow.
     .absolute();
     // Extra space isn't needed on the front page.
-    &.navbar nav {
-      margin: 0;
+    &.navbar {
+      padding: 22px 15px 0;
+      nav {
+        margin: 0;
+        .region-navigation > * {
+          // Additional padding in the middle.
+          margin: 0 10px @line-height-computed;
+          @media @media-xxs {
+            margin: 0 5px @line-height-computed;
+          }
+        }
+      }
     }
     @media @front-abs-breakpoint-min {
-      padding: 15px;
+      padding: 22px 15px;
       margin: 0;
+
+    }
+    #block-menu-menu-secondary li a {
+      // Extra padding on front only.
+      padding: 0 10px;
+      @media @media-xxs {
+        padding: 0 5px;
+      }
     }
   }
   #site-logo {
@@ -66,6 +85,10 @@ body.front {
     top: 40%;
     text-align: center;
     margin-bottom: 20px;
+    img {
+      max-width: 480px;
+      padding: 0 15px;
+    }
   }
   .main-container {
     // All children of the main container that are position absolutely, are done
@@ -100,11 +123,11 @@ body.front {
         display: block;
         float: none;
         text-align: center;
+        margin: 10px auto;
         // XXX: Forces the menu to break in half. This will break if the menu
         // changes in content or length.
         @media @front-abs-breakpoint-max {
           max-width: 450px;
-          margin: 10px auto
         }
         li {
           float: none;
@@ -172,11 +195,24 @@ body.front {
     background-color: @front-footer-color;
     // Center align all footer icon's and render them as blocks.
     .view-content {
-      text-align: center;
+      .flexbox(center, row, wrap);
+      .align-items(center);
+      // Hacks to enforce particular breaks in content.
+      @media screen and (min-width: 1020px) and (max-width: 1280px) {
+        max-width: 80%;
+        margin: 0 auto
+      }
+      // Hacks to enforce particulr breaks in content.
+      @media screen and (max-width: 775px)  {
+        .views-row-3 {
+          .flex(1, 0, 100%);
+        }
+      }
       .views-row {
-        display: inline-block;
-        margin: 10px 0;
-        width: auto;
+        padding: 20px;
+        img {
+          margin: 0 auto;
+        }
       }
     }
   }

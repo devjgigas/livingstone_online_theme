@@ -4,6 +4,12 @@
 .block-livingstone-browse-catalogue {
   margin-top: @line-height-computed;
   font-size: 0.9em;
+  .glyphicon-search {
+    top: 3px;
+  }
+  .btn, .form-control {
+    font-size: 14px;
+  }
   .table-responsive > .table > tbody > tr > td {
     white-space: normal;
   }
@@ -48,6 +54,8 @@
   .clear-button {
     margin-bottom: 15px;
     width: 100%;
+    background-color: #cccccc;
+    border-color: #999999;
   }
   .control-group-4 {
     .flexbox(flex-start, row, wrap);
@@ -56,9 +64,8 @@
       .flex(0, 1, auto);
     }
     .catalogue-download-links {
-      .flexbox(flex-end);
+      .flexbox(flex-start);
       .flex(1, 0, auto);
-      font-size: 0.9em;
       > div {
         padding: 0 1em;
         &:last-child {

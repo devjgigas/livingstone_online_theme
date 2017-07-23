@@ -13,6 +13,22 @@ body.front {
     .justify-content(center);
   }
 }
+// XXX. Hack for item placement in header....
+@media screen and (max-width: 525px) {
+  body:not(.front) {
+    .navbar nav .region-navigation {
+      #block-search-form {
+        width: 100%;
+        .form-search {
+          max-width: 100%;
+          .input-group {
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}
 // XXX. Hacks
 header#navbar {
   @media @media-lg-min {
@@ -145,7 +161,6 @@ header#navbar {
     min-width: 140px;
     border-radius: @border-radius-default;
     font-size: @nav-icon-font-size;
-    line-height: @nav-icon-height;
     height: @nav-icon-height;
     padding: @nav-icon-padding;
   }

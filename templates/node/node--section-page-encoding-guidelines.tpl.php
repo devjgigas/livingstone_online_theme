@@ -80,7 +80,8 @@
  */
 ?>
 <div class="row">
-  <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> col-md-push-2 col-md-8 clearfix"<?php print $attributes; ?>>
+  <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> col-md-push-1 col-md-10 clearfix"<?php print $attributes; ?>>
+      <div class="section-page-content">
     <?php if (!empty($title) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
       <header>
         <?php print render($title_prefix); ?>
@@ -117,5 +118,6 @@
       </footer>
     <?php endif; ?>
     <?php print render($content['comments']); ?>
+      </div>
   </article>
 </div>
