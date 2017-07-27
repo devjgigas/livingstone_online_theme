@@ -1,0 +1,65 @@
+.manuscript-view-filter() {
+  .view-filters {
+    font-size: 14px;
+    margin-bottom: 20px;
+    .input-group-addon {
+      font-size: 12px;
+      border-radius: 7px 0px 0px 7px;
+      top: 0;
+      & ~ .form-control {
+        border-left: none;
+        box-shadow: none;
+        -webkit-appearance: none;
+        border-radius: 0px 7px 7px 0px;
+        line-height: 20px;
+        &:focus {
+          border-color: #ccc;
+        }
+      }
+    }
+    .views-exposed-form {
+      .views-exposed-widgets {
+        .flexbox(center, row, nowrap);
+        // Negative margin to counteract the margin on flex-items at start and end of each row.
+        margin: 0 -5px;
+        @media @media-xs-max {
+          .flexbox(space-between, row, wrap);
+        }
+        .input-group {
+          width: 100%;
+        }
+        .views-exposed-widget {
+          padding: 15px 5px 0;
+          &.views-widget-filter-title,
+          &.views-widget-filter-field_manuscript_dates_value,
+          &.views-widget-filter-field_manuscript_creators_value {
+            .flex(1, 1, auto);
+            @media @media-xs-max {
+              .flex(0, 1, 50%);
+            }
+            @media @media-xxs-max {
+              .flex(0, 1, 100%);
+            }
+          }
+          &.views-submit-button,
+          &.views-reset-button {
+            .flex(0, 0, auto);
+            @media @media-xs-max {
+              .flex(1, 0, 25%);
+            }
+          }
+          button {
+            color: black;
+            background: #f2f2f2;
+            border: 1px solid #ddd;
+            border-radius: 7px;
+            font-size: 14px;
+            height: 28px;
+            margin-top: 0;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

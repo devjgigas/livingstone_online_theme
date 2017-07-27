@@ -14,8 +14,8 @@ body.front {
   }
 }
 // XXX. Hack for item placement in header....
-@media screen and (max-width: 525px) {
-  body:not(.front) {
+body {
+  @media screen and (max-width: 600px) {
     .navbar nav .region-navigation {
       #block-search-form {
         width: 100%;
@@ -23,6 +23,22 @@ body.front {
           max-width: 100%;
           .input-group {
             margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 525px) {
+    // Front is a bit different spacing...
+    &:not(.front) {
+      .navbar nav .region-navigation {
+        #block-search-form {
+          width: 100%;
+          .form-search {
+            max-width: 100%;
+            .input-group {
+              margin: 0 auto;
+            }
           }
         }
       }

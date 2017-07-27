@@ -69,7 +69,7 @@ function livingstone_theme_nodequeue_pager($vars) {
       '#href' => 'node/'. $prev,
       '#options' => array(
         'attributes' => array(
-          'title' => t('Previous page'),
+          'title' => t('Previous page in section'),
         ),
         'html' => TRUE,
       )
@@ -86,7 +86,7 @@ function livingstone_theme_nodequeue_pager($vars) {
       '#href' => 'node/'. $next,
       '#options' => array(
         'attributes' => array(
-          'title' => t('Next page'),
+          'title' => t('Next page in section'),
         ),
         'html' => TRUE,
       )

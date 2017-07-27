@@ -5,10 +5,14 @@
   margin-top: @line-height-computed;
   font-size: 0.9em;
   .glyphicon-search {
-    top: 3px;
+    font-size: 12px;
+    top: 0;
   }
   .btn, .form-control {
     font-size: 14px;
+  }
+  .bootstrap-select>.dropdown-toggle {
+    padding-left: 10px;
   }
   .table-responsive > .table > tbody > tr > td {
     white-space: normal;
@@ -64,22 +68,10 @@
       .flex(0, 1, auto);
     }
     .catalogue-download-links {
-      .flexbox(flex-start);
       .flex(1, 0, auto);
-      > div {
-        padding: 0 1em;
-        &:last-child {
-          padding: 0 0 0 1em;
-        }
-      }
+      padding-left: 50px;
       @media @media-sm-max {
         display: none;
-      }
-      .download-label {
-        font-style: italic;
-      }
-      a {
-        padding-right: 0.3em;
       }
     }
   }

@@ -9,7 +9,7 @@
 @grid-3-per-row: ~"screen and (min-width: @{grid-3-min})";
 @grid-2-per-row: ~"screen and (min-width: @{grid-2-min}) and (max-width: @{grid-2-max})";
 @grid-1-per-row: ~"screen and (max-width: @{grid-1-max})";
-@caption-hide-min: 1025px;
+@caption-hide-min: @screen-lg-min;
 @caption-show-max: (@caption-hide-min - 1);
 @hide-captions: ~"screen and (min-width: @{caption-hide-min})";
 @show-captions: ~"screen and (max-width: @{caption-show-max})";
@@ -73,29 +73,9 @@
         height: 100%;
         width: 100%;
       }
-      // On larger screens hide the caption unless hovered.
-      // Only display caption on smaller screens.
-      @media @hide-captions {
-        &:hover {
-          .hover {
-            display: block;
-            opacity: 1;
-            height: 100%;
-            bottom: auto;
-            top: 0;
-            .views-field-title {
-              font-size: 28px;
-            }
-            .views-field-field-teaser {
-              display: block;
-            }
-          }
-        }
-        .hover {
-          display: none;
-        }
-      }
       .hover {
+        .flexbox(center, column, nowrap);
+        .align-items(center);
         background-color: rgba(63, 73, 83, 0.70);
         font-size: 24px;
         min-height: 30%;
@@ -110,12 +90,12 @@
           .flexbox(center, column, nowrap);
           .align-items(center);
           height: 100%;
+          padding: 0 10px;
         }
         .views-field-title {
           color: #fff;
           font-family: 'Crimson Text', serif;
           font-size: 24px;
-          padding: 5px;
         }
         .views-field-field-teaser {
           // Only display during hover.
@@ -145,6 +125,28 @@
           .views-field-title {
             font-size: 22px;
           }
+        }
+      }
+      // On larger screens hide the caption unless hovered.
+      // Only display caption on smaller screens.
+      @media @hide-captions {
+        &:hover {
+          .hover {
+            display: block;
+            opacity: 1;
+            height: 100%;
+            bottom: auto;
+            top: 0;
+            .views-field-title {
+              font-size: 28px;
+            }
+            .views-field-field-teaser {
+              display: block;
+            }
+          }
+        }
+        .hover {
+          display: none;
         }
       }
     }

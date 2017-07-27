@@ -72,11 +72,19 @@ body.front {
       margin: 0;
 
     }
-    #block-menu-menu-secondary li a {
-      // Extra padding on front only.
-      padding: 0 10px;
-      @media @media-xxs {
-        padding: 0 5px;
+    #block-menu-menu-secondary li {
+      a {
+        // Extra padding on front only.
+        padding: 0 10px;
+        @media @media-xxs {
+          padding: 0 5px;
+        }
+      }
+      &:first-of-type a {
+        padding-left: 0;
+      }
+      &:last-child a {
+        padding-right: 0;
       }
     }
   }
@@ -86,7 +94,10 @@ body.front {
     text-align: center;
     margin-bottom: 20px;
     img {
-      max-width: 480px;
+      max-width: 460px;
+      @media @front-abs-breakpoint-min {
+        max-width: 500px;
+      }
       padding: 0 15px;
     }
   }
@@ -114,28 +125,31 @@ body.front {
     }
     // Main Menu Links.
     nav.main {
+      @menu-item-gap: 10px;
+      @menu-item-half-gap: @menu-item-gap / 2;
       .absolute();
       // Position just beyond the middle of the main content block.
-      top: 55%;
-      .menu.primary {
-        // On the front page the primary menu is displayed even on mobile.
-        // Slick Nav, is not used.
-        display: block;
-        float: none;
+      top: 60%;
+      .primary {
+        .flexbox(space-between, row, nowrap);
+        margin: 0 auto;
+        max-width: @front-abs-breakpoint;
         text-align: center;
-        margin: 10px auto;
-        // XXX: Forces the menu to break in half. This will break if the menu
-        // changes in content or length.
         @media @front-abs-breakpoint-max {
-          max-width: 450px;
+          .flex-flow(row, wrap);
+          margin: @menu-item-half-gap @menu-item-gap;
         }
         li {
-          float: none;
-          display: inline-block;
-          margin: 5px;
+          .flex(1, 0, auto);
+          padding: @menu-item-half-gap;
+          @media @front-abs-breakpoint-max {
+            .flex(1, 0, 33%);
+          }
+          @media @media-xxs-max {
+            .flex(1, 0, 50%);
+          }
           a {
-            width: 120px;
-            padding: 1px 0 !important;
+            line-height: 22px;
           }
         }
       }
@@ -198,7 +212,7 @@ body.front {
       .flexbox(center, row, wrap);
       .align-items(center);
       // Hacks to enforce particular breaks in content.
-      @media screen and (min-width: 1020px) and (max-width: 1280px) {
+      @media screen and (min-width: 930px) and (max-width: 1150px) {
         max-width: 80%;
         margin: 0 auto
       }
@@ -207,6 +221,10 @@ body.front {
         .views-row-3 {
           .flex(1, 0, 100%);
         }
+      }
+      // XXX. Hack for increasing the size of small logo.
+      .views-row-3 img {
+        width: 300px;
       }
       .views-row {
         padding: 20px;

@@ -33,6 +33,12 @@
     max-width: @max-logo-width;
   }
 }
+// XXX. This is a hack to make the log align with boxes on the grid pages.
+body:not(.front) #site-logo {
+  @media screen and (min-width: 1200px){
+    width: 375px
+  }
+}
 
 .container-fluid {
   max-width: 1400px;
