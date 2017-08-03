@@ -20,7 +20,7 @@ function livingstone_theme_preprocess_page(array &$variables) {
   }
   // Hide the content pager when displaying specific content.
   $hide_content_pager = array(
-    'livingstone_browse_catalogue_livingstone_browse_catalogue',
+    //'livingstone_browse_catalogue_livingstone_browse_catalogue',
   );
   foreach (array_keys($variables['page']['content']) as $content) {
     if (in_array($content, $hide_content_pager)) {

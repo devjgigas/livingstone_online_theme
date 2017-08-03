@@ -33,18 +33,23 @@ function livingstone_theme_form_alter(array &$form, array &$form_state = array()
 EOT;
           $size = 25;
           $form['#attributes']['class'][] = 'form-inline';
-          $form['title']['#attributes']['placeholder'] = t('Search title');
+          $form['title']['#attributes']['placeholder'] = t('Search Title');
+          $form['title']['#attributes']['title'] = t('Search title');
           $form['title']['#wrapper_attributes']['class'][] = 'input-group';
           $form['title']['#field_prefix'] = $field_prefix;
           $form['title']['#size'] = $size ;
-          $form['field_manuscript_dates_value']['#attributes']['placeholder'] = t('Search date(s)');
+          $form['field_manuscript_dates_value']['#attributes']['placeholder'] = t('Search Date(s)');
+          $form['field_manuscript_dates_value']['#attributes']['title'] = t('Search date(s)');
           $form['field_manuscript_dates_value']['#wrapper_attributes']['class'][] = 'input-group';
           $form['field_manuscript_dates_value']['#field_prefix'] = $field_prefix;
           $form['field_manuscript_dates_value']['#size'] = $size;
-          $form['field_manuscript_creators_value']['#attributes']['placeholder'] = t('Search creator(s)');
+          $form['field_manuscript_creators_value']['#attributes']['placeholder'] = t('Search Creator(s)');
+          $form['field_manuscript_creators_value']['#attributes']['title'] = t('Search creator(s)');
           $form['field_manuscript_creators_value']['#wrapper_attributes']['class'][] = 'input-group';
           $form['field_manuscript_creators_value']['#field_prefix'] = $field_prefix;
           $form['field_manuscript_creators_value']['#size'] = $size;
+          $form['submit']['#attributes']['title'] = t('Submit');
+          $form['reset']['#attributes']['title'] = t('Reset');
         }
         break;
     }

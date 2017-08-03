@@ -59,10 +59,6 @@ function livingstone_theme_nodequeue_pager($vars) {
   $render = array();
 
   if ($prev) {
-    $title = '';
-    if($node = node_load($prev)) {
-      $title = $node->title;
-    }
     $render[] = array(
       '#type' => 'link',
       '#title' => '&nbsp;',
@@ -76,10 +72,6 @@ function livingstone_theme_nodequeue_pager($vars) {
     );
   }
   if ($next) {
-    $title = '';
-    if($node = node_load($next)) {
-      $title = $node->title;
-    }
     $render[] = array(
       '#type' => 'link',
       '#title' => '&nbsp;',

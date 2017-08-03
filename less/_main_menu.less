@@ -1,6 +1,15 @@
 @import "_variables";
 @import "_utils";
 
+.menu-item-color(@color) {
+  background-color: @color;
+  /*TEST*/
+  &:hover,
+  &:focus {
+    background-color: @color;
+  }
+}
+
 .menu {
   // Primary "main-menu".
   &.primary {
@@ -19,22 +28,22 @@
       }
       // Background colors.
       &:nth-child(1) a {
-        background-color: @about-this-site;
+        .menu-item-color(@about-this-site);
       }
       &:nth-child(2) a {
-        background-color: @in-his-own-words;
+        .menu-item-color(@in-his-own-words);
       }
       &:nth-child(3) a {
-        background-color: @spectral-imaging;
+        .menu-item-color(@spectral-imaging);
       }
       &:nth-child(4) a {
-        background-color: @life-and-times;
+        .menu-item-color(@life-and-times);
       }
       &:nth-child(5) a {
-        background-color: @behind-the-scenes;
+        .menu-item-color(@behind-the-scenes);
       }
       &:nth-child(6) a {
-        background-color: @resources;
+        .menu-item-color(@resources);
       }
     }
   }

@@ -36,7 +36,7 @@
 // XXX. This is a hack to make the log align with boxes on the grid pages.
 body:not(.front) #site-logo {
   @media screen and (min-width: 1200px){
-    width: 375px
+    width: 370px
   }
 }
 
@@ -69,4 +69,37 @@ a:focus {
 
 .hidden-link-wrapper:hover .hidden {
   visibility: visible;
+}
+
+.caret {
+  border-left: @caret-width-base dashed;
+  border-left:   @caret-width-base solid ~"\9"; // IE8
+  border-bottom: @caret-width-base solid transparent;
+  border-top: @caret-width-base solid transparent;
+  position: relative;
+  top: -(@caret-width-base / 2);
+  left: (@caret-width-base / 2);
+}
+
+.open .caret {
+  position: static;
+  border-top:   @caret-width-base dashed;
+  border-top:   @caret-width-base solid ~"\9"; // IE8
+  border-right: @caret-width-base solid transparent;
+  border-left:  @caret-width-base solid transparent;
+}
+
+.bs-caret .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  position: static;
+  top: auto;
+  left: auto;
+  border-top:   @caret-width-base dashed;
+  border-top:   @caret-width-base solid ~"\9"; // IE8
+  border-right: @caret-width-base solid transparent;
+  border-left:  @caret-width-base solid transparent;
 }

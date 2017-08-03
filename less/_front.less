@@ -133,8 +133,13 @@ body.front {
       .primary {
         .flexbox(space-between, row, nowrap);
         margin: 0 auto;
-        max-width: @front-abs-breakpoint;
+        // XXX. Hack for making the width the same for nav items. 750 + 10 for the padding.
+        max-width: 760px;
         text-align: center;
+        // XXX. Hack for iPhone bug.
+        &:before, &:after {
+          display: block;
+        }
         @media @front-abs-breakpoint-max {
           .flex-flow(row, wrap);
           margin: @menu-item-half-gap @menu-item-gap;
