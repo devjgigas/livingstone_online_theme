@@ -11296,58 +11296,59 @@ body > .table-of-contents-modal.open {
     -ms-flex: 1 0 100%;
     flex: 1 0 100%;
     order: 2 !important;
+    min-width: 0;
   }
 }
-/* line 23, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
+/* line 24, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
 .view-timeline .simple_timeline ul li:nth-child(2n-1) div {
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
 }
-/* line 25, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
+/* line 26, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
 .view-timeline .simple_timeline ul li:nth-child(2n-1) div .timeline-content {
   order: 1;
 }
-/* line 28, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
+/* line 29, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
 .view-timeline .simple_timeline ul li:nth-child(2n-1) div .timeline-image {
   order: 2;
 }
-/* line 32, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
+/* line 33, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
 .view-timeline .simple_timeline ul li:nth-child(2n) div {
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
 }
-/* line 34, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
+/* line 35, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
 .view-timeline .simple_timeline ul li:nth-child(2n) div .timeline-content {
   order: 2;
 }
-/* line 37, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
+/* line 38, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
 .view-timeline .simple_timeline ul li:nth-child(2n) div .timeline-image {
   order: 1;
 }
-/* line 42, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
+/* line 43, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
 .view-timeline .timeline-image {
   overflow-x: visible !important;
   padding: 0 10px 0 0;
 }
-/* line 46, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
+/* line 47, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
 .view-timeline .timeline-image img {
   max-width: inherit;
 }
-/* line 50, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
+/* line 51, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
 .view-timeline .timeline-image ~ .timeline-content {
   margin-right: 10px;
 }
-/* line 54, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
+/* line 55, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
 .view-timeline .timeline-date {
   font-size: 1em;
   text-align: right;
   margin: 0 !important;
 }
-/* line 59, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
+/* line 60, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
 .view-timeline .timeline-text {
   font-size: 0.9em !important;
   color: gray;
@@ -11356,7 +11357,7 @@ body > .table-of-contents-modal.open {
   margin: 0 !important;
   width: 80%;
 }
-/* line 66, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
+/* line 67, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/views/_timeline.less */
 .view-timeline .timeline-text a {
   font-size: 0.95em !important;
   line-height: 1.5em;
