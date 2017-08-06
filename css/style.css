@@ -12165,3 +12165,7 @@ a:focus {
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
 }
+/* line 107, /Users/nbanks/Projects/livingstoneonline.org/code/livingstone_online_theme/less/_site.less */
+.qtip-link {
+  color: #428bca !important;
+}
