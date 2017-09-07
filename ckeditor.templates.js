@@ -15,7 +15,7 @@ CKEDITOR.addTemplates( 'default', {
     description: 'Table of Contents.',
     html:
     '<div class="section-page-toc-links">' +
-    '<ol style="list-style-type:none"><li>List item one<ol style="list-style-type:decimal"><li>Sub list</li></ol></li><li>List item two</li></ol>' +
+    '  <ol style="list-style-type:none"><li>List item one<ol style="list-style-type:decimal"><li>Sub list</li></ol></li><li>List item two</li></ol>' +
     '</div>'
   }],
 });

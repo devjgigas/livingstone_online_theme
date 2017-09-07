@@ -9544,6 +9544,13 @@ body > .table-of-contents-modal.open {
   -webkit-flex-flow: row nowrap;
   -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
+  font-size: 15px;
+  color: #428bca;
+  font-family: crimson text;
+}
+.node-section-page .section-page-toc-links > ol,
+.node-section-page .section-page-toc-links > ul {
+  padding: 0;
 }
 .node-section-page .section-page-content {
   max-width: 715px;
