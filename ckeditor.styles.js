@@ -37,7 +37,7 @@ if(typeof(CKEDITOR) !== 'undefined') {
           name : 'Unnumbered List',
           element : 'ol',
           styles : {
-            'list-style-type' : 'none',
+            'list-style-type' : 'none'
           }
         },
 
@@ -71,6 +71,6 @@ if(typeof(CKEDITOR) !== 'undefined') {
           styles : {
             'list-style-type' : 'upper-roman'
           }
-        },
+        }
       ]);
 }

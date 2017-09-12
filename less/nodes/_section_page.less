@@ -10,8 +10,11 @@
   .section-page-toc-links {
     .flexbox(center);
     font-size: 15px;
-    color: #428bca;
     font-family: crimson text;
+    // Inherit parent style if none given.
+    ol:not(style), ul:not(style) {
+      list-style: inherit;
+    }
     & > ol, & > ul {
       padding: 0;
     }
