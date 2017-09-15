@@ -9580,6 +9580,13 @@ body > .table-of-contents-modal.open {
 .node-section-page a:link {
   text-decoration: none;
 }
+.section-page-content table,
+.section-page-content td {
+  border: none;
+}
+.section-page-content td {
+  padding: 5px 10px;
+}
 .section-about-this-site .field-name-field-section-image img {
   border: 6px solid #888b9c;
 }
