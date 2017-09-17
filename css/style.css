@@ -9149,6 +9149,9 @@ body > .table-of-contents-modal.open {
 .page-resources .view-section-pages-grid .views-row .views-field-nothing {
   border: 4px solid #b3b2ad;
 }
+.view-repository {
+  font-size: 14px;
+}
 .view-repository table {
   margin: 0 auto;
 }
