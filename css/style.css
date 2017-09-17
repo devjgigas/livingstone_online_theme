@@ -8410,8 +8410,8 @@ body > .table-of-contents-modal.open {
 }
 .field-name-field-section-table-of-contents {
   position: relative;
-  height: 44px;
-  margin-bottom: 22px;
+  height: 30px;
+  margin-bottom: 20px;
 }
 .field-name-field-section-table-of-contents .slicknav_menu {
   position: absolute;
@@ -8615,6 +8615,9 @@ body > .table-of-contents-modal.open {
   overflow: scroll;
   position: relative;
   -webkit-font-smoothing: auto;
+}
+.field-name-field-section-byline ~ .field-name-field-section-overview {
+  margin: 8px;
 }
 .slicknav_menu {
   height: auto !important;
