@@ -9213,7 +9213,7 @@ body > .table-of-contents-modal.open {
 }
 .view-timeline .view-filters {
   font-size: 14px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .view-timeline .view-filters input {
   font-size: 14px;
@@ -9415,7 +9415,7 @@ body > .table-of-contents-modal.open {
 }
 .view-geolocation .view-filters {
   font-size: 14px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .view-geolocation .view-filters input {
   font-size: 14px;
