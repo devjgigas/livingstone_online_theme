@@ -110,13 +110,12 @@ body > .table-of-contents-modal {
 }
 .field-name-field-section-body {
   line-height: 25.6px;
-  // For now remove the extra HR element.
-  & .field-item > hr:first-child {
-    display: none;
-  }
   h1, h2, h3, h4, h5, h6 {
     clear: both;
     margin-bottom: 20px;
+  }
+  hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
   }
   p {
     margin: 0 0 20px;

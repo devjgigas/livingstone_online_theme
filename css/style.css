@@ -8468,9 +8468,6 @@ body > .table-of-contents-modal.open {
 .field-name-field-section-body {
   line-height: 25.6px;
 }
-.field-name-field-section-body .field-item > hr:first-child {
-  display: none;
-}
 .field-name-field-section-body h1,
 .field-name-field-section-body h2,
 .field-name-field-section-body h3,
@@ -8479,6 +8476,9 @@ body > .table-of-contents-modal.open {
 .field-name-field-section-body h6 {
   clear: both;
   margin-bottom: 20px;
+}
+.field-name-field-section-body hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 .field-name-field-section-body p {
   margin: 0 0 20px;

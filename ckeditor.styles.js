@@ -36,6 +36,9 @@ if(typeof(CKEDITOR) !== 'undefined') {
         {
           name : 'Unnumbered List',
           element : 'ol',
+          attributes : {
+            class : 'un-numbered-list'
+          },
           styles : {
             'list-style-type' : 'none'
           }
@@ -44,6 +47,9 @@ if(typeof(CKEDITOR) !== 'undefined') {
         {
           name : 'Numbered List',
           element : 'ol',
+          attributes : {
+            class : 'numbered-list'
+          },
           styles : {
             'list-style-type' : 'decimal'
           }
@@ -52,6 +58,9 @@ if(typeof(CKEDITOR) !== 'undefined') {
         {
           name : 'Alphabetic List',
           element : 'ol',
+          attributes : {
+            class : 'alphabetic-list'
+          },
           styles : {
             'list-style-type' : 'lower-alpha'
           }
@@ -60,6 +69,9 @@ if(typeof(CKEDITOR) !== 'undefined') {
         {
           name : 'Roman Lowercase List',
           element : 'ol',
+          attributes : {
+            class : 'roman-lower-case-list'
+          },
           styles : {
             'list-style-type' : 'lower-roman'
           }
@@ -68,6 +80,9 @@ if(typeof(CKEDITOR) !== 'undefined') {
         {
           name : 'Roman Uppercase List',
           element : 'ol',
+          attributes : {
+            class : 'roman-upper-case-list'
+          },
           styles : {
             'list-style-type' : 'upper-roman'
           }
