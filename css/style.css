@@ -9555,6 +9555,9 @@ body > .table-of-contents-modal.open {
 .node-section-page .section-page-toc-links ul:not(style) {
   list-style: inherit;
 }
+.node-section-page .section-page-toc-links ol {
+  padding-left: 20px;
+}
 .node-section-page .section-page-toc-links > ol,
 .node-section-page .section-page-toc-links > ul {
   padding: 0;
