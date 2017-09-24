@@ -8411,7 +8411,7 @@ body > .table-of-contents-modal.open {
 .field-name-field-section-table-of-contents {
   position: relative;
   height: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 26px;
 }
 .field-name-field-section-table-of-contents .slicknav_menu {
   position: absolute;
@@ -8461,12 +8461,14 @@ body > .table-of-contents-modal.open {
   font-weight: bold;
   font-size: 15px;
   line-height: 24px;
+  margin-bottom: 16px;
 }
 .field-name-field-section-overview hr {
   display: none;
 }
 .field-name-field-section-body {
   line-height: 25.6px;
+  overflow-wrap: break-word;
 }
 .field-name-field-section-body h1,
 .field-name-field-section-body h2,
@@ -9557,6 +9559,8 @@ body > .table-of-contents-modal.open {
 }
 .node-section-page .section-page-toc-links ol {
   padding-left: 20px;
+  padding-bottom: 6px;
+  line-height: 1.6;
 }
 .node-section-page .section-page-toc-links > ol,
 .node-section-page .section-page-toc-links > ul {
