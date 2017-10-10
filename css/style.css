@@ -9417,6 +9417,9 @@ body > .table-of-contents-modal.open {
   font-size: 0.95em !important;
   line-height: 1.5em;
 }
+.view-geolocation {
+  margin-top: 22px;
+}
 .view-geolocation .view-filters {
   font-size: 14px;
   margin-bottom: 20px;
@@ -9531,6 +9534,32 @@ body > .table-of-contents-modal.open {
   height: 28px;
   margin-top: 0;
   width: 100%;
+}
+.view-geolocation .views-field-field-manuscript-places-created {
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+  margin: 0 !important;
+}
+.view-geolocation .views-field-title,
+.view-geolocation .views-field-field-manuscript-creators,
+.view-geolocation .views-field-field-manuscript-dates,
+.view-geolocation .views-field-edit-node {
+  font-size: 14.4px !important;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  color: gray;
+  width: auto !important;
+  line-height: 1.5em;
+  margin: 0 !important;
+  width: 80%;
+}
+.view-geolocation .views-field-title a,
+.view-geolocation .views-field-field-manuscript-creators a,
+.view-geolocation .views-field-field-manuscript-dates a,
+.view-geolocation .views-field-edit-node a {
+  font-size: 0.95em !important;
+  line-height: 1.5em;
 }
 .nav-tabs > li > a {
   border-color: #eee;
