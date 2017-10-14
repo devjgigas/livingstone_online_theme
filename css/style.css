@@ -8497,6 +8497,30 @@ body > .table-of-contents-modal.open {
 .field-name-field-section-body p.space2 {
   margin: 20px 0 40px !important;
 }
+.field-name-field-section-body p.rteindent1 {
+  margin-left: 40px;
+}
+.field-name-field-section-body p.rteindent2 {
+  margin-left: 80px;
+}
+.field-name-field-section-body p.rteindent3 {
+  margin-left: 120px;
+}
+.field-name-field-section-body p.rteindent4 {
+  margin-left: 160px;
+}
+.field-name-field-section-body p.rteleft {
+  text-align: left;
+}
+.field-name-field-section-body p.rteright {
+  text-align: right;
+}
+.field-name-field-section-body p.rtecenter {
+  text-align: center;
+}
+.field-name-field-section-body p.rtejustify {
+  text-align: justify;
+}
 .field-name-field-section-body table {
   width: 100%;
   margin: 0 auto 1.5em;
