@@ -9588,8 +9588,8 @@ body > .table-of-contents-modal.open {
 }
 .node-section-page .section-page-toc-links ol {
   padding-left: 20px;
-  padding-bottom: 6px;
   line-height: 1.6;
+  margin-bottom: 0;
 }
 .node-section-page .section-page-toc-links > ol,
 .node-section-page .section-page-toc-links > ul {
