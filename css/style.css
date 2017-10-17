@@ -8463,6 +8463,9 @@ body > .table-of-contents-modal.open {
   line-height: 24px;
   margin-bottom: 16px;
 }
+.field-name-field-section-overview p:last-of-type {
+  margin-bottom: 0px;
+}
 .field-name-field-section-overview hr {
   display: none;
 }
@@ -9605,6 +9608,7 @@ body > .table-of-contents-modal.open {
   flex-flow: row nowrap;
   font-size: 15px;
   font-family: crimson text;
+  margin-top: 16px;
 }
 .node-section-page .section-page-toc-links ol:not(style),
 .node-section-page .section-page-toc-links ul:not(style) {
