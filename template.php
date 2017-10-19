@@ -182,7 +182,7 @@ function livingstone_theme_element_info_alter(&$type) {
  */
 function livingstone_theme_gmap_spiderfy_gmap_pre_render($element) {
   $path = drupal_get_path('theme', 'livingstone_theme');
-  $element['#attached']['js'][$path . '/js/oms.min.js'] = array('weight' => 2);
+  $element['#attached']['js'][$path . '/js/oms.js'] = array('weight' => 2);
   $element['#attached']['js'][$path . '/js/gs_gmap_marker.js'] = array('weight' => 5);
   return $element;
 }

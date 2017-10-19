@@ -10,19 +10,17 @@ Drupal.gmap.addHandler('gmap', function (elem) {
     var obj = this;
 
     obj.bind('init', function() {
-        if (obj.vars.behavior.spiderfy) {
-            var omsOptions = {keepSpiderfied : true};
-            Drupal.gmap.oms = new OverlappingMarkerSpiderfier(obj.map, omsOptions);
-            Drupal.gmap.oms.addListener('click', function(m, event) {
-                obj.change('clickmarker', -1, m.gmapmarker);
-            });
-            Drupal.gmap.oms.addListener('unspiderfy', function(markers) {
-                var iw = Drupal.gmap.getInfoWindow();
-                if(iw) {
-                    iw.close();
-                }
-            });
-        }
+        var omsOptions = {keepSpiderfied : true};
+        Drupal.gmap.oms = new OverlappingMarkerSpiderfier(obj.map, omsOptions);
+        Drupal.gmap.oms.addListener('click', function(m, event) {
+            obj.change('clickmarker', -1, m.gmapmarker);
+        });
+        Drupal.gmap.oms.addListener('unspiderfy', function(markers) {
+            var iw = Drupal.gmap.getInfoWindow();
+            if(iw) {
+                iw.close();
+            }
+        });
     });
 
     obj.bind('addmarker', function (marker) {
