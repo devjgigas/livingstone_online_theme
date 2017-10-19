@@ -167,3 +167,22 @@ function livingstone_theme_theme_islandora_solr_facet_pages_letterer(&$variables
   $output .= '</ul>';
   return $output;
 }
+
+/**
+ * implements hook_element_info_alter
+ */
+function livingstone_theme_element_info_alter(&$type) {
+  if (isset($type['gmap'])) {
+    $type['gmap']['#pre_render'][50] = 'livingstone_theme_gmap_spiderfy_gmap_pre_render';
+  }
+}
+
+/**
+ * Custom render callback for hook_element_info_alter
+ */
+function livingstone_theme_gmap_spiderfy_gmap_pre_render($element) {
+  $path = drupal_get_path('theme', 'livingstone_theme');
+  $element['#attached']['js'][$path . '/js/oms.min.js'] = array('weight' => 2);
+  $element['#attached']['js'][$path . '/js/gs_gmap_marker.js'] = array('weight' => 5);
+  return $element;
+}
