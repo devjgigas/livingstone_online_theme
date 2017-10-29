@@ -9588,6 +9588,10 @@ body > .table-of-contents-modal.open {
   font-size: 0.95em !important;
   line-height: 1.5em;
 }
+.view-geolocation .views-field-field-manuscript-creators span.field-content,
+.view-geolocation .views-field-field-manuscript-dates span.field-content {
+  color: black;
+}
 .nav-tabs > li > a {
   border-color: #eee;
   border-bottom-color: #ddd;
