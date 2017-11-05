@@ -143,6 +143,7 @@
         $('input.form-text', form).click(function (e) {
           if (!$('.input-group-btn', form).hasClass('open')) {
             $('button', form)[0].click();
+            $(this).focus();
           }
           return e.stopPropagation();
         });
