@@ -110,7 +110,7 @@
     hide($content['field_tags']);
     print render($content);
     ?>
-    <iframe src="https://livingstoneonline.github.io/LEAP-ODD/leap.html" width="100%" height="600px" style="border: 1px solid #ccc; margin-top: 30px;"></iframe></noframes>
+    <iframe src="https://livingstoneonline.github.io/LEAP-ODD/leap.html" width="100%" height="550px" style="border: 1px solid #ccc; margin-top: 30px;"></iframe></noframes>
     <?php if (!empty($content['field_tags']) || !empty($content['links'])): ?>
       <footer>
         <?php print render($content['field_tags']); ?>
