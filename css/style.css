@@ -8543,6 +8543,10 @@ body > .table-of-contents-modal.open {
   display: inline-block;
   float: none !important;
 }
+.field-name-field-section-body .doubleleft img,
+.field-name-field-section-body .doubleright img {
+  margin: 10px 5px !important;
+}
 @media (max-width: 450px) {
   .field-name-field-section-body .doubleleft img,
   .field-name-field-section-body .doubleright img {
@@ -8560,11 +8564,9 @@ body > .table-of-contents-modal.open {
   .field-name-field-section-body .doubleleft img {
     float: right;
     height: auto;
-    margin: 10px 5px !important;
   }
   .field-name-field-section-body .doubleright img {
     float: left;
-    margin: 10px 5px !important;
   }
 }
 .field-name-field-section-page-transcription {
