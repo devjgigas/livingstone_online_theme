@@ -134,7 +134,8 @@
   };
 
   /**
-   * Do not close the search type checkbox tooltip when clicked on, resize the dropdown to match the input length.
+   * Do not close the search type checkbox tooltip when clicked on, resize the
+   * dropdown to match the input length.
    */
   Drupal.behaviors.livingstoneSearchForm = {
     attach: function (context, settings) {
@@ -147,6 +148,10 @@
             $(this).focus();
           }
           return e.stopPropagation();
+        });
+        
+        $('.input-group-btn', form).click(function (e) {
+          $('.dropdown-menu', form).css('width', $('.input-group', form).width());
         });
 
         // Resize dropdown.
