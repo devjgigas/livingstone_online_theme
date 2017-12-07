@@ -142,6 +142,7 @@
         var form = $(this);
         $('input.form-text', form).click(function (e) {
           if (!$('.input-group-btn', form).hasClass('open')) {
+            $('.dropdown-menu', form).css('width', $('.input-group', form).width());
             $('button', form)[0].click();
             $(this).focus();
           }
