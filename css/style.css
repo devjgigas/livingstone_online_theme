@@ -8803,7 +8803,7 @@ body > .table-of-contents-modal.open {
   float: none;
 }
 .region-fixed-header {
-  display: none;
+  display: none !important;
   position: fixed;
   width: 100%;
   top: 0;
