@@ -8643,7 +8643,7 @@ body > .table-of-contents-modal.open {
 }
 .field-name-field-section-page-transcription .transcription-viewer-content {
   display: block;
-  height: 600px;
+  height: 550px;
   overflow: scroll;
   position: relative;
   -webkit-font-smoothing: auto;
