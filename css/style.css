@@ -7846,7 +7846,6 @@ body.front .navbar nav .region-navigation {
 .navbar nav .region-navigation > * {
   vertical-align: middle;
   margin: 0 5px 22px;
-  z-index: 1020;
 }
 @media screen and (min-width: 1200px) {
   .navbar nav .region-navigation > *:last-of-type {
@@ -7933,6 +7932,7 @@ body.front .navbar nav .region-navigation {
   font-size: 14px;
   min-width: 140px;
   max-width: 140px;
+  z-index: 1020;
 }
 #block-livingstone-livingstone-browse-collection .dropdown-menu > li > a {
   padding: 3px 10px;
