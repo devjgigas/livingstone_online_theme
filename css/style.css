@@ -8457,7 +8457,7 @@ body > .table-of-contents-modal.open {
   margin: 22px 0;
 }
 .field-name-field-section-overview p {
-  padding-left: 5px;
+  /*padding-left: 5px;*/
   font-family: "Crimson Text", serif;
   font-weight: bold;
   font-size: 15px;
