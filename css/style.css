@@ -7941,7 +7941,7 @@ body.front .navbar nav .region-navigation {
   max-width: 320px;
 }
 .form-search .input-group {
-  max-width: 220px;
+  max-width: 280px;
 }
 .form-search .input-group-addon {
   border-right: none;
@@ -8654,7 +8654,7 @@ body > .table-of-contents-modal.open {
 }
 .slicknav_menu {
   height: auto !important;
-  width: 100%;
+  width: 98%;
   max-width: 400px;
   border-radius: 7px;
   border: 1px solid #ccc;
