@@ -9062,7 +9062,7 @@ body > .table-of-contents-modal.open {
   -webkit-flex-flow: row nowrap;
   -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
-  background-color: rgba(63, 73, 83, 0.7);
+  background-color: rgba(63, 73, 83, 0.95);
   font-size: 24px;
   min-height: 30%;
   left: 0;
