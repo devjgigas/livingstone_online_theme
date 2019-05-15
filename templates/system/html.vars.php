@@ -14,7 +14,7 @@ function livingstone_theme_preprocess_html(array &$variables) {
     $variables['html_attributes_array']['class'][] = 'front';
   }
   // Load site wide fonts.
-  drupal_add_css('http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic|Crimson+Text:400,600,700,400italic,600italic|Patua+One|Oxygen:400,300,700', array(
+  drupal_add_css('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic|Crimson+Text:400,600,700,400italic,600italic|Patua+One|Oxygen:400,300,700', array(
     'type' => 'external'
   ));
   // Font awesome is used for icons.
