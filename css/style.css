@@ -9066,7 +9066,7 @@ body > .table-of-contents-modal.open {
   font-size: 24px;
   min-height: 30%;
   left: 0;
-  opacity: 1;
+  opacity: .83;
   position: absolute;
   top: auto;
   bottom: 0;
@@ -9107,46 +9107,51 @@ body > .table-of-contents-modal.open {
   padding: 20px 20px 0;
   text-transform: none;
 }
-@media screen and (min-width: 842px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
   .view-section-pages-grid .views-row .views-field-nothing .hover {
-    min-height: 50%;
+    /*min-height: 50%;*/
   }
   .view-section-pages-grid .views-row .views-field-nothing .hover .views-field-title {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
-@media screen and (min-width: 569px) and (max-width: 841px) {
+@media screen and (min-width: 842px) and (max-width: 991px) {
   .view-section-pages-grid .views-row .views-field-nothing .hover {
-    min-height: 40%;
+    /*min-height: 40%;*/
   }
   .view-section-pages-grid .views-row .views-field-nothing .hover .views-field-title {
     font-size: 22px;
+  }
+}
+@media screen and (min-width: 569px) and (max-width: 841px) {
+  .view-section-pages-grid .views-row .views-field-nothing .hover .views-field-title {
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 568px) {
   .view-section-pages-grid .views-row .views-field-nothing .hover {
-    min-height: 30%;
+    /*(min-height: 30%;*/
   }
   .view-section-pages-grid .views-row .views-field-nothing .hover .views-field-title {
-    font-size: 22px;
+    font-size: 24px;
   }
 }
 @media screen and (min-width: 1200px) {
   .view-section-pages-grid .views-row .views-field-nothing:hover .hover {
-    display: block;
+    /*display: block;
     opacity: 1;
     height: 100%;
     bottom: auto;
-    top: 0;
+    top: 0;*/
   }
   .view-section-pages-grid .views-row .views-field-nothing:hover .hover .views-field-title {
-    font-size: 28px;
+    font-size: 24px;
   }
   .view-section-pages-grid .views-row .views-field-nothing:hover .hover .views-field-field-teaser {
-    display: block;
+    display: none;
   }
   .view-section-pages-grid .views-row .views-field-nothing .hover {
-    display: none;
+    /*display: none;*/
   }
 }
 .page-about-this-site .field-name-field-section-grid-image img {
